@@ -1,0 +1,186 @@
+/* inter-regular - cyrillic_cyrillic-ext_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v13-cyrillic_cyrillic-ext_latin_latin-ext-regular.woff2") format("woff2"), url("../fonts/inter-v13-cyrillic_cyrillic-ext_latin_latin-ext-regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+@font-face {
+  font-family: "Inter Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Inter-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "SteelfishBold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/steelfish bd.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SteelfishRegular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/steefish rg.ttf") format("truetype");
+}
+.desktop-wrapper {
+  width: 320;
+  padding-top: 15 px;
+}
+
+.header-wrapper {
+  font-family: "Inter Medium", sans-serif;
+  display: flex;
+  font-size: 15px;
+  justify-content: space-between;
+  padding-top: 17 px;
+  padding-bottom: 10 px;
+}
+.header-wrapper a {
+  color: var(--color-textwhite);
+}
+
+.hero_wrapper span {
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+.hero_wrapper a {
+  width: 320px;
+  height: 43px;
+  display: block;
+  background-color: var(--color-backpinch);
+  font-family: "Inter Medium", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  padding: 13px 45px;
+  text-decoration: none;
+  border-radius: 40px;
+  margin-top: 20px;
+  margin-bottom: 145 px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+:root {
+  --color-background: #34344e;
+  --color-textwhite: #ffffff;
+  --color-textpinch: #f49c89;
+  --color-textcard: #34344e;
+  --color-textgray: gray;
+  --color-backpinch: var(--color-textpinch);
+  --color-backwhite: var(--color-textwhite);
+}
+:root html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter Regular";
+  background-color: var(--color-background);
+  color: var(--color-textwhite);
+  font-size: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+body .h1 {
+  font-family: "SteelfishBold", sans-serif;
+  font-size: 50px;
+}
+body .h2 {
+  font-family: "SteelfishBold", sans-serif;
+  font-size: 50px;
+}
+body .h3 {
+  font-family: "SteelfishRegular", sans-serif;
+  font-size: 30px;
+}
+
+.textcard {
+  max-width: 320px;
+}
+.textcard ul {
+  list-style-type: none;
+}
+.textcard li {
+  background-color: var(--color-backwhite);
+  color: var(--color-textcard);
+}
+.textcard a {
+  background-color: var(--color-backwhite);
+  color: var(--color-textpinch);
+}
+.textcard h3 {
+  font-family: "League Gothic", sans-serif;
+  font-size: 30px;
+}
+
+.textcard ul {
+  list-style-type: none;
+}
+.textcard li {
+  background-color: var(--color-backwhite);
+  color: var(--color-textcard);
+}
+.textcard a {
+  background-color: var(--color-backwhite);
+  color: var(--color-textpinch);
+}
+.textcard h3 {
+  font-family: "SteelfishRegular";
+  font-size: 30px;
+}
+
+.forma {
+  background-color: var(--color-backwhite);
+  color: var(--color-textcard);
+  width: 320;
+}
+.forma .textc {
+  margin: 36px 20px 30px 20px;
+}
+.forma form {
+  padding: 20px;
+}
+.forma fieldset {
+  margin-bottom: 20px;
+}
+.forma legend {
+  font-family: "Inter Medium";
+}
+.forma button {
+  width: 320px;
+  height: 43px;
+  display: block;
+  background-color: var(--color-backpinch);
+  font-family: "Inter Medium", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color: var(--color-backwhite);
+  padding: 13px 45px;
+  text-decoration: none;
+  border-radius: 40px;
+  margin: 20px;
+  border: none;
+}
+
+.cost {
+  display: inline-block;
+  font-family: "Steelfish Regular";
+  font-size: 30px;
+}/*# sourceMappingURL=style.css.map */
