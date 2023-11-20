@@ -1,0 +1,53 @@
+:root {
+  --color-background: #34344e;
+  --color-textwhite: #ffffff;
+  --color-textpinch: #f49c89;
+  --color-textcard: #34344e;
+  --color-textgray: gray;
+  --color-backpinch: var(--color-textpinch);
+  --color-backwhite: var(--color-textwhite);
+  html {
+    font-size: 62.5%;
+  }
+}
+body {
+  font-family: "Inter Regular";
+  background-color: var(--color-background);
+  color: var(--color-textwhite);
+  font-size: 12px;
+  .h1 {
+    font-family: "SteelfishBold", sans-serif;
+    font-size: 50px;
+  }
+  .h2 {
+    font-family: "SteelfishBold", sans-serif;
+    font-size: 50px;
+  }
+  .h3 {
+    font-family: "SteelfishRegular", sans-serif;
+    font-size: 30px;
+  }
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.textcard {
+  max-width: 320px;
+
+  & ul {
+    list-style-type: none;
+  }
+
+  & li {
+    background-color: var(--color-backwhite);
+    color: var(--color-textcard);
+  }
+  & a {
+    background-color: var(--color-backwhite);
+    color: var(--color-textpinch);
+  }
+  & h3 {
+    font-family: "League Gothic", sans-serif;
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,7 @@
+// @use "./utils/general";
+.textcard {
+  & a {
+    color: red;
+    font-size: 100px;
+  }
+}
