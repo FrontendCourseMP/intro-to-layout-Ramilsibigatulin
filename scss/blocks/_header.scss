@@ -1,0 +1,13 @@
+@use "../utils/mixins";
+
+.header-wrapper {
+  font-family: "Inter Medium", sans-serif;
+  display: flex;
+  font-size: 15px;
+  justify-content: space-between;
+  padding-top: 17 px;
+  padding-bottom: 10 px;
+  & a {
+    color: var(--color-textwhite);
+  }
+}
