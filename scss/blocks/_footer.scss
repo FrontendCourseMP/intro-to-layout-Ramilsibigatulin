@@ -1,0 +1,88 @@
+.futer {
+  height: 48.4rem;
+  color: var(--color-textwhite);
+  padding-left: 2rem;
+}
+.emblema {
+  font-family: "Inter Regular";
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--color-textwhite);
+  text-decoration: none;
+}
+.firststrcontact {
+  padding-top: 8.7rem;
+  color: var(--color-textwhite);
+  display: flex;
+  align-items: center;
+}
+.secondstrcontact {
+  color: var(--color-textwhite);
+  display: flex;
+  align-items: center;
+  margin-left: 9.3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.contactfirststr {
+  color: var(--color-textwhite);
+  text-decoration: none;
+  margin-left: 3rem;
+  padding-right: 3.4rem;
+}
+.contactslist {
+  list-style-type: none;
+  padding-left: 0rem;
+}
+
+.contactsecondstr {
+  color: var(--color-textwhite);
+  text-decoration: none;
+  // margin-left: 11.3rem;
+  padding-right: 3.8rem;
+}
+.contacts {
+  color: var(--color-textwhite);
+  text-decoration: none;
+  margin-left: 9.3rem;
+  padding-bottom: 1.5rem;
+}
+
+.mailp {
+  display: block;
+  margin-left: 9.3rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-textwhite);
+  text-decoration: none;
+
+  list-style-type: none;
+}
+.phone {
+  display: block;
+  color: var(--color-textwhite);
+  text-decoration: none;
+  margin-left: 9.3rem;
+
+  list-style-type: none;
+  padding-bottom: 5.5rem;
+}
+.nameorg {
+  color: var(--color-textgray);
+  text-decoration: none;
+}
+.autorname {
+  color: var(--color-backpinch);
+  text-decoration: none;
+  padding-left: 0.4rem;
+}
+.autor {
+  color: var(--color-textgray);
+  display: flex;
+
+  padding-top: 0rem;
+  margin-top: 0rem;
+  position: relative;
+}
+.autorparagraf {
+  margin-top: 0rem;
+}
