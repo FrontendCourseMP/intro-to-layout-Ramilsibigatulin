@@ -22,52 +22,52 @@
   font-family: "SteelfishRegular";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/steefish rg.ttf") format("truetype");
+  src: url("../fonts/steelfish rg.ttf") format("truetype");
 }
 .desktop-wrapper {
   width: 320;
-  padding-top: 15 px;
+  padding-top: 1.5rem;
 }
 
 .header-wrapper {
   font-family: "Inter Medium", sans-serif;
   display: flex;
-  font-size: 15px;
+  font-size: 1.5rem;
   justify-content: space-between;
-  padding-top: 17 px;
-  padding-bottom: 10 px;
+  padding-top: 1.7rem;
+  padding-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 .header-wrapper a {
   color: var(--color-textwhite);
 }
 
-.hero_wrapper span {
-  font-weight: 700;
-  line-height: 55px;
-  letter-spacing: 0em;
+.textrighthero {
+  display: block;
   text-align: right;
+  margin-left: 0.8rem;
 }
-.hero_wrapper a {
-  width: 320px;
-  height: 43px;
+
+.testdraiv {
   display: block;
   background-color: var(--color-backpinch);
-  font-family: "Inter Medium", sans-serif;
-  font-size: 12px;
+  font-family: "Inter Medium";
+  font-size: 1.2rem;
   text-align: center;
-  color: white;
-  padding: 13px 45px;
+  color: var(--color-textwhite);
+  padding: 1.3rem 4.5rem;
   text-decoration: none;
-  border-radius: 40px;
-  margin-top: 20px;
-  margin-bottom: 145 px;
+  border-radius: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 14.5rem;
 }
 
 .visually-hidden {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
+  width: 0.1rem;
+  height: 0.1rem;
+  margin: -0.1rem;
   border: 0;
   padding: 0;
   white-space: nowrap;
@@ -86,7 +86,8 @@
   --color-backpinch: var(--color-textpinch);
   --color-backwhite: var(--color-textwhite);
 }
-:root html {
+
+html {
   font-size: 62.5%;
 }
 
@@ -94,93 +95,386 @@ body {
   font-family: "Inter Regular";
   background-color: var(--color-background);
   color: var(--color-textwhite);
-  font-size: 12px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size: 1.2rem;
 }
-body .h1 {
+
+h1 {
   font-family: "SteelfishBold", sans-serif;
-  font-size: 50px;
+  font-size: 5rem;
 }
-body .h2 {
+
+h2 {
   font-family: "SteelfishBold", sans-serif;
-  font-size: 50px;
+  font-size: 4rem;
 }
-body .h3 {
+
+h3 {
   font-family: "SteelfishRegular", sans-serif;
-  font-size: 30px;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.cards {
+  border-radius: 1rem;
+  list-style-type: none;
+}
+
+.card {
+  list-style-type: none;
+  background-color: var(--color-backwhite);
+  color: var(--color-textcard);
+  border-radius: 1rem;
+  margin: 3rem auto 2rem auto;
+  width: 32rem;
+  height: 22.87rem;
+}
+
+.carddetalis {
+  list-style-type: none;
+  background-color: var(--color-backwhite);
+  color: var(--color-textcard);
+  border-radius: 1rem;
+  margin: 3rem auto 2rem auto;
+  width: 26.1rem;
+  height: 22.87rem;
+}
+
+.cardheader {
+  margin: 1.8rem 2rem 1.5rem 2rem;
+}
+
+.cardheaderdetalis {
+  margin: 1.8rem 2rem 1rem 2rem;
 }
 
 .textcard {
-  max-width: 320px;
-}
-.textcard ul {
-  list-style-type: none;
-}
-.textcard li {
-  background-color: var(--color-backwhite);
-  color: var(--color-textcard);
-}
-.textcard a {
-  background-color: var(--color-backwhite);
-  color: var(--color-textpinch);
-}
-.textcard h3 {
-  font-family: "League Gothic", sans-serif;
-  font-size: 30px;
+  margin: 0rem 2rem 2rem 2rem;
 }
 
-.textcard ul {
+.cost {
+  display: block;
+  background-color: var(--color-backpinch);
+  color: var(--color-backwhite);
+  border-radius: 1rem;
+  padding: 0.5rem 1.2rem;
+  margin: 0rem 19.7rem 0rem 2rem;
+}
+
+.cardlink {
+  background-color: var(--color-backwhite);
+  color: var(--color-backpinch);
+}
+
+.costvalue {
+  display: inline-block;
+  margin-left: 2rem;
+  margin-right: 4rem;
+}
+
+.headercards1 {
+  display: inline-block;
+  margin-left: 5rem;
+  margin-right: 2rem;
+  text-align: left;
+}
+
+.headercards2 {
+  display: inline-block;
+  margin-right: 2rem;
+  text-align: left;
+}
+
+.blacklink {
+  display: block;
+  background-color: var(--color-textcard);
+  font-family: "Inter Medium";
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--color-textwhite);
+  padding: 1.4rem 7.85rem;
+  text-decoration: none;
+  border-radius: 10rem;
+  margin-top: 19.5rem;
+  margin-bottom: 2rem;
+}
+
+.carddop {
+  background-color: var(--color-backpinch);
+  color: var(--color-backwhite);
+  width: 26.1rem;
+  height: 41rem;
   list-style-type: none;
-}
-.textcard li {
-  background-color: var(--color-backwhite);
   color: var(--color-textcard);
+  border-radius: 1rem;
+  margin: 3rem auto 2rem auto;
 }
-.textcard a {
-  background-color: var(--color-backwhite);
-  color: var(--color-textpinch);
+
+.headercards3 {
+  display: inline-block;
+  margin-left: 5rem;
+  margin-right: 2rem;
+  text-align: left;
 }
-.textcard h3 {
-  font-family: "SteelfishRegular";
-  font-size: 30px;
+
+.headerform {
+  margin: 8.5rem 2rem 3.6rem2rem;
 }
 
 .forma {
   background-color: var(--color-backwhite);
   color: var(--color-textcard);
-  width: 320;
+  border-radius: 1rem;
 }
-.forma .textc {
-  margin: 36px 20px 30px 20px;
+
+.textc {
+  margin: 3.6rem 2rem 3rem 2rem;
 }
-.forma form {
-  padding: 20px;
+
+.form {
+  padding: 2rem;
 }
-.forma fieldset {
-  margin-bottom: 20px;
+
+fieldset {
+  border: 0;
 }
-.forma legend {
+
+.fieldset {
+  margin-right: 15rem;
+}
+
+.legend {
   font-family: "Inter Medium";
+  font-size: 1.2rem;
 }
-.forma button {
-  width: 320px;
-  height: 43px;
+
+.textgray {
+  color: var(--color-textgray);
+  display: inline-block;
+}
+
+.button {
+  width: 32rem;
+  height: 4.3rem;
   display: block;
   background-color: var(--color-backpinch);
-  font-family: "Inter Medium", sans-serif;
-  font-size: 12px;
+  font-family: "Inter Medium";
+  font-size: 1.2rem;
   text-align: center;
   color: var(--color-backwhite);
-  padding: 13px 45px;
+  padding: 1.3rem 4.5rem;
   text-decoration: none;
-  border-radius: 40px;
-  margin: 20px;
+  border-radius: 4rem;
+  margin: 2rem;
   border: none;
 }
 
-.cost {
+.costs {
   display: inline-block;
   font-family: "Steelfish Regular";
-  font-size: 30px;
+  font-size: 3rem;
+}
+
+.gottestdraiv {
+  display: inline-block;
+  background-color: var(--color-textcard);
+  color: var(--color-backwhite);
+  padding: 1.3rem 3rem;
+  border-radius: 10rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.whiteheader {
+  color: var(--color-textwhite);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-top: 8.5rem;
+}
+
+.fonpinch {
+  height: 77rem;
+  background-color: var(--color-backpinch);
+  color: var(--color-textcard);
+  margin: 0rem 0rem;
+}
+
+.fonpinchsecond {
+  height: 30.5rem;
+  background-color: var(--color-backpinch);
+  color: var(--color-textwhite);
+  margin: 0rem 0rem;
+}
+
+.fonpinchthird {
+  height: 44.5rem;
+  background-color: var(--color-backpinch);
+  color: var(--color-textcard);
+}
+
+.textright {
+  margin-left: 5.7rem;
+  color: var(--color-textcard);
+}
+
+.paragraf {
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 0rem;
+}
+
+.headertestdraiv {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 3rem;
+}
+
+.paragraf1 {
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.paragraf2 {
+  margin: 1rem 2rem 3rem 2rem;
+}
+
+.headerquastions {
+  padding-top: 8.5rem;
+  color: var(--color-textwhite);
+  margin: 0rem 2rem 3rem 2rem;
+}
+
+.headerquastion {
+  padding: 0rem;
+  margin: 0rem 2rem 1.2rem 2rem;
+}
+
+.quastionfirst {
+  padding: 0rem;
+  margin: 0rem 2rem 3.2rem 2rem;
+}
+
+.quastionsecond {
+  padding: 0rem;
+  margin: 0rem 2rem 1.8rem 2rem;
+}
+
+.fonpinchfour {
+  height: 47.45rem;
+  background-color: var(--color-backpinch);
+  color: var(--color-textcard);
+}
+
+.fonpinchfive {
+  height: 100.3rem;
+  background-color: var(--color-backpinch);
+  color: var(--color-textcard);
+}
+
+.listquastions {
+  list-style-type: none;
+  padding: 0rem;
+}
+
+.contact {
+  display: block;
+  margin: 1.7rem 2rem 1.8rem 2rem;
+}
+
+.futer {
+  height: 48.4rem;
+  color: var(--color-textwhite);
+  padding-left: 2rem;
+}
+
+.emblema {
+  font-family: "Inter Regular";
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--color-textwhite);
+  text-decoration: none;
+}
+
+.firststrcontact {
+  padding-top: 8.7rem;
+  color: var(--color-textwhite);
+  display: flex;
+  align-items: center;
+}
+
+.secondstrcontact {
+  color: var(--color-textwhite);
+  display: flex;
+  align-items: center;
+  margin-left: 9.3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.contactfirststr {
+  color: var(--color-textwhite);
+  text-decoration: none;
+  margin-left: 3rem;
+  padding-right: 3.4rem;
+}
+
+.contactslist {
+  list-style-type: none;
+  padding-left: 0rem;
+}
+
+.contactsecondstr {
+  color: var(--color-textwhite);
+  text-decoration: none;
+  padding-right: 3.8rem;
+}
+
+.contacts {
+  color: var(--color-textwhite);
+  text-decoration: none;
+  margin-left: 9.3rem;
+  padding-bottom: 1.5rem;
+}
+
+.mailp {
+  display: block;
+  margin-left: 9.3rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-textwhite);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.phone {
+  display: block;
+  color: var(--color-textwhite);
+  text-decoration: none;
+  margin-left: 9.3rem;
+  list-style-type: none;
+  padding-bottom: 5.5rem;
+}
+
+.nameorg {
+  color: var(--color-textgray);
+  text-decoration: none;
+}
+
+.autorname {
+  color: var(--color-backpinch);
+  text-decoration: none;
+  padding-left: 0.4rem;
+}
+
+.autor {
+  color: var(--color-textgray);
+  display: flex;
+  padding-top: 0rem;
+  margin-top: 0rem;
+  position: relative;
+}
+
+.autorparagraf {
+  margin-top: 0rem;
 }/*# sourceMappingURL=style.css.map */
