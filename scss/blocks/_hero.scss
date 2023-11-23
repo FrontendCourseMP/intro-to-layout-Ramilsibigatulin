@@ -1,24 +1,19 @@
-.hero_wrapper {
-  span {
-    font-weight: 700;
-    line-height: 55px;
-    letter-spacing: 0em;
-    text-align: right;
-  }
-  a {
-    width: 320px;
-    height: 43px;
-    display: block;
-    background-color: var(--color-backpinch);
-    font-family: "Inter Medium", sans-serif;
-    font-size: 12px;
-    text-align: center;
-    color: white;
-    padding: 13px 45px;
-    text-decoration: none;
-    border-radius: 40px;
-    margin-top: 20px;
-    margin-bottom: 145 px;
-  }
-  //styleName: phone/H1;
+.textrighthero {
+  display: block;
+  text-align: right;
+  margin-left: 0.8rem;
+}
+
+.testdraiv {
+  display: block;
+  background-color: var(--color-backpinch);
+  font-family: "Inter Medium";
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--color-textwhite);
+  padding: 1.3rem 4.5rem;
+  text-decoration: none;
+  border-radius: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 14.5rem;
 }
