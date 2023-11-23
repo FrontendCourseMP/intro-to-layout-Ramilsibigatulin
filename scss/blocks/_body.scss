@@ -1,0 +1,320 @@
+.cards {
+  border-radius: 1rem;
+  list-style-type: none;
+}
+.card {
+  list-style-type: none;
+  background-color: var(--color-backwhite);
+  color: var(--color-textcard);
+  border-radius: 1rem;
+  margin: 3rem auto 2rem auto;
+  width: 32rem;
+  height: 22.87rem;
+}
+.carddetalis {
+  list-style-type: none;
+  background-color: var(--color-backwhite);
+  color: var(--color-textcard);
+  border-radius: 1rem;
+  margin: 3rem auto 2rem auto;
+  width: 26.1rem;
+  height: 22.87rem;
+}
+.cardheader {
+  margin: 1.8rem 2rem 1.5rem 2rem;
+}
+.cardheaderdetalis {
+  margin: 1.8rem 2rem 1rem 2rem;
+}
+.textcard {
+  margin: 0rem 2rem 2rem 2rem;
+}
+.cost {
+  display: block;
+  background-color: var(--color-backpinch);
+  color: var(--color-backwhite);
+  border-radius: 1rem;
+  padding: 0.5rem 1.2rem;
+  margin: 0rem 19.7rem 0rem 2rem;
+}
+.cardlink {
+  background-color: var(--color-backwhite);
+  color: var(--color-backpinch);
+}
+.costvalue {
+  display: inline-block;
+  margin-left: 2rem;
+  margin-right: 4rem;
+}
+.headercards1 {
+  display: inline-block;
+  margin-left: 5rem;
+  margin-right: 2rem;
+  text-align: left;
+}
+
+.headercards2 {
+  display: inline-block;
+  // margin-left: 7.7rem;
+  margin-right: 2rem;
+  text-align: left;
+}
+.blacklink {
+  display: block;
+  background-color: var(--color-textcard);
+  font-family: "Inter Medium";
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--color-textwhite);
+  padding: 1.4rem 7.85rem;
+  text-decoration: none;
+  border-radius: 10rem;
+  margin-top: 19.5rem;
+  margin-bottom: 2rem;
+}
+.carddop {
+  background-color: var(--color-backpinch);
+  color: var(--color-backwhite);
+  width: 26.1rem;
+  height: 41rem;
+  list-style-type: none;
+  color: var(--color-textcard);
+  border-radius: 1rem;
+  margin: 3rem auto 2rem auto;
+}
+
+.headercards3 {
+  display: inline-block;
+  margin-left: 5rem;
+  margin-right: 2rem;
+  text-align: left;
+}
+.headerform {
+  margin: 8.5rem 2rem 3.6rem2rem;
+}
+.forma {
+  background-color: var(--color-backwhite);
+  color: var(--color-textcard);
+  border-radius: 1rem;
+}
+.textc {
+  margin: 3.6rem 2rem 3rem 2rem;
+}
+.form {
+  padding: 2rem;
+}
+fieldset {
+  border: 0;
+}
+.fieldset {
+  margin-right: 15rem;
+}
+.legend {
+  font-family: "Inter Medium";
+  font-size: 1.2rem;
+}
+.textgray {
+  color: var(--color-textgray);
+  display: inline-block;
+}
+
+.button {
+  width: 32rem;
+  height: 4.3rem;
+  display: block;
+  background-color: var(--color-backpinch);
+  font-family: "Inter Medium";
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--color-backwhite);
+  padding: 1.3rem 4.5rem;
+  text-decoration: none;
+  border-radius: 4rem;
+  margin: 2rem;
+  border: none;
+}
+
+.costs {
+  display: inline-block;
+  font-family: "Steelfish Regular";
+  font-size: 3rem;
+}
+.gottestdraiv {
+  display: inline-block;
+  background-color: var(--color-textcard);
+  color: var(--color-backwhite);
+  padding: 1.3rem 3rem;
+  border-radius: 10rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+.whiteheader {
+  color: var(--color-textwhite);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-top: 8.5rem;
+}
+.fonpinch {
+  height: 77rem;
+  background-color: var(--color-backpinch);
+  color: var(--color-textcard);
+  margin: 0rem 0rem;
+}
+.fonpinchsecond {
+  height: 30.5rem;
+  background-color: var(--color-backpinch);
+  color: var(--color-textwhite);
+  margin: 0rem 0rem;
+}
+.fonpinchthird {
+  height: 44.5rem;
+  background-color: var(--color-backpinch);
+  color: var(--color-textcard);
+}
+.textright {
+  margin-left: 5.7rem;
+  color: var(--color-textcard);
+}
+.paragraf {
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 0rem;
+}
+.headertestdraiv {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 3rem;
+}
+.paragraf1 {
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.paragraf2 {
+  margin: 1rem 2rem 3rem 2rem;
+}
+.headerquastions {
+  padding-top: 8.5rem;
+  color: var(--color-textwhite);
+  margin: 0rem 2rem 3rem 2rem;
+}
+.headerquastion {
+  padding: 0rem;
+  margin: 0rem 2rem 1.2rem 2rem;
+}
+.quastionfirst {
+  padding: 0rem;
+  margin: 0rem 2rem 3.2rem 2rem;
+}
+.quastionsecond {
+  padding: 0rem;
+  margin: 0rem 2rem 1.8rem 2rem;
+}
+.fonpinchfour {
+  height: 47.45rem;
+  background-color: var(--color-backpinch);
+  color: var(--color-textcard);
+}
+.fonpinchfive {
+  height: 100.3rem;
+  background-color: var(--color-backpinch);
+  color: var(--color-textcard);
+}
+.listquastions {
+  list-style-type: none;
+  padding: 0rem;
+}
+.contact {
+  display: block;
+  margin: 1.7rem 2rem 1.8rem 2rem;
+}
+.futer {
+  height: 48.4rem;
+  color: var(--color-textwhite);
+  padding-left: 2rem;
+}
+.emblema {
+  font-family: "Inter Regular";
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--color-textwhite);
+  text-decoration: none;
+}
+.firststrcontact {
+  padding-top: 8.7rem;
+  color: var(--color-textwhite);
+  display: flex;
+  align-items: center;
+}
+.secondstrcontact {
+  color: var(--color-textwhite);
+  display: flex;
+  align-items: center;
+  margin-left: 9.3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.contactfirststr {
+  color: var(--color-textwhite);
+  text-decoration: none;
+  margin-left: 3rem;
+  padding-right: 3.4rem;
+}
+.contactslist {
+  list-style-type: none;
+  padding-left: 0rem;
+}
+
+.contactsecondstr {
+  color: var(--color-textwhite);
+  text-decoration: none;
+  // margin-left: 11.3rem;
+  padding-right: 3.8rem;
+}
+.contacts {
+  color: var(--color-textwhite);
+  text-decoration: none;
+  margin-left: 9.3rem;
+  padding-bottom: 1.5rem;
+}
+
+.mailp {
+  display: block;
+  margin-left: 9.3rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-textwhite);
+  text-decoration: none;
+
+  list-style-type: none;
+}
+.phone {
+  display: block;
+  color: var(--color-textwhite);
+  text-decoration: none;
+  margin-left: 9.3rem;
+
+  list-style-type: none;
+  padding-bottom: 5.5rem;
+}
+.nameorg {
+  color: var(--color-textgray);
+  text-decoration: none;
+}
+.autorname {
+  color: var(--color-backpinch);
+  text-decoration: none;
+  padding-left: 0.4rem;
+}
+.autor {
+  color: var(--color-textgray);
+  display: flex;
+
+  padding-top: 0rem;
+  margin-top: 0rem;
+  position: relative;
+}
+.autorparagraf {
+  margin-top: 0rem;
+}
