@@ -1,8 +1,8 @@
 @use "./utils/fonts";
+@use "./utils/general";
+@use "./utils/visually-hidden";
 @use "./blocks/header";
 @use "./blocks/navigation";
 @use "./blocks/hero";
-@use "./utils/visually-hidden";
-@use "./utils/general";
 @use "./blocks/body";
 @use "./blocks/footer";

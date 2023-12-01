@@ -1,6 +1,9 @@
 .headerhero {
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.sectionhero {
+  padding-top: 4.9rem;
+  padding-bottom: 7.25rem;
 }
 .textrighthero {
   display: block;
@@ -10,19 +13,17 @@
 
 .testdraiv {
   display: block;
-  background-color: var(--color-backpinch);
-  font-family: "Inter Medium";
+  background-color: var(--color-backpinch3);
+  font-family: "Inter Medium", sans-serif;
   font-size: 1.2rem;
   text-align: center;
-  color: var(--color-textwhite);
+  color: var(--color-backsecond);
   padding: 1.3rem 4rem;
   text-decoration: none;
   border-radius: 4rem;
 
   border: none;
-
-  margin: 2rem 2rem 14.5rem 2rem;
 }
 .paragr {
-  margin: 2rem 2rem 2rem 2rem;
+  margin-bottom: 2rem;
 }

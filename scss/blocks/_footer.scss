@@ -1,27 +1,28 @@
 .futer {
-  height: 48.4rem;
-  color: var(--color-textwhite);
-  padding-left: 2rem;
+  color: var(--color-backsecond);
+  padding-top: 8.7rem;
+  padding-bottom: 9rem;
 }
 .footer-wrapper {
   width: 36rem;
   margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .emblema {
-  font-family: "Inter Regular";
+  font-family: "Inter Regular", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
-  color: var(--color-textwhite);
+  color: var(--color-backsecond);
   text-decoration: none;
 }
 .firststrcontact {
-  padding-top: 8.7rem;
-  color: var(--color-textwhite);
+  color: var(--color-backsecond);
   display: flex;
   align-items: center;
 }
 .secondstrcontact {
-  color: var(--color-textwhite);
+  color: var(--color-backsecond);
   display: flex;
   align-items: center;
   margin-left: 9.3rem;
@@ -29,24 +30,26 @@
   padding-bottom: 1.5rem;
 }
 .contactfirststr {
-  color: var(--color-textwhite);
+  color: var(--color-backsecond);
   text-decoration: none;
   margin-left: 3rem;
   padding-right: 3.4rem;
 }
 .contactslist {
   list-style-type: none;
-  padding-left: 0rem;
+  padding-left: 0;
+  margin: 0;
+  margin-bottom: 1.5rem;
 }
 
 .contactsecondstr {
-  color: var(--color-textwhite);
+  color: var(--color-backsecond);
   text-decoration: none;
   // margin-left: 11.3rem;
   padding-right: 3.8rem;
 }
 .contacts {
-  color: var(--color-textwhite);
+  color: var(--color-backsecond);
   text-decoration: none;
   margin-left: 9.3rem;
   padding-bottom: 1.5rem;
@@ -56,14 +59,14 @@
   display: block;
   margin-left: 9.3rem;
   margin-bottom: 1.5rem;
-  color: var(--color-textwhite);
+  color: var(--color-backsecond);
   text-decoration: none;
 
   list-style-type: none;
 }
 .phone {
   display: block;
-  color: var(--color-textwhite);
+  color: var(--color-backsecond);
   text-decoration: none;
   margin-left: 9.3rem;
 
@@ -71,22 +74,24 @@
   padding-bottom: 5.5rem;
 }
 .nameorg {
-  color: var(--color-textgray);
+  color: var(--color-link);
   text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 .autorname {
-  color: var(--color-backpinch);
+  color: var(--color-backpinch3);
   text-decoration: none;
   padding-left: 0.4rem;
 }
 .autor {
-  color: var(--color-textgray);
+  color: var(--color-link);
   display: flex;
 
-  padding-top: 0rem;
-  margin-top: 0rem;
+  padding-top: 0;
+  margin-top: 0;
   position: relative;
 }
 .autorparagraf {
-  margin-top: 0rem;
+  margin-top: 0;
 }

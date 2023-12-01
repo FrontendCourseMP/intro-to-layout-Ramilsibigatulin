@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="normalize.css" />
+    <title>Сибигатулин Рамиль</title>
+    <link rel="stylesheet" href="/scss/normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="/scss/style.css" />
@@ -18,7 +18,7 @@
       </div>
     </header>
     <main>
-      <section>
+      <section class="sectionhero">
         <div class="body-wrapper">
           <h1 class="headerhero">
             СТУДИЯ ДЛЯ ОНЛАЙН- ТРАНСЛЯЦИЙ, <img src="#" alt="" /> <br />
@@ -32,68 +32,72 @@
           <a class="testdraiv" href="">ПОЛУЧИТЬ БЕСПЛАТНЫЙ ТЕСТ-ДРАЙВ</a>
         </div>
       </section>
-      <section>
+      <section class="body-one">
         <div class="body-wrapper">
           <h2>
             <span class="headercards1">В НАШЕЙ СТУДИИ ЕСТЬ</span
             ><span class="headercards2"> НЕСКОЛЬКО ЗОН </span><br />
             <span class="headercards3">С РАЗНЫМ ИНТЕРЬЕРОМ</span>
           </h2>
-          <ul class="cards">
-            <li class="card">
-              <img src="#" alt="" />
-              <h3 class="cardheader">КАСТОМ</h3>
-              <p class="textcard">
-                БОЛЬШАЯ СТУДИЯ С НЕСКОЛЬКИМИ ВАРИАНТАМИ ПО СЕТ-ДИЗАЙНУ. ИДЕАЛЬНО
-                ПОДОЙДЕТ ДЛЯ ЗАПИСИ ИНТЕРВЬЮ, ПРЯМОЙ ТРАНСЛЯЦИИ И ПОДКАСТА
-              </p>
-              <p class="cost">СТОИМОСТЬ</p>
-              <footer>
-                <p class="costvalue">ОТ 4 000 ₽/ЧАС</p>
-                <a class="cardlink" href="">ПОДРОБНЕЕ О СТУДИИ</a>
-              </footer>
-            </li>
-            <li class="card">
-              <img src="#" alt="" />
-              <h3 class="cardheader">ПОДКАСТ</h3>
-              <p class="textcard">
-                СТУДИЯ С УЮТНЫМ ЛОФТ-ДИЗАЙНОМ, В КОТОРОЙ ЕСТЬ ВСЕ НЕОБХОДИМОЕ
-                ДЛЯ ЗАПИСИ ПОДКАСТА И ЕГО ВИДЕОВЕРСИИ
-              </p>
-              <p class="cost">СТОИМОСТЬ</p>
-              <footer>
-                <p class="costvalue">ОТ 4 000 ₽/ЧАС</p>
-                <a class="cardlink" href="">ПОДРОБНЕЕ О СТУДИИ</a>
-              </footer>
-            </li>
-            <li class="card">
-              <img src="#" alt="" />
-              <h3 class="cardheader">ВЕБИНАР</h3>
-              <p class="textcard">
-                НЕБОЛЬНАЯ СТУДИЯ С АКЦЕНТОМ НА ПРОВЕДЕНИЕ ВЕБИНАРОВ И ЗАПИСЬ
-                ВИДЕОУРОКОВ, С СИСТЕМОЙ РАЗНОЦВЕТНЫХ ФОНОВ, ПРОЗРАЧНОЙ ДОСКОЙ И
-                ТЕЛЕ-СУФЛЕРОМ
-              </p>
-              <p class="cost">СТОИМОСТЬ</p>
-              <footer>
-                <p class="costvalue">ОТ 4 000 ₽/ЧАС</p>
-                <a class="cardlink" href="">ПОДРОБНЕЕ О СТУДИИ</a>
-              </footer>
-            </li>
-            <li class="card">
-              <img src="#" alt="" />
-              <h3 class="cardheader">ТУТ БУДЕТ ЕЩЁ ЧЕТВЕРТАЯ ЗОНА</h3>
-              <p class="textcard">ТУТ БУДЕТ ТЕКСТ</p>
-              <p class="cost">СТОИМОСТЬ</p>
-              <footer>
-                <p class="costvalue">ОТ 4 000 ₽/ЧАС</p>
-                <a class="cardlink" href="">ПОДРОБНЕЕ О СТУДИИ</a>
-              </footer>
-            </li>
-          </ul>
+          <div class="card-wrapper">
+            <ul class="cards">
+              <li class="card">
+                <img src="#" alt="" />
+
+                <h3 class="cardheader">КАСТОМ</h3>
+                <p class="textcard">
+                  БОЛЬШАЯ СТУДИЯ С НЕСКОЛЬКИМИ ВАРИАНТАМИ ПО СЕТ-ДИЗАЙНУ.
+                  ИДЕАЛЬНО ПОДОЙДЕТ ДЛЯ ЗАПИСИ ИНТЕРВЬЮ, ПРЯМОЙ ТРАНСЛЯЦИИ И
+                  ПОДКАСТА
+                </p>
+                <p class="cost">СТОИМОСТЬ</p>
+                <footer>
+                  <p class="costvalue">ОТ 4 000 ₽/ЧАС</p>
+                  <a class="cardlink" href="">ПОДРОБНЕЕ О СТУДИИ</a>
+                </footer>
+              </li>
+              <li class="card">
+                <img src="#" alt="" />
+                <h3 class="cardheader">ПОДКАСТ</h3>
+                <p class="textcard">
+                  СТУДИЯ С УЮТНЫМ ЛОФТ-ДИЗАЙНОМ, В КОТОРОЙ ЕСТЬ ВСЕ НЕОБХОДИМОЕ
+                  ДЛЯ ЗАПИСИ ПОДКАСТА И ЕГО ВИДЕОВЕРСИИ
+                </p>
+                <p class="cost">СТОИМОСТЬ</p>
+                <footer>
+                  <p class="costvalue">ОТ 4 000 ₽/ЧАС</p>
+                  <a class="cardlink" href="">ПОДРОБНЕЕ О СТУДИИ</a>
+                </footer>
+              </li>
+              <li class="card">
+                <img src="#" alt="" />
+                <h3 class="cardheader">ВЕБИНАР</h3>
+                <p class="textcard">
+                  НЕБОЛЬНАЯ СТУДИЯ С АКЦЕНТОМ НА ПРОВЕДЕНИЕ ВЕБИНАРОВ И ЗАПИСЬ
+                  ВИДЕОУРОКОВ, С СИСТЕМОЙ РАЗНОЦВЕТНЫХ ФОНОВ, ПРОЗРАЧНОЙ ДОСКОЙ
+                  И ТЕЛЕ-СУФЛЕРОМ
+                </p>
+                <p class="cost">СТОИМОСТЬ</p>
+                <footer>
+                  <p class="costvalue">ОТ 4 000 ₽/ЧАС</p>
+                  <a class="cardlink" href="">ПОДРОБНЕЕ О СТУДИИ</a>
+                </footer>
+              </li>
+              <li class="cardlast">
+                <img src="#" alt="" />
+                <h3 class="cardheader">ТУТ БУДЕТ ЕЩЁ ЧЕТВЕРТАЯ ЗОНА</h3>
+                <p class="textcard">ТУТ БУДЕТ ТЕКСТ</p>
+                <p class="cost">СТОИМОСТЬ</p>
+                <footer>
+                  <p class="costvalue">ОТ 4 000 ₽/ЧАС</p>
+                  <a class="cardlink" href="">ПОДРОБНЕЕ О СТУДИИ</a>
+                </footer>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
-      <section>
+      <section class="body-two">
         <div class="body-wrapper">
           <h2 class="whiteheader">
             ПРОДУМАЛИ ВСЕ ДО МЕЛОЧЕЙ,
@@ -102,46 +106,56 @@
           <ul class="cards">
             <li class="carddetalis">
               <img src="#" alt="" />
-              <h3 class="cardheaderdetalis">ЗОНА ОТДЫХА</h3>
-              <p class="textcard">
-                БОЛЬШАЯ КОМНАТА ОЖИДАНИЯ С ВОДОЙ, ЧАЕМ И КОФЕ В ДРИП-ПАКЕТАХ
-              </p>
+              <div class="zonecard">
+                <h3 class="secondarycardheader">ЗОНА ОТДЫХА</h3>
+                <p class="secondarycardtext">
+                  БОЛЬШАЯ КОМНАТА ОЖИДАНИЯ С ВОДОЙ, ЧАЕМ И КОФЕ В ДРИП-ПАКЕТАХ
+                </p>
+              </div>
             </li>
             <li class="carddetalis">
               <img src="#" alt="" />
-              <h3 class="cardheaderdetalis">ЗОНА PLAYBACK</h3>
-              <p class="textcard">
-                УСТАНОВЛЕНА ПЛАЗМА 55', ЧТОБЫ СМОТРЕТЬ ТРАНСЛЯЦИЮ ИЗ СТУДИИ В
-                РЕЖИМЕ РЕАЛЬНОГО ВРЕМЕНИ
-              </p>
+              <div class="zonecard">
+                <h3 class="secondarycardheader">ЗОНА PLAYBACK</h3>
+                <p class="secondarycardtext">
+                  УСТАНОВЛЕНА ПЛАЗМА 55', ЧТОБЫ СМОТРЕТЬ ТРАНСЛЯЦИЮ ИЗ СТУДИИ В
+                  РЕЖИМЕ РЕАЛЬНОГО ВРЕМЕНИ
+                </p>
+              </div>
             </li>
             <li class="carddetalis">
               <img src="#" alt="" />
-              <h3 class="cardheaderdetalis">ЗОНА ГРИМА</h3>
-              <p class="textcard">
-                ОТДЕЛЬНОЕ ПОМЕЩЕНИЕ С ГРИМ-ПОСТОМ, ВЕШАЛКОЙ И ОТПАРИВАТЕЛЕМ
-              </p>
+              <div class="zonecard">
+                <h3 class="secondarycardheader">ЗОНА ГРИМА</h3>
+                <p class="secondarycardtext">
+                  ОТДЕЛЬНОЕ ПОМЕЩЕНИЕ С ГРИМ-ПОСТОМ, ВЕШАЛКОЙ И ОТПАРИВАТЕЛЕМ
+                </p>
+              </div>
             </li>
             <li class="carddetalis">
               <img src="#" alt="" />
-              <h3 class="cardheaderdetalis">ПАРКОВОЧНЫЕ МЕСТА</h3>
-              <p class="textcard">
-                2 ПАРКОВОЧНЫХ МЕСТА ДЛЯ НАШИХ ГОСТЕЙ ПРЯМО ПОД ОКНАМИ В ТИХОМ,
-                ЗАКРЫТОМ ДВОРЕ
-              </p>
+              <div class="zonecard">
+                <h3 class="secondarycardheader">ПАРКОВОЧНЫЕ МЕСТА</h3>
+                <p class="secondarycardtext">
+                  2 ПАРКОВОЧНЫХ МЕСТА ДЛЯ НАШИХ ГОСТЕЙ ПРЯМО ПОД ОКНАМИ В ТИХОМ,
+                  ЗАКРЫТОМ ДВОРЕ
+                </p>
+              </div>
             </li>
             <li class="carddop">
-              <h3 class="cardheader">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</h3>
-              <p class="textcard">— ВИДЕОМОНТАЖ И ПОСТ-ПРОДАКШН</p>
-              <p class="textcard">— СВЕДЕНИЕ ПОДКАСТОВ</p>
-              <p class="textcard">— СОЗДАНИЕ ЭФИРНОЙ ГРАФИКИ</p>
-              <p class="textcard">— ПРОДЮСИРОВАНИЕ СТРИМОВ</p>
-              <a href="" class="blacklink">ЗАБРОНИРОВАТЬ СТУДИЮ</a>
+              <div class="zonecard">
+                <h3>ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</h3>
+                <p>— ВИДЕОМОНТАЖ И ПОСТ-ПРОДАКШН</p>
+                <p>— СВЕДЕНИЕ ПОДКАСТОВ</p>
+                <p>— СОЗДАНИЕ ЭФИРНОЙ ГРАФИКИ</p>
+                <p>— ПРОДЮСИРОВАНИЕ СТРИМОВ</p>
+                <a href="" class="blacklink">ЗАБРОНИРОВАТЬ СТУДИЮ</a>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-      <section>
+      <section class="body-three">
         <div class="body-wrapper">
           <h2 class="headerform">УЗНАЙТЕ ПРЕДВАРИТЕЛЬНУЮ СТОИМОСТЬ</h2>
           <p class="textc">
@@ -220,6 +234,7 @@
                 </label>
               </div>
             </fieldset>
+
             <fieldset>
               <legend class="legend">КОЛ-ВО ГЕРОЕВ В КАДРЕ</legend>
               <div class="strform">
@@ -269,7 +284,7 @@
           </form>
         </div>
       </section>
-      <section>
+      <section class="body-three">
         <div class="body-wrapper">
           <h2 class="whiteheader">
             <span class="firststr">УСТАНОВЛЕНО НОВОЕ </span> СЪЕМОЧНОЕ
@@ -308,11 +323,13 @@
           </div>
         </div>
       </section>
-      <section class="sxema">
+      <section class="body-four">
         <div class="body-wrapper">
           <h2 class="whiteheader">
             УДОБНОЕ ПРОСТРАНСТВО,
-            <span class="firststr"> В КОТОРОМ ЕСТЬ</span> <br />
+            <br />
+            <span class="firststr"> В КОТОРОМ ЕСТЬ</span>
+            <br />
             ВСЕ НЕОБХОДИМОЕ
           </h2>
           <img src="#" alt="" />
@@ -321,16 +338,24 @@
       <section class="fonpinch">
         <div class="body-wrapper">
           <h2 class="whiteheader">
-            ПОЛУЧИТЕ БЕСПЛАТНЫЙ <span class="textright">ТЕСТ-ДРАЙВ СТУДИИ</span>
+            ПОЛУЧИТЕ БЕСПЛАТНЫЙ <br /><span class="textright"
+              >ТЕСТ-ДРАЙВ СТУДИИ</span
+            >
           </h2>
           <p class="headertestdraiv">
             ОСТАВЬТЕ ЗАЯВКУ И ПОЛУЧИТЕ БЕСПЛАТНЫЕ 30 МИНУТ, ЗА КОТОРЫЕ ВЫ
             СМОЖЕТЕ:
           </p>
           <ul class="paragraf">
-            <p>— ПОЗНАКОМИТЬСЯ СО ВСЕМИ ОПИЯМИ СТУДИИ</p>
-            <p>— НАУЧИТЬСЯ ПОЛЬЗОВАТЬСЯ ОСНОВНЫМ ОБОРУДОВАНИЕМ</p>
-            <p>— ПОЛУЧИТЬ РЕКОМЕНДАЦИИ ОТ СПЕЦИАЛИСТОВ ПО РАБОТЕ В КАДРЕ</p>
+            <li class="point">
+              <p>— ПОЗНАКОМИТЬСЯ СО ВСЕМИ ОПИЯМИ СТУДИИ</p>
+            </li>
+            <li class="point">
+              <p>— НАУЧИТЬСЯ ПОЛЬЗОВАТЬСЯ ОСНОВНЫМ ОБОРУДОВАНИЕМ</p>
+            </li>
+            <li class="point">
+              <p>— ПОЛУЧИТЬ РЕКОМЕНДАЦИИ ОТ СПЕЦИАЛИСТОВ ПО РАБОТЕ В КАДРЕ</p>
+            </li>
           </ul>
           <a href="" class="gottestdraiv">ПОЛУЧИТЬ ТЕСТ-ДРАЙВ</a>
           <img src="#" alt="" />
@@ -338,8 +363,8 @@
       </section>
       <section class="fonpinchsecond">
         <div class="body-wrapper">
-          <h2 class="whiteheader">СНЯТО В НАШЕЙ СТУДИИ</h2>
-          <ul>
+          <h2 class="whiteheader1">СНЯТО В НАШЕЙ СТУДИИ</h2>
+          <ul class="videolist">
             <li>
               <a href=""></a>
             </li>
@@ -356,7 +381,7 @@
         <div class="body-wrapper">
           <h2 class="whiteheader">
             ВОЗЬМЕМ ВСЮ ОРГАНИЗАЦИЮ
-            <span class="textright">И ТЕХНИЧЕСКИЕ ЗАБОТЫ НА СЕБЯ</span>
+            <span class="textright">И ТЕХНИЧЕСКИЕ ЗАБОТЫ <br />НА СЕБЯ</span>
           </h2>
           <p class="paragraf1">
             В СТОИМОСТЬ ВКЛЮЧЕНА РАБОТА АДМИНИСТРАТОРА, КОТОРЫЙ ПОМОЖЕТ ВСЕ
@@ -399,14 +424,26 @@
               >ПО ЛЮБОМУ ВОПРОСУ</span
             >
           </h2>
-          <a href="" class="contact">HELLO@TOCHKAKONTENTA.RU</a>
-          <a href="" class="contact">+7 909 151-08-70</a>
-          <div>
-            <a href=""></a>
-            <a href=""></a>
-          </div>
-          <p class="contact">РАБОТАЕМ С 8:00 ДО 22:00</p>
-          <p class="contact">МОСКВА, УЛ. САДОВАЯ-КАРЕТНАЯ УЛИЦА, 20С2</p>
+          <ul class="contactsbody">
+            <li>
+              <a href="" class="contact">HELLO@TOCHKAKONTENTA.RU</a>
+            </li>
+            <li>
+              <a href="" class="contact">+7 909 151-08-70</a>
+            </li>
+            <li>
+              <div>
+                <a href=""></a>
+                <a href=""></a>
+              </div>
+            </li>
+            <li>
+              <p class="contact">РАБОТАЕМ С 8:00 ДО 22:00</p>
+            </li>
+            <li>
+              <p class="contact">МОСКВА, УЛ. САДОВАЯ-КАРЕТНАЯ УЛИЦА, 20С2</p>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
