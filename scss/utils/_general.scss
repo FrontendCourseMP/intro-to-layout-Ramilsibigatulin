@@ -1,19 +1,23 @@
 :root {
   --color-background: #34344e;
-  --color-textwhite: #ffffff;
-  --color-textpinch: #f49c89;
+  --color-backsecond: #ffffff;
+  --color-backthird: #f49c89;
   --color-textcard: #34344e;
-  --color-textgray: gray;
-  --color-backpinch: var(--color-textpinch);
-  --color-backwhite: var(--color-textwhite);
-}
-html {
+  --color-link: gray;
+  --color-backpinch3: var(--color-backthird);
+  --color-backwhite2: var(--color-backsecond);
   font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*:after,
+*::before {
+  box-sizing: inherit;
 }
 body {
-  font-family: "Inter Regular";
+  font-family: "Inter Regular", sans-serif;
   background-color: var(--color-background);
-  color: var(--color-textwhite);
+  color: var(--color-backsecond);
   font-size: 1.2rem;
 }
 
