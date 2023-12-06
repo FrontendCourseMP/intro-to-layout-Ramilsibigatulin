@@ -115,11 +115,6 @@ h3 {
   border-radius: 1rem;
 }
 
-.border1 {
-  border-radius: 1rem;
-  margin-bottom: 1rem;
-}
-
 .imagunder {
   position: relative;
   z-index: 2;
@@ -142,6 +137,23 @@ h3 {
   height: 33.6474rem;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.img-button {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 6rem;
+  height: 5rem;
+  border-radius: 1rem;
+}
+
+.img-bigcamera {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 32rem;
+  height: 28rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
 }
 
 .headerhero {
