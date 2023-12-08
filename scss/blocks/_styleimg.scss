@@ -3,16 +3,34 @@
 }
 
 .imagunder {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  min-height: 38.8rem;
   position: relative;
   z-index: 2;
   bottom: 2rem;
   border-radius: 1rem;
 }
 .map {
+  object-fit: cover;
+  object-position: center;
   border-radius: 1rem;
-  margin-bottom: 4.2rem;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 4rem;
 }
-.imgheader {
+.imgheader1 {
+  width: 8.5rem;
+  height: 4.1rem;
+
+  object-fit: cover;
+  border-radius: 20rem;
+}
+.imgheader2 {
+  width: 6.2rem;
+  height: 4.1rem;
+  object-fit: cover;
   border-radius: 20rem;
 }
 .img_card {
@@ -27,10 +45,20 @@
   height: 5rem;
   border-radius: 1rem;
 }
+.sxema {
+  width: 100%;
+}
+.img-for-form {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  min-height: 28rem;
+  border-radius: 1rem;
+}
 .img-bigcamera {
   object-fit: cover;
-  width: 32rem;
-  height: 28rem;
+  width: inherit;
   border-radius: 1rem;
   margin-bottom: 1rem;
 }

@@ -29,29 +29,29 @@
       <section class="sectionhero">
         <div class="body-wrapper">
           <h1 class="headerhero">
-            СТУДИЯ ДЛЯ ОНЛАЙН- ТРАНСЛЯЦИЙ,
-            <img src="/img/Rectangle 75.jpg" alt="photo-1" class="imgheader" />
+            СТУДИЯ ДЛЯ ОНЛАЙН-ТРАНСЛЯЦИЙ,
             <br />
             <span class="textrighthero">
-              <img
-                src="/img/Rectangle 76.jpg"
-                alt="photo-2"
-                class="imgheader"
-              />
-              ВИДЕОСЪЕМКИ <br />И ЗАПИСИ ПОДКАСТОВ
+              ВИДЕОСЪЕМКИ
+              <img src="/img/hero-img1.jpg" alt="photo-1" class="imgheader1" />
+              <br />
+              <img src="/img/hero-img2.jpg" alt="photo-2" class="imgheader2" />
+
+              И ЗАПИСИ ПОДКАСТОВ
             </span>
           </h1>
-          <p class="paragr">
-            СЪЕМОЧНОЕ ПРОСТРАНСТВО, ОБОРУДОВАНИЕ И ОБСЛУЖИВАНИЕ ОТ 3 900₽/ЧАС
-          </p>
-          <a class="testdraiv" href="">ПОЛУЧИТЬ БЕСПЛАТНЫЙ ТЕСТ-ДРАЙВ</a>
+          <div class="flex">
+            <p class="paragr">
+              СЪЕМОЧНОЕ ПРОСТРАНСТВО, ОБОРУДОВАНИЕ И ОБСЛУЖИВАНИЕ ОТ 3 900₽/ЧАС
+            </p>
+            <a class="testdraiv" href="">ПОЛУЧИТЬ БЕСПЛАТНЫЙ ТЕСТ-ДРАЙВ</a>
+          </div>
         </div>
       </section>
       <section class="body-one">
         <div class="body-wrapper">
-          <h2>
-            <span class="headercards1">В НАШЕЙ СТУДИИ ЕСТЬ</span
-            ><span class="headercards2"> НЕСКОЛЬКО ЗОН </span><br />
+          <h2 class="card-header">
+            <span class="headercards1">В НАШЕЙ СТУДИИ ЕСТЬ НЕСКОЛЬКО ЗОН</span>
             <span class="headercards3">С РАЗНЫМ ИНТЕРЬЕРОМ</span>
           </h2>
           <div class="card-wrapper">
@@ -197,122 +197,128 @@
             <img
               src="img/img-for-form.jpg"
               alt="choise-cost"
-              class="img-bigcamera"
+              class="img-for-form"
             />
-            <fieldset>
-              <legend class="legend">ВЫБЕРИТЕ СТУДИЮ</legend>
-              <div class="strform">
-                <label class="strfirst">
-                  <input type="radio" checked />
-                  КАСТОМ
-                </label>
-                <label>
-                  <input type="radio" />
-                  ПОДКАСТ
-                </label>
-              </div>
-              <div class="strform">
-                <label class="strfirst">
-                  <input type="radio" />
-                  ВЕБИНАР
-                </label>
-                <label>
-                  <input type="radio" />
-                  4 СТУДИЯ
-                </label>
-              </div>
-            </fieldset>
-            <fieldset>
-              <legend class="legend">ПРОДОЛЖИТЕЛЬНОСТЬ</legend>
-              <div class="strform">
-                <label class="strfirst">
-                  <input type="radio" />
-                  1-2 ЧАСА
-                </label>
-                <label>
-                  <input type="radio" />
-                  3 ЧАСА
-                </label>
-              </div>
-              <div class="strform">
-                <label class="strfirst">
-                  <input type="radio" checked />
-                  4 ЧАСА
-                </label>
-                <label>
-                  <input type="radio" />
-                  5 И БОЛЕЕ
-                </label>
-              </div>
-            </fieldset>
-            <fieldset>
-              <legend class="legend">КОЛ-ВО КАМЕР</legend>
-              <div class="strform">
-                <label class="strfirst">
-                  <input type="radio" checked />
-                  1 КАМЕРА
-                </label>
-                <label>
-                  <input type="radio" />
-                  2 КАМЕРЫ
-                </label>
-              </div>
-              <div class="strform">
-                <label class="strfirst">
-                  <input type="radio" />
-                  3 КАМЕРЫ
-                </label>
-                <label>
-                  <input type="radio" />
-                  4 КАМЕРЫ
-                </label>
-              </div>
-            </fieldset>
-            <fieldset>
-              <legend class="legend">КОЛ-ВО ГЕРОЕВ В КАДРЕ</legend>
-              <div class="strform">
-                <label class="strfirst">
-                  <input type="radio" checked />
-                  1 ЧЕЛОВЕК
-                </label>
-                <label>
-                  <input type="radio" />
-                  2 ЧЕЛОВЕКА
-                </label>
-              </div>
-              <div class="strform">
-                <label class="strfirst">
-                  <input type="radio" />
-                  3 ЧЕЛОВЕКА
-                </label>
-                <label>
-                  <input type="radio" />
-                  4 И БОЛЕЕ
-                </label>
-              </div>
-            </fieldset>
-            <div class="laststrform">
-              <fieldset class="fieldset">
-                <legend class="legend">ТИП УСЛУГИ</legend>
-                <div class="lastform">
-                  <label class="strlast">
+            <div class="bodyforms">
+              <fieldset>
+                <legend class="legend">ВЫБЕРИТЕ СТУДИЮ</legend>
+                <div class="strform">
+                  <label class="strfirst">
                     <input type="radio" checked />
-                    ЗАПИСЬ
+                    КАСТОМ
                   </label>
-                  <label class="strlast">
+                  <label>
                     <input type="radio" />
-                    СТРИМ
+                    ПОДКАСТ
+                  </label>
+                </div>
+                <div class="strform">
+                  <label class="strfirst">
+                    <input type="radio" />
+                    ВЕБИНАР
+                  </label>
+                  <label>
+                    <input type="radio" />
+                    4 СТУДИЯ
                   </label>
                 </div>
               </fieldset>
-              <p>
-                <span class="costs">15 000 ₽</span><br /><span class="textgray"
-                  >ПРЕДВАРИТЕЛЬНАЯ <br />
-                  СТОИМОСТЬ</span
-                >
-              </p>
+              <fieldset>
+                <legend class="legend">ПРОДОЛЖИТЕЛЬНОСТЬ</legend>
+                <div class="strform">
+                  <label class="strfirst">
+                    <input type="radio" />
+                    1-2 ЧАСА
+                  </label>
+                  <label>
+                    <input type="radio" />
+                    3 ЧАСА
+                  </label>
+                </div>
+                <div class="strform">
+                  <label class="strfirst">
+                    <input type="radio" checked />
+                    4 ЧАСА
+                  </label>
+                  <label>
+                    <input type="radio" />
+                    5 И БОЛЕЕ
+                  </label>
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend class="legend">КОЛ-ВО КАМЕР</legend>
+                <div class="strform">
+                  <label class="strfirst">
+                    <input type="radio" checked />
+                    1 КАМЕРА
+                  </label>
+                  <label>
+                    <input type="radio" />
+                    2 КАМЕРЫ
+                  </label>
+                </div>
+                <div class="strform">
+                  <label class="strfirst">
+                    <input type="radio" />
+                    3 КАМЕРЫ
+                  </label>
+                  <label>
+                    <input type="radio" />
+                    4 КАМЕРЫ
+                  </label>
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend class="legend">КОЛ-ВО ГЕРОЕВ В КАДРЕ</legend>
+                <div class="strform">
+                  <label class="strfirst">
+                    <input type="radio" checked />
+                    1 ЧЕЛОВЕК
+                  </label>
+                  <label>
+                    <input type="radio" />
+                    2 ЧЕЛОВЕКА
+                  </label>
+                </div>
+                <div class="strform">
+                  <label class="strfirst">
+                    <input type="radio" />
+                    3 ЧЕЛОВЕКА
+                  </label>
+                  <label>
+                    <input type="radio" />
+                    4 И БОЛЕЕ
+                  </label>
+                </div>
+              </fieldset>
+              <div class="laststrform">
+                <fieldset class="fieldset">
+                  <legend class="legend">ТИП УСЛУГИ</legend>
+                  <div class="lastform">
+                    <label class="strlast">
+                      <input type="radio" checked />
+                      ЗАПИСЬ
+                    </label>
+                    <label class="strlast">
+                      <input type="radio" />
+                      СТРИМ
+                    </label>
+                  </div>
+                </fieldset>
+              </div>
+              <div class="flex-container-inform">
+                <p style="padding-left: 2rem">
+                  <span class="costs">15 000 ₽</span><br /><span
+                    class="textgray"
+                    >ПРЕДВАРИТЕЛЬНАЯ <br />
+                    СТОИМОСТЬ</span
+                  >
+                </p>
+
+                <button type="submit" class="bron">ЗАБРОНИРОВАТЬ СТУДИЮ</button>
+              </div>
             </div>
-            <button type="submit" class="bron">ЗАБРОНИРОВАТЬ СТУДИЮ</button>
           </form>
         </div>
       </section>
@@ -324,61 +330,66 @@
             И ОСВЕТИТЕЛЬНЫЕ ПРИБОРЫ
           </h2>
           <p class="parag">НАЖМИТЕ НА ИНТЕРЕСУЮЩЕЕ ОБОРУДОВАНИЕ</p>
-          <div class="buttondevicechoice">
-            <img src="img/Camera.jpg" alt="Камера" class="img-button" />
-            <button class="buttondeviseinside">
-              ВИДЕОКАМЕРЫ SONY FX6 4K С АССОРТИМЕНТОМ ОПТИКИ
-            </button>
-            <img src="img/Rectangle 61.svg" alt="" style="text-align: right" />
-          </div>
-          <img
-            src="img/Camera.jpg"
-            alt="Камера крупным планом"
-            class="img-bigcamera"
-          />
-          <div class="buttondevice">
-            <img src="img/Micro.jpg" alt="Микрофон" class="img-button" />
-            <button class="buttondeviseinside">
-              МИКРОФОНЫ ОКТАВА MK-105 И РАДИОПЕТЛИЧКИ SENNHEISER
-            </button>
-          </div>
-          <div class="buttondevice">
-            <img src="img/Rectangle 60 (1).jpg" alt="Spotlight" class />
-            <button class="buttondeviseinside">ОСВЕТИТЕЛЬНЫЕ ПРИБОРЫ</button>
-          </div>
-          <div class="buttondevice">
-            <img
-              src="img/Rectangle 60 (2).jpg"
-              alt="Оборудование Для ОНЛАЙН-ТРАНСЛЯЦИЙ"
-            />
-            <button class="buttondeviseinside">
-              ОБОРУДОВАНИЕ ДЛЯ ПОКАНАЛЬНОЙ ЗАПИСИ И ОНЛАЙН-ТРАНСЛЯЦИЙ
-            </button>
-          </div>
-          <div class="buttondevice">
-            <img src="img/Rectangle 60 (3).jpg" alt="Паралон" />
-            <button class="buttondeviseinside">
-              АККУСТИЧЕСКИЙ ПАРАЛОН, БАС-ЛОВУШКИ И ДИФФУЗОРЫ ДЛЯ ПРАВИЛЬНОЙ
-              АКУСТИКИ
-            </button>
+          <div class="list_button">
+            <div class="flex-container">
+              <div class="buttondevicechoice">
+                <button class="buttondeviseinside">
+                  <img src="img/Camera.jpg" alt="Камера" class="img-button" />
+                  ВИДЕОКАМЕРЫ SONY FX6 4K С АССОРТИМЕНТОМ ОПТИКИ
+                </button>
+                <img
+                  src="img/Rectangle 61.svg"
+                  alt="point"
+                  style="padding-right: 1rem"
+                />
+              </div>
+              <img
+                src="img/Camera.jpg"
+                alt="Камера крупным планом"
+                class="img-bigcamera"
+              />
+            </div>
+            <div class="buttondevice">
+              <img src="img/Micro.jpg" alt="Микрофон" class="img-button" />
+              <button class="buttondeviseinside">
+                МИКРОФОНЫ ОКТАВА MK-105 И РАДИОПЕТЛИЧКИ SENNHEISER
+              </button>
+            </div>
+            <div class="buttondevice">
+              <img src="img/Rectangle 60 (1).jpg" alt="Spotlight" class />
+              <button class="buttondeviseinside">ОСВЕТИТЕЛЬНЫЕ ПРИБОРЫ</button>
+            </div>
+            <div class="buttondevice">
+              <img
+                src="img/Rectangle 60 (2).jpg"
+                alt="Оборудование Для ОНЛАЙН-ТРАНСЛЯЦИЙ"
+              />
+              <button class="buttondeviseinside">
+                ОБОРУДОВАНИЕ ДЛЯ ПОКАНАЛЬНОЙ ЗАПИСИ И ОНЛАЙН-ТРАНСЛЯЦИЙ
+              </button>
+            </div>
+            <div class="buttondevice">
+              <img src="img/Rectangle 60 (3).jpg" alt="Паралон" />
+              <button class="buttondeviseinside">
+                АККУСТИЧЕСКИЙ ПАРАЛОН, БАС-ЛОВУШКИ И ДИФФУЗОРЫ ДЛЯ ПРАВИЛЬНОЙ
+                АКУСТИКИ
+              </button>
+            </div>
           </div>
         </div>
       </section>
       <section class="body-four">
         <div class="body-wrapper">
-          <h2 class="whiteheader">
-            УДОБНОЕ ПРОСТРАНСТВО,
-            <br />
-            <span class="firststr"> В КОТОРОМ ЕСТЬ</span>
-            <br />
-            ВСЕ НЕОБХОДИМОЕ
-          </h2>
-          <img
-            src="img/scheme (2).png"
-            alt="Схема"
-            width="320px"
-            height="143.95px"
-          />
+          <div class="flex-container">
+            <h2 class="whiteheader">
+              <span>УДОБНОЕ ПРОСТРАНСТВО,</span>
+              <span class="firststr"
+                ><span class="p1"> В КОТОРОМ ЕСТЬ</span
+                ><span> ВСЕ НЕОБХОДИМОЕ</span></span
+              >
+            </h2>
+            <img src="img/scheme (2).png" alt="Схема" class="sxema" />
+          </div>
         </div>
       </section>
       <section class="fonpinch">
@@ -403,12 +414,14 @@
               <p>— ПОЛУЧИТЬ РЕКОМЕНДАЦИИ ОТ СПЕЦИАЛИСТОВ ПО РАБОТЕ В КАДРЕ</p>
             </li>
           </ul>
-          <a href="" class="gottestdraiv">ПОЛУЧИТЬ ТЕСТ-ДРАЙВ</a>
-          <img
-            src="img/Rectangle 7.jpg"
-            alt="Получить тест-драйв"
-            class="imagunder"
-          />
+          <div class="elementsrelativ">
+            <a href="" class="gottestdraiv">ПОЛУЧИТЬ ТЕСТ-ДРАЙВ</a>
+            <img
+              src="img/testdraiv.jpg"
+              alt="Получить тест-драйв"
+              class="imagunder"
+            />
+          </div>
         </div>
       </section>
       <section class="fonpinchsecond">
@@ -429,19 +442,28 @@
       </section>
       <section class="fonpinchthird">
         <div class="body-wrapper">
-          <h2 class="whiteheader">
-            ВОЗЬМЕМ ВСЮ ОРГАНИЗАЦИЮ
-            <span class="textright">И ТЕХНИЧЕСКИЕ ЗАБОТЫ <br />НА СЕБЯ</span>
+          <h2 class="whiteheader11">
+            <span class="textleft">ВОЗЬМЕМ ВСЮ ОРГАНИЗАЦИЮ</span>
+
+            <span class="text-org"
+              ><span>И ТЕХНИЧЕСКИЕ ЗАБОТЫ </span><span> НА СЕБЯ</span></span
+            >
           </h2>
-          <p class="paragraf1">
-            В СТОИМОСТЬ ВКЛЮЧЕНА РАБОТА АДМИНИСТРАТОРА, КОТОРЫЙ ПОМОЖЕТ ВСЕ
-            ПОДКЛЮЧИТЬ, ЗАПИСАТЬ ПОДКАСТ ИЛИ ПРОВЕСТИ ОНЛАЙН-ТРАНСЛЯЦИЮ
-          </p>
-          <p class="paragraf2">
-            ПОСЛЕ ОКОНЧАНИЯ ПРОЕКТА - ЗАГРУЗИМ ИСХОДНИКИ НА ФАЙЛООБМЕННИК ПРИ
-            НЕОБХОДИМОСТИ
-          </p>
-          <a href="" class="gottestdraiv">ЗАБРОНИРОВАТЬ</a>
+          <div class="flex-container">
+            <div>
+              <p class="paragraf1">
+                В СТОИМОСТЬ ВКЛЮЧЕНА РАБОТА АДМИНИСТРАТОРА, КОТОРЫЙ ПОМОЖЕТ ВСЕ
+                ПОДКЛЮЧИТЬ, ЗАПИСАТЬ ПОДКАСТ ИЛИ ПРОВЕСТИ ОНЛАЙН-ТРАНСЛЯЦИЮ
+              </p>
+            </div>
+            <div>
+              <p class="paragraf2">
+                ПОСЛЕ ОКОНЧАНИЯ ПРОЕКТА - ЗАГРУЗИМ ИСХОДНИКИ НА ФАЙЛООБМЕННИК
+                ПРИ НЕОБХОДИМОСТИ
+              </p>
+              <a href="" class="gottestdraiv">ЗАБРОНИРОВАТЬ</a>
+            </div>
+          </div>
         </div>
       </section>
       <section class="fonpinchfour">
@@ -470,11 +492,10 @@
       <section class="fonpinchfive">
         <div class="body-wrapper">
           <h2 class="whiteheader">
-            СВЯЖИТЕСЬ С НАМИ <br /><span class="textright"
-              >ПО ЛЮБОМУ ВОПРОСУ</span
-            >
+            <span class="textleft"> СВЯЖИТЕСЬ С НАМИ </span
+            ><span class="textright">ПО ЛЮБОМУ ВОПРОСУ</span>
           </h2>
-          <img src="img/Rectangle 8.jpg" alt="Карта местности" class="map" />
+          <img src="img/map.jpg" alt="Карта местности" class="map" />
           <ul class="contactsbody">
             <li class="social">
               <img src="img/icon 02.svg" alt="Почта" />

@@ -1,14 +1,22 @@
 .headerhero {
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: center;
+}
+.strimg {
+  float: left;
 }
 .sectionhero {
   padding-top: 4.9rem;
   padding-bottom: 7.25rem;
 }
 .textrighthero {
-  display: block;
+  // display: block;
   text-align: right;
-  margin-left: 0.8rem;
 }
 
 .testdraiv {
@@ -18,12 +26,22 @@
   font-size: 1.2rem;
   text-align: center;
   color: var(--color-backsecond);
-  padding: 1.3rem 4rem;
+  padding: 1.3rem 3rem;
   text-decoration: none;
+  min-width: 32rem;
   border-radius: 4rem;
-
+  max-width: 39.2rem;
   border: none;
 }
 .paragr {
-  margin-bottom: 2rem;
+  max-width: 39.2rem;
+  margin: 0;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
 }
