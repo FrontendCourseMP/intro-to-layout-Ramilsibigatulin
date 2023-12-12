@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="/scss/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <header>
@@ -25,19 +26,29 @@
         </button>
       </div>
     </header>
-    <main>
+    <main class="main">
       <section class="sectionhero">
         <div class="body-wrapper">
           <h1 class="headerhero">
-            СТУДИЯ ДЛЯ ОНЛАЙН-ТРАНСЛЯЦИЙ,
-            <br />
-            <span class="textrighthero">
-              ВИДЕОСЪЕМКИ
-              <img src="/img/hero-img1.jpg" alt="photo-1" class="imgheader1" />
-              <br />
-              <img src="/img/hero-img2.jpg" alt="photo-2" class="imgheader2" />
+            СТУДИЯ ДЛЯ ОНЛАЙН-<span class="newline"
+              >ТРАНСЛЯЦИЙ,<img
+                src="/img/hero-img1.jpg"
+                alt="photo-1"
+                class="imgheader1"
+            /></span>
 
-              И ЗАПИСИ ПОДКАСТОВ
+            <span class="textrighthero"
+              ><img src="/img/hero-img2.jpg" alt="photo-2" class="imgheader2" />
+              ВИДЕОСЪЕМКИ
+              <img
+                src="/img/hero-img1.jpg"
+                alt="photo-1"
+                class="imgheader11"
+              /><br /><img
+                src="/img/hero-img2.jpg"
+                alt="photo-2"
+                class="imgheader22"
+              />И ЗАПИСИ ПОДКАСТОВ
             </span>
           </h1>
           <div class="flex">
@@ -65,16 +76,16 @@
                   ПОДКАСТА
                 </p>
                 <p class="cost">СТОИМОСТЬ</p>
-                <footer>
+                <footer class="footer-card">
                   <p class="costvalue">ОТ 4 000 ₽/ЧАС</p>
                   <a class="cardlink" href="">ПОДРОБНЕЕ О СТУДИИ</a>
                 </footer>
               </li>
               <li class="card">
                 <img
-                  src="/img/img_zone 01 (6).jpg"
+                  src="/img/card2.jpg"
                   alt="photo-podcast"
-                  class="borderr"
+                  class="img_card"
                 />
                 <h3 class="cardheader">ПОДКАСТ</h3>
                 <p class="textcard">
@@ -82,17 +93,13 @@
                   ДЛЯ ЗАПИСИ ПОДКАСТА И ЕГО ВИДЕОВЕРСИИ
                 </p>
                 <p class="cost">СТОИМОСТЬ</p>
-                <footer>
+                <footer class="footer-card">
                   <p class="costvalue">ОТ 4 000 ₽/ЧАС</p>
-                  <a class="cardlink" href="">ПОДРОБНЕЕ О СТУДИИ</a>
+                  <a class="cardlink cardlink2" href="">ПОДРОБНЕЕ О СТУДИИ</a>
                 </footer>
               </li>
               <li class="card">
-                <img
-                  src="/img/img_zone 01 (4).jpg"
-                  alt="Webinar"
-                  class="borderr"
-                />
+                <img src="/img/card3.jpg" alt="Webinar" class="img_card" />
                 <h3 class="cardheader">ВЕБИНАР</h3>
                 <p class="textcard">
                   НЕБОЛЬНАЯ СТУДИЯ С АКЦЕНТОМ НА ПРОВЕДЕНИЕ ВЕБИНАРОВ И ЗАПИСЬ
@@ -100,23 +107,19 @@
                   И ТЕЛЕ-СУФЛЕРОМ
                 </p>
                 <p class="cost">СТОИМОСТЬ</p>
-                <footer>
+                <footer class="footer-card">
                   <p class="costvalue">ОТ 4 000 ₽/ЧАС</p>
                   <a class="cardlink" href="">ПОДРОБНЕЕ О СТУДИИ</a>
                 </footer>
               </li>
               <li class="cardlast">
-                <img
-                  src="/img/img_zone 01 (5).jpg"
-                  alt="Dop-zone"
-                  class="borderr"
-                />
+                <img src="/img/card4.jpg" alt="Dop-zone" class="img_card" />
                 <h3 class="cardheader">ТУТ БУДЕТ ЕЩЁ ЧЕТВЕРТАЯ ЗОНА</h3>
                 <p class="textcard">ТУТ БУДЕТ ТЕКСТ</p>
                 <p class="cost">СТОИМОСТЬ</p>
-                <footer>
+                <footer class="footer-card">
                   <p class="costvalue">ОТ 4 000 ₽/ЧАС</p>
-                  <a class="cardlink" href="">ПОДРОБНЕЕ О СТУДИИ</a>
+                  <a class="cardlink cardlink1" href="">ПОДРОБНЕЕ О СТУДИИ</a>
                 </footer>
               </li>
             </ul>
@@ -131,7 +134,7 @@
           </h2>
           <ul class="cards2">
             <li class="carddetalis">
-              <img src="/img/img_coffee.jpg" alt="rest-zone" class="borderr" />
+              <img src="/img/card5.jpg" alt="rest-zone" class="img_card" />
               <div class="zonecard">
                 <h3 class="secondarycardheader">ЗОНА ОТДЫХА</h3>
                 <p class="secondarycardtext">
@@ -140,11 +143,7 @@
               </div>
             </li>
             <li class="carddetalis">
-              <img
-                src="img/img_playbzck.jpg"
-                alt="playback-zone"
-                class="borderr"
-              />
+              <img src="img/card6.jpg" alt="playback-zone" class="img_card" />
               <div class="zonecard">
                 <h3 class="secondarycardheader">ЗОНА PLAYBACK</h3>
                 <p class="secondarycardtext">
@@ -154,7 +153,7 @@
               </div>
             </li>
             <li class="carddetalis">
-              <img src="img/img_makeup.jpg" alt="grim-zone" class="borderr" />
+              <img src="img/card7.jpg" alt="grim-zone" class="img_card" />
               <div class="zonecard">
                 <h3 class="secondarycardheader">ЗОНА ГРИМА</h3>
                 <p class="secondarycardtext">
@@ -163,7 +162,7 @@
               </div>
             </li>
             <li class="carddetalis">
-              <img src="img/img_cars.jpg" alt="parkovka" class="borderr" />
+              <img src="img/card8.jpg" alt="parkovka" class="img_card" />
               <div class="zonecard">
                 <h3 class="secondarycardheader">ПАРКОВОЧНЫЕ МЕСТА</h3>
                 <p class="secondarycardtext">
@@ -186,7 +185,7 @@
         </div>
       </section>
       <section class="body-three">
-        <div class="body-wrapper">
+        <div class="body-wrapper-form">
           <h2 class="headerform">УЗНАЙТЕ ПРЕДВАРИТЕЛЬНУЮ СТОИМОСТЬ</h2>
           <p class="textc">
             РАБОТА КОМАНДЫ, ИСПОЛЬЗОВАНИЕ ОБЩЕЙ ЗОНЫ, ГРИМ-ПОСТ И ПАРКОВОЧНЫЕ
@@ -219,9 +218,9 @@
                   4 СТУДИЯ
                 </label>
               </fieldset>
+              <hr class="hr-forms net" />
               <fieldset class="faieldset">
                 <legend class="legend">ПРОДОЛЖИТЕЛЬНОСТЬ</legend>
-
                 <label class="strfirst">
                   <input type="radio" />
                   1-2 ЧАСА
@@ -230,7 +229,6 @@
                   <input type="radio" />
                   3 ЧАСА
                 </label>
-
                 <label class="strfirst">
                   <input type="radio" checked />
                   4 ЧАСА
@@ -240,9 +238,9 @@
                   5 И БОЛЕЕ
                 </label>
               </fieldset>
+              <hr class="hr-forms net" />
               <fieldset class="faieldset">
                 <legend class="legend">КОЛ-ВО КАМЕР</legend>
-
                 <label class="strfirst">
                   <input type="radio" checked />
                   1 КАМЕРА
@@ -251,7 +249,6 @@
                   <input type="radio" />
                   2 КАМЕРЫ
                 </label>
-
                 <label class="strfirst">
                   <input type="radio" />
                   3 КАМЕРЫ
@@ -261,9 +258,9 @@
                   4 КАМЕРЫ
                 </label>
               </fieldset>
+              <hr class="hr-forms net" />
               <fieldset class="faieldset">
                 <legend class="legend">КОЛ-ВО ГЕРОЕВ В КАДРЕ</legend>
-
                 <label class="strfirst">
                   <input type="radio" checked />
                   1 ЧЕЛОВЕК
@@ -272,7 +269,6 @@
                   <input type="radio" />
                   2 ЧЕЛОВЕКА
                 </label>
-
                 <label class="strfirst">
                   <input type="radio" />
                   3 ЧЕЛОВЕКА
@@ -282,29 +278,31 @@
                   4 И БОЛЕЕ
                 </label>
               </fieldset>
-              <div class="laststrform">
-                <fieldset class="faieldset">
-                  <legend class="legend">ТИП УСЛУГИ</legend>
-                  <div class="lastform">
-                    <label class="strlast">
-                      <input type="radio" checked />
-                      ЗАПИСЬ
-                    </label>
-                    <label class="strlast">
-                      <input type="radio" />
-                      СТРИМ
-                    </label>
+              <hr class="hr-forms net" />
+              <div>
+                <div class="laststrform">
+                  <fieldset class="lastfaieldset">
+                    <legend class="legend">ТИП УСЛУГИ</legend>
+                    <div class="lastform">
+                      <label>
+                        <input type="radio" checked />
+                        ЗАПИСЬ
+                      </label>
+                      <label>
+                        <input type="radio" />
+                        СТРИМ
+                      </label>
+                    </div>
+                  </fieldset>
+                  <div class="costform">
+                    <p>
+                      <span class="costs">15 000 ₽</span><br /><span
+                        class="textgray"
+                        >ПРЕДВАРИТЕЛЬНАЯ СТОИМОСТЬ</span
+                      >
+                    </p>
                   </div>
-                </fieldset>
-              </div>
-              <div class="flex-container-inform">
-                <p style="padding-left: 2rem">
-                  <span class="costs">15 000 ₽</span><br /><span
-                    class="textgray"
-                    >ПРЕДВАРИТЕЛЬНАЯ <br />
-                    СТОИМОСТЬ</span
-                  >
-                </p>
+                </div>
                 <button type="submit" class="bron">ЗАБРОНИРОВАТЬ СТУДИЮ</button>
               </div>
             </div>
@@ -320,17 +318,13 @@
           </h2>
           <p class="parag">НАЖМИТЕ НА ИНТЕРЕСУЮЩЕЕ ОБОРУДОВАНИЕ</p>
           <div class="list_button">
-            <div class="flex-container">
+            <div class="flex-container1">
               <div class="buttondevicechoice">
                 <button class="buttondeviseinside">
                   <img src="img/Camera.jpg" alt="Камера" class="img-button" />
                   ВИДЕОКАМЕРЫ SONY FX6 4K С АССОРТИМЕНТОМ ОПТИКИ
                 </button>
-                <img
-                  src="img/Rectangle 61.svg"
-                  alt="point"
-                  style="padding-right: 1rem"
-                />
+                <img src="img/Rectangle 61.svg" alt="point" class="choose" />
               </div>
               <img
                 src="img/Camera.jpg"
@@ -370,39 +364,49 @@
       <section class="body-four">
         <div class="body-wrapper">
           <div class="flex-container">
-            <h2 class="whiteheader">
+            <h2 class="whiteheader lefttext">
               <span>УДОБНОЕ ПРОСТРАНСТВО,</span>
               <span class="firststr"
                 ><span class="p1"> В КОТОРОМ ЕСТЬ</span
                 ><span> ВСЕ НЕОБХОДИМОЕ</span></span
               >
             </h2>
-            <img src="img/scheme (2).png" alt="Схема" class="sxema" />
+            <picture>
+              <source
+                srcset="img/scheme (3).png"
+                media="(min-width: 768px)"
+                class="sxema"
+              />
+              <img src="img/scheme (2).png" alt="Схема" class="sxema" />
+            </picture>
           </div>
         </div>
       </section>
       <section class="fonpinch">
         <div class="body-wrapper">
-          <h2 class="whiteheader">
-            ПОЛУЧИТЕ БЕСПЛАТНЫЙ <br /><span class="textright"
+          <h2 class="whiteheader11">
+            <span class="textleft">ПОЛУЧИТЕ БЕСПЛАТНЫЙ</span> <br /><span
+              class="text-org1"
               >ТЕСТ-ДРАЙВ СТУДИИ</span
             >
           </h2>
-          <p class="headertestdraiv">
-            ОСТАВЬТЕ ЗАЯВКУ И ПОЛУЧИТЕ БЕСПЛАТНЫЕ 30 МИНУТ, ЗА КОТОРЫЕ ВЫ
-            СМОЖЕТЕ:
-          </p>
-          <ul class="paragraf">
-            <li class="point">
-              <p>— ПОЗНАКОМИТЬСЯ СО ВСЕМИ ОПИЯМИ СТУДИИ</p>
-            </li>
-            <li class="point">
-              <p>— НАУЧИТЬСЯ ПОЛЬЗОВАТЬСЯ ОСНОВНЫМ ОБОРУДОВАНИЕМ</p>
-            </li>
-            <li class="point">
-              <p>— ПОЛУЧИТЬ РЕКОМЕНДАЦИИ ОТ СПЕЦИАЛИСТОВ ПО РАБОТЕ В КАДРЕ</p>
-            </li>
-          </ul>
+          <div class="flexx">
+            <p class="headertestdraiv">
+              ОСТАВЬТЕ ЗАЯВКУ И ПОЛУЧИТЕ БЕСПЛАТНЫЕ 30 МИНУТ, ЗА КОТОРЫЕ ВЫ
+              СМОЖЕТЕ:
+            </p>
+            <ul class="paragraf">
+              <li class="point">
+                <p>— ПОЗНАКОМИТЬСЯ СО ВСЕМИ ОПИЯМИ СТУДИИ</p>
+              </li>
+              <li class="point">
+                <p>— НАУЧИТЬСЯ ПОЛЬЗОВАТЬСЯ ОСНОВНЫМ ОБОРУДОВАНИЕМ</p>
+              </li>
+              <li class="point">
+                <p>— ПОЛУЧИТЬ РЕКОМЕНДАЦИИ ОТ СПЕЦИАЛИСТОВ ПО РАБОТЕ В КАДРЕ</p>
+              </li>
+            </ul>
+          </div>
           <div class="elementsrelativ">
             <a href="" class="gottestdraiv">ПОЛУЧИТЬ ТЕСТ-ДРАЙВ</a>
             <img
@@ -433,19 +437,17 @@
         <div class="body-wrapper">
           <h2 class="whiteheader11">
             <span class="textleft">ВОЗЬМЕМ ВСЮ ОРГАНИЗАЦИЮ</span>
-
-            <span class="text-org"
-              ><span>И ТЕХНИЧЕСКИЕ ЗАБОТЫ </span><span> НА СЕБЯ</span></span
-            >
+            <span class="text-org">И ТЕХНИЧЕСКИЕ ЗАБОТЫ </span
+            ><span class="textleft1"> НА СЕБЯ</span>
           </h2>
           <div class="flex-container">
-            <div>
+            <div class="column-one">
               <p class="paragraf1">
                 В СТОИМОСТЬ ВКЛЮЧЕНА РАБОТА АДМИНИСТРАТОРА, КОТОРЫЙ ПОМОЖЕТ ВСЕ
                 ПОДКЛЮЧИТЬ, ЗАПИСАТЬ ПОДКАСТ ИЛИ ПРОВЕСТИ ОНЛАЙН-ТРАНСЛЯЦИЮ
               </p>
             </div>
-            <div>
+            <div class="column-two">
               <p class="paragraf2">
                 ПОСЛЕ ОКОНЧАНИЯ ПРОЕКТА - ЗАГРУЗИМ ИСХОДНИКИ НА ФАЙЛООБМЕННИК
                 ПРИ НЕОБХОДИМОСТИ
@@ -460,6 +462,7 @@
           <h2 class="headerquastions">ЗАКРОЕМ САМЫЕ ЧАСТЫЕ ВОПРОСЫ</h2>
           <ul class="listquastions">
             <li>
+              <hr class="hr-quastion" />
               <h3 class="headerquastion">КАКИЕ УСЛОВИЯ БРОНИРОВАНИЯ?</h3>
               <p class="quastionfirst">
                 ЗАБРОНИРОВАТЬ СТУДИЮ МОЖНО ПО ПРЕДОПЛАТЕ 50% ОПЛАТА БЕЗНАЛОМ ИЛИ
@@ -468,6 +471,7 @@
               </p>
             </li>
             <li>
+              <hr class="hr-quastion" />
               <h3 class="headerquastion">ЕСТЬ ПАРКОВКА?</h3>
               <p class="quastionsecond">
                 НА ТЕРРИТОРИИ ЕСТЬ 1 БЕСПЛАТНОЕ ПАРКОВОЧНОЕ МЕСТО. В 2-Х МИНУТАХ
@@ -475,39 +479,48 @@
                 ВСЕГДА ЕСТЬ МЕСТА.
               </p>
             </li>
+            <hr class="hr-quastion" />
           </ul>
         </div>
       </section>
       <section class="fonpinchfive">
         <div class="body-wrapper">
-          <h2 class="whiteheader">
-            <span class="textleft"> СВЯЖИТЕСЬ С НАМИ </span
-            ><span class="textright">ПО ЛЮБОМУ ВОПРОСУ</span>
+          <h2 class="whiteheader11">
+            <span class="textleft"> СВЯЖИТЕСЬ С НАМИ </span><br /><span
+              class="text-org1"
+              >ПО ЛЮБОМУ ВОПРОСУ</span
+            >
           </h2>
           <img src="img/map.jpg" alt="Карта местности" class="map" />
+          <hr class="hr-quastion" />
           <ul class="contactsbody">
             <li class="social">
               <img src="img/icon 02.svg" alt="Почта" />
               <a href="" class="contact">HELLO@TOCHKAKONTENTA.RU</a>
             </li>
+            <hr class="hr-quastion" />
             <li class="social">
               <img src="img/icon 01.svg" alt="Телефон" />
               <a href="" class="contact">+7 909 151-08-70</a>
             </li>
+            <hr class="hr-quastion" />
             <li>
               <div class="socialnetwork">
                 <a href=""><img src="img/telegram1.svg" alt="telegram" /></a>
                 <a href=""><img src="img/socials (6).svg" alt="Whatsapp" /></a>
               </div>
             </li>
+            <hr class="hr-quastion" />
             <li class="social">
               <img src="img/icon 03.svg" alt="График" />
               <p class="contact">РАБОТАЕМ С 8:00 ДО 22:00</p>
             </li>
+            <hr class="hr-quastion" />
             <li class="social">
               <img src="img/icon 04.svg" alt="Адрес" />
               <p class="contact">МОСКВА, УЛ. САДОВАЯ-КАРЕТНАЯ УЛИЦА, 20С2</p>
             </li>
+            <hr class="hr-quastion" />
           </ul>
         </div>
       </section>
@@ -520,37 +533,43 @@
               <img src="img/point.svg" alt="dot" />
               <a href="" class="emblema">TOCHKA</a>
             </li>
-            <div class="firststrcontact">
+            <div class="grid-futer1">
               <li><a href="" class="contactfirststr">СТУДИИ </a></li>
               <li><a href="" class="contactfirststr">КЕЙСЫ</a></li>
+              <li><a href="" class="contactsecondstr">ТЕСТ-ДРАЙВ</a></li>
+              <li><a href="" class="contactsecondstr">КОНТАКТЫ</a></li>
+            </div>
+
+            <div class="twos-contact">
+              <li class="twos-contact1">
+                <a href=""><img src="img/socials (2).svg" alt="VK" /></a>
+              </li>
+              <li class="twos-contact2">
+                <a href=""><img src="img/socials (5).svg" alt="Youtube" /></a>
+              </li>
             </div>
           </div>
-          <div class="secondstrcontact">
-            <li><a href="" class="contactsecondstr">ТЕСТ-ДРАЙВ</a></li>
-            <li><a href="" class="contactsecondstr">КОНТАКТЫ</a></li>
-          </div>
           <div class="cohial">
-            <li>
-              <a href=""><img src="img/telegram.svg" alt="telegram" /></a>
-            </li>
-            <li>
-              <a href=""><img src="img/socials.svg" alt="whatsapp" /></a>
-            </li>
-            <li>
-              <a href=""><img src="img/socials (2).svg" alt="VK" /></a>
-            </li>
-            <li>
-              <a href=""><img src="img/socials (5).svg" alt="Youtube" /></a>
-            </li>
+            <div class="ones-contact">
+              <li>
+                <a href=""><img src="img/telegram.svg" alt="telegram" /></a>
+              </li>
+              <li>
+                <a href=""><img src="img/socials.svg" alt="whatsapp" /></a>
+              </li>
+            </div>
+            <div class="company-date">
+              <li>
+                <a href="HELLO@TOCHKAKONTENTA.RU" class="mailp"
+                  >HELLO@TOCHKAKONTENTA.RU</a
+                >
+              </li>
+              <li>
+                <a href="tel:+79091510870" class="phone">+7 909 151-08-70</a>
+              </li>
+            </div>
           </div>
-          <li>
-            <a href="HELLO@TOCHKAKONTENTA.RU" class="mailp"
-              >HELLO@TOCHKAKONTENTA.RU</a
-            >
-          </li>
-          <li>
-            <a href="tel:+79091510870" class="phone">+7 909 151-08-70</a>
-          </li>
+          <hr class="hr-quastion" />
           <li>
             <a href="" class="nameorg">ООО "СТРИМ ПАРК", ОГРН 1187847305931</a>
           </li>
@@ -560,6 +579,7 @@
           <p class="autorparagraf">РАЗРАБОТКА САЙТА -</p>
           <a href="" class="autorname">KATE LAZAREVA</a>
         </div>
+        <a href="/grid.html" class="phone">Grid.html</a>
       </div>
     </footer>
   </body>

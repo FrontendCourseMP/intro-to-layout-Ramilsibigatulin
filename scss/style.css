@@ -47,6 +47,11 @@ body {
   background-color: var(--color-background);
   color: var(--color-backsecond);
   font-size: 1.2rem;
+  height: 100%;
+}
+
+.main {
+  flex: 1 1 auto;
 }
 
 h1 {
@@ -136,6 +141,7 @@ h3 {
   border-radius: 1rem;
   width: 100%;
   height: 100%;
+  padding-top: 3rem;
   padding-bottom: 4rem;
 }
 
@@ -153,14 +159,21 @@ h3 {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 20rem;
+  display: inline-block;
+}
+
+.imgheader22 {
+  display: none;
 }
 
 .img_card {
-  width: inherit;
-  border-radius: 1rem;
-  height: 33.6474rem;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+  border-radius: 1rem;
+  height: 33.6474rem;
 }
 
 .img-button {
@@ -196,12 +209,11 @@ h3 {
 
 .headerhero {
   margin-bottom: 2rem;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
-  align-content: center;
+  text-align: center;
+}
+
+.newline {
+  display: block;
 }
 
 .strimg {
@@ -214,7 +226,8 @@ h3 {
 }
 
 .textrighthero {
-  text-align: right;
+  display: inline-block;
+  padding-left: 2.8rem;
 }
 
 .testdraiv {
@@ -247,6 +260,9 @@ h3 {
 }
 
 .body-wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
   max-width: 85rem;
   margin: 0 auto;
   padding-left: 2rem;
@@ -328,8 +344,8 @@ h3 {
   color: var(--color-textcard);
   border-radius: 1rem;
   margin-top: 3rem;
-  width: 26.1rem;
-  height: 41rem;
+  min-height: 51rem;
+  min-width: 26.1rem;
 }
 
 .zonecard {
@@ -410,7 +426,7 @@ h3 {
   color: var(--color-textcard);
   border-radius: 1rem;
   margin-top: 3rem;
-  height: 41rem;
+  height: 50rem;
 }
 
 .headerform {
@@ -418,12 +434,8 @@ h3 {
 }
 
 .bodyforms {
-  flex-wrap: wrap;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   width: 100%;
-  justify-content: space-between;
-  flex-direction: row;
   height: 100%;
 }
 .bodyforms img {
@@ -450,12 +462,26 @@ h3 {
   margin-bottom: 3rem;
 }
 
-.faieldset {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+.lastfaieldset {
+  display: grid;
+  grid-column: span 2;
+  grid-template-columns: repeat(2, 13rem);
   gap: 2rem;
   border: none;
+  padding: 1.5rem 2rem 2rem 2rem;
+}
+
+.faieldset {
+  display: grid;
+  grid-template-columns: repeat(2, 13rem);
+  gap: 2rem;
+  border: none;
+  padding: 1.5rem 2rem 2rem 2rem;
+}
+
+.hr-forms {
+  width: 280px;
+  border: 0.1rem solid rgba(52, 52, 78, 0.2);
 }
 
 .strlast {
@@ -472,13 +498,23 @@ h3 {
   flex-wrap: wrap;
 }
 
+.body-wrapper-form {
+  max-width: 36rem;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .lastform {
-  display: flex;
-  padding-right: 7.5rem;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: repeat(2, 2.4rem);
 }
 
 .laststrform {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 6.5rem);
+  grid-template-rows: 9rem 1.7rem;
 }
 
 .form {
@@ -486,7 +522,6 @@ h3 {
 }
 
 .bron {
-  position: relative;
   background-color: var(--color-backpinch3);
   font-family: "Inter Medium", sans-serif;
   font-size: 1.2rem;
@@ -499,16 +534,10 @@ h3 {
   margin: 2rem 2rem 2rem 2rem;
 }
 
-.fieldset {
-  margin-bottom: 2rem;
-}
-
 .legend {
   font-family: "Inter Medium", sans-serif;
   font-size: 1.2rem;
-  padding-bottom: 1.5rem;
   padding-top: 1.8rem;
-  padding-left: 2rem;
 }
 
 .textgray {
@@ -552,7 +581,7 @@ h3 {
   font-family: "SteelfishRegular", sans-serif;
   font-size: 3rem;
   padding-bottom: 1.3rem;
-  padding-top: 0.6rem;
+  padding-top: 0.1rem;
 }
 
 .gottestdraiv {
@@ -571,19 +600,35 @@ h3 {
   width: 100%;
 }
 
+.hr-quastion {
+  background: rgba(52, 52, 78, 0.2);
+  width: 100%;
+  height: 0.1rem;
+  margin: 0;
+  border: 0;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
 .head-quastions {
   display: flex;
   flex-wrap: wrap;
 }
 
 .text-org {
-  display: flex;
   margin-left: auto;
-  flex-direction: row;
-  flex-wrap: wrap;
   color: var(--color-textcard);
-  gap: 1rem;
-  row-gap: 0;
+}
+
+.text-org1 {
+  display: block;
+  margin-left: 20%;
+  color: var(--color-textcard);
+}
+
+.whiteheader2 {
+  color: var(--color-backsecond);
+  margin-bottom: 3rem;
 }
 
 .whiteheader {
@@ -613,7 +658,6 @@ h2 {
 
 .buttondevicechoice {
   display: flex;
-  width: 100%;
   justify-content: space-between;
   background-color: var(--color-backwhite2);
   color: var(--color-textcard);
@@ -683,7 +727,12 @@ h2 {
 }
 
 .textleft {
-  margin-right: 10%;
+  color: var(--color-backwhite2);
+}
+
+.textleft1 {
+  color: var(--color-textcard);
+  padding-left: 0.5rem;
 }
 
 .whiteheader11 {
@@ -696,10 +745,19 @@ h2 {
   color: var(--color-textcard);
 }
 
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+}
+
 .paragraf {
   margin-bottom: 1rem;
   list-style-type: none;
   padding: 0;
+}
+
+.choose {
+  padding-right: 1rem;
 }
 
 .point {
@@ -711,6 +769,7 @@ h2 {
 }
 
 .paragraf1 {
+  padding-top: 3rem;
   margin-bottom: 1rem;
   margin-top: 0;
 }
@@ -734,7 +793,7 @@ h2 {
 .quastionfirst {
   padding: 0;
   margin-top: 0;
-  margin-bottom: 3.2rem;
+  margin-bottom: 0.8rem;
 }
 
 .quastionsecond {
@@ -821,8 +880,38 @@ h2 {
 
 .firststrcontact {
   color: var(--color-backsecond);
+  display: grid;
+  grid-template-columns: 8.3rem 23.2rem;
+  -moz-column-gap: 3.8rem;
+       column-gap: 3.8rem;
+  align-items: start;
+}
+
+.ones-contact {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+
+.twos-contact {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+  padding-left: 22rem;
+  position: relative;
+}
+
+.grid-futer1 {
+  display: grid;
+  grid-template-columns: 10.1rem 10.1rem;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  row-gap: 1.5rem;
+  padding-top: 0.4rem;
+  margin-bottom: 1.5rem;
+  width: 20rem;
 }
 
 .secondstrcontact {
@@ -838,8 +927,6 @@ h2 {
 .contactfirststr {
   color: var(--color-backsecond);
   text-decoration: none;
-  margin-left: 3rem;
-  padding-right: 3.4rem;
 }
 
 .contactslist {
@@ -863,7 +950,6 @@ h2 {
 
 .mailp {
   display: block;
-  padding-left: 11.5rem;
   margin-bottom: 1.5rem;
   color: var(--color-backsecond);
   text-decoration: none;
@@ -874,7 +960,6 @@ h2 {
   display: block;
   color: var(--color-backsecond);
   text-decoration: none;
-  padding-left: 11.5rem;
   list-style-type: none;
   padding-bottom: 5.5rem;
 }
@@ -905,8 +990,261 @@ h2 {
 }
 
 .cohial {
-  padding-left: 11.5rem;
   display: flex;
   gap: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 0;
+  flex-direction: column;
+  margin-left: 12rem;
+  position: relative;
+  bottom: 4.3rem;
+}
+
+.grid-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.grid_container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 6rem);
+  grid-template-rows: repeat(11, 3rem);
+  border-radius: 1rem;
+}
+
+.item {
+  border: 0.3rem solid black;
+  background-color: white;
+}
+
+.item1 {
+  grid-column: span 3;
+}
+
+.item2 {
+  grid-column: span 2;
+  background-color: yellow;
+}
+
+.item3 {
+  grid-column: span 3;
+  grid-row: span 8;
+  background-color: red;
+}
+
+.item4 {
+  grid-column: span 2;
+  grid-row: span 4;
+  background-color: yellow;
+}
+
+.item5 {
+  grid-row: span 4;
+  grid-column: 1.3;
+}
+
+.item6 {
+  grid-row: span 4;
+  grid-column: 0.7;
+}
+
+.item7 {
+  grid-row: span 2;
+  background-color: black;
+}
+
+.item8 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 8rem;
+  }
+  body {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 6.3rem;
+  }
+  .newline {
+    display: inline;
+  }
+  .imgheader11 {
+    width: 19.5rem;
+    height: 6.7rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 20rem;
+  }
+  .imgheader22 {
+    width: 10.3rem;
+    height: 6.7rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 20rem;
+    display: inline-block;
+  }
+  .imgheader1 {
+    display: none;
+  }
+  .imgheader2 {
+    display: none;
+  }
+  .card {
+    min-width: 34.4rem;
+    min-height: 65.5rem;
+  }
+  .cardlast {
+    min-width: 34.4rem;
+    min-height: 65.5rem;
+  }
+  h3 {
+    font-size: 4.2rem;
+  }
+  .footer-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .cardlink {
+    padding-left: 2rem;
+    padding-top: 3.2rem;
+  }
+  .cardlink2 {
+    padding-top: 4rem;
+  }
+  .cardlink1 {
+    padding-top: 3.8rem;
+  }
+  .cards1 {
+    gap: 2rem;
+  }
+  .firststr {
+    display: inline-block;
+  }
+  .textrighthero {
+    margin-left: 15%;
+  }
+  .whiteheader {
+    display: inline;
+    text-align: center;
+  }
+  .carddetalis {
+    min-width: 34.8rem;
+    min-height: 47.8rem;
+  }
+  .carddop {
+    min-width: 30.8rem;
+    min-height: 47.8rem;
+  }
+  .blacklink {
+    margin-top: 2.6rem;
+    margin-left: 2rem;
+  }
+  .body-wrapper-form {
+    max-width: 85rem;
+  }
+  .bodyforms {
+    grid-template-columns: 31.4rem 31.4rem;
+  }
+  .net {
+    display: none;
+  }
+  .faieldset {
+    grid-template-rows: repeat(4, 2.4rem);
+    grid-template-columns: 31.4rem;
+    gap: 1rem;
+    border: none;
+    padding: 3rem 3rem 3.5rem 3rem;
+  }
+  .lastfaieldset {
+    grid-template-rows: repeat(4, 2.4rem);
+    grid-template-columns: 31.4rem;
+    gap: 1rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+  }
+  .costform {
+    display: block;
+    position: relative;
+    left: 22rem;
+  }
+  .bron {
+    position: relative;
+    left: 33rem;
+    bottom: 2rem;
+    padding: 1.4rem 3.6rem;
+  }
+  .textgray {
+    width: 40rem;
+  }
+  .whiteheader11 {
+    justify-content: flex-start;
+  }
+  .whiteheader11 .text-org {
+    margin: 0;
+    display: inline;
+    text-align: left;
+  }
+  .whiteheader11 .textleft {
+    margin: 0 auto;
+  }
+  .lefttext {
+    display: inline;
+    text-align: left;
+  }
+  .flexx {
+    display: grid;
+    grid-template-columns: 22.3rem 48rem;
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
+  }
+  .headertestdraiv {
+    padding-top: 2rem;
+  }
+  .flex-container {
+    display: grid;
+    grid-template-rows: 28.3rem 40rem;
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
+  }
+  .flex-container .column-one {
+    padding-top: 2.1rem;
+  }
+  .flex-container .column-two {
+    padding-top: 5.1rem;
+  }
+  .footer-wrapper {
+    max-width: 78rem;
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .twos-contact {
+    left: 14rem;
+    bottom: 6.5rem;
+  }
+  .cohial {
+    left: 38rem;
+    flex-direction: column-reverse;
+    row-gap: 0;
+    width: 22.3rem;
+    top: -10.7rem;
+  }
+  .company-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .phone {
+    padding-bottom: 1.5rem;
+  }
+  .ones-contact {
+    justify-content: flex-end;
+  }
+  .autor {
+    justify-content: flex-end;
+    bottom: 6.6rem;
+  }
 }/*# sourceMappingURL=style.css.map */

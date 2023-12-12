@@ -1,0 +1,193 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 8rem;
+  }
+
+  body {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 6.3rem;
+  }
+  .newline {
+    display: inline;
+  }
+  .imgheader11 {
+    width: 19.5rem;
+    height: 6.7rem;
+    object-fit: cover;
+    border-radius: 20rem;
+    // display: none;
+  }
+  .imgheader22 {
+    width: 10.3rem;
+    height: 6.7rem;
+    object-fit: cover;
+    border-radius: 20rem;
+    display: inline-block;
+  }
+  .imgheader1 {
+    display: none;
+  }
+  .imgheader2 {
+    display: none;
+  }
+  .card {
+    min-width: 34.4rem;
+    min-height: 65.5rem;
+  }
+  .cardlast {
+    min-width: 34.4rem;
+    min-height: 65.5rem;
+  }
+  h3 {
+    font-size: 4.2rem;
+  }
+  .footer-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .cardlink {
+    padding-left: 2rem;
+    padding-top: 3.2rem;
+  }
+  .cardlink2 {
+    padding-top: 4rem;
+  }
+  .cardlink1 {
+    padding-top: 3.8rem;
+  }
+  .cards1 {
+    gap: 2rem;
+  }
+  .firststr {
+    display: inline-block;
+  }
+  .textrighthero {
+    margin-left: 15%;
+  }
+  .whiteheader {
+    display: inline;
+    text-align: center;
+  }
+  .carddetalis {
+    min-width: 34.8rem;
+    min-height: 47.8rem;
+  }
+  .carddop {
+    min-width: 30.8rem;
+    min-height: 47.8rem;
+  }
+  .blacklink {
+    margin-top: 2.6rem;
+    margin-left: 2rem;
+  }
+  .body-wrapper-form {
+    max-width: 85rem;
+  }
+  .bodyforms {
+    grid-template-columns: 31.4rem 31.4rem;
+  }
+  .net {
+    display: none;
+  }
+  .faieldset {
+    grid-template-rows: repeat(4, 2.4rem);
+    grid-template-columns: 31.4rem;
+    gap: 1rem;
+    border: none;
+    padding: 3rem 3rem 3.5rem 3rem;
+  }
+  .lastfaieldset {
+    grid-template-rows: repeat(4, 2.4rem);
+    grid-template-columns: 31.4rem;
+    gap: 1rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+  }
+  .costform {
+    display: block;
+    position: relative;
+    left: 22rem;
+  }
+  .bron {
+    position: relative;
+    left: 33rem;
+    bottom: 2rem;
+    padding: 1.4rem 3.6rem;
+  }
+  .textgray {
+    width: 40rem;
+  }
+  .whiteheader11 {
+    justify-content: flex-start;
+    .text-org {
+      margin: 0;
+      display: inline;
+      text-align: left;
+    }
+    .textleft {
+      margin: 0 auto;
+    }
+  }
+  .lefttext {
+    display: inline;
+    text-align: left;
+  }
+  .flexx {
+    display: grid;
+    grid-template-columns: 22.3rem 48rem;
+    column-gap: 4rem;
+  }
+  .headertestdraiv {
+    padding-top: 2rem;
+  }
+
+  .flex-container {
+    display: grid;
+    grid-template-rows: 28.3rem 40rem;
+    column-gap: 4rem;
+    .column-one {
+      padding-top: 2.1rem;
+    }
+    .column-two {
+      padding-top: 5.1rem;
+    }
+  }
+  .footer-wrapper {
+    max-width: 78rem;
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .twos-contact {
+    left: 14rem;
+    bottom: 6.5rem;
+  }
+  .cohial {
+    left: 38rem;
+    flex-direction: column-reverse;
+    row-gap: 0;
+    width: 22.3rem;
+    top: -10.7rem;
+  }
+  .company-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .phone {
+    padding-bottom: 1.5rem;
+  }
+
+  .ones-contact {
+    justify-content: flex-end;
+  }
+  .autor {
+    justify-content: flex-end;
+    bottom: 6.6rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1920px) {
+}
