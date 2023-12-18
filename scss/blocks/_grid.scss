@@ -2,7 +2,31 @@
   width: 100%;
   height: 100%;
 }
-
+.link {
+  color: var(--color-background);
+  text-decoration: none;
+  font-size: 1.6rem;
+  border: aqua solid 0.3rem;
+  transition: background-color 0.5s ease;
+}
+.link:hover {
+  background-color: aqua;
+}
+.side {
+  padding: 2rem 1rem;
+  margin: 0;
+  list-style-type: none;
+}
+.grid-body {
+  padding: 4rem 2rem;
+  margin: 0 auto;
+  // max-width: 85rem;
+}
+.grid-body1 {
+  padding: 4rem 2rem;
+  margin: 0 auto;
+  max-width: 85rem;
+}
 .grid_container {
   margin: 0 auto;
   display: grid;
@@ -46,4 +70,83 @@
 .item8 {
   grid-column: span 2;
   grid-row: span 2;
+}
+.graphics {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: repeat(3, auto);
+  margin: 0 auto;
+  grid-auto-flow: dense;
+  gap: 1rem;
+  grid-template-areas:
+    "side first first first first first first"
+    "side second second third third four four"
+    "side five five five six six six";
+}
+.itemgraf {
+  background-color: white;
+  height: auto;
+}
+.sigepanel {
+  grid-area: side;
+}
+.graf1 {
+  grid-area: first;
+}
+.graf2 {
+  grid-area: second;
+}
+.graf3 {
+  grid-area: third;
+}
+.graf4 {
+  grid-area: four;
+}
+.graf5 {
+  grid-area: five;
+}
+.graf6 {
+  grid-area: six;
+}
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+.grid-img_item {
+  display: grid;
+}
+.grid-img_item > div {
+  grid-area: 1 / 1;
+}
+.grid-img_item > .itemm1,
+.grid-img_item > .itemm2 {
+  grid-area: 1 / 1;
+}
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  justify-self: center;
+  align-self: center;
+}
+.link_gallery {
+  text-decoration: none;
+  background: rgba(127, 255, 212, 0.5);
+  width: 50%;
+  text-align: center;
+  color: black;
+  padding: 1rem 1rem;
+  justify-self: center;
+  align-self: center;
+
+  transition: color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+
+.link_gallery:hover {
+  color: red;
+  text-decoration: underline;
+  background-color: beige;
 }
