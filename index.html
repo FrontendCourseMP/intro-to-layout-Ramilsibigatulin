@@ -21,11 +21,17 @@
           <img src="/img/icon 04.svg" alt="" />
           <a href="">8 МИНУТ ОТ М. МАЯКОВСКАЯ</a>
         </div>
+        <div class="header-1216">
+          <a href="">СТУДИИ</a>
+          <a href="">ТЕСТ-ДРАЙВ</a>
+          <a href="">КЕЙСЫ</a>
+          <a href="">КОНТАКТЫ</a>
+        </div>
         <div class="header-str">
           <img src="/img/icon 01 (1).svg" alt="phone" />
           <a href="tel:+79091510870"> +7 909 151-08-70</a>
         </div>
-        <button style="background-color: inherit">
+        <button style="background-color: inherit" class="burger">
           <img src="img/burger.svg" alt="menu" />
         </button>
       </div>
@@ -194,7 +200,7 @@
             МЕСТА ВКЛЮЧЕНЫ В СТОИМОСТЬ. СТОИМОСТЬ БЕЗ СОПРОВОЖДЕНИЯ (КОМАНДЫ)
             ОБСУЖДАЕТСЯ ИНДИВИДУАЛЬНО.
           </p>
-          <form class="forma" action="#">
+          <form class="forma" method="post" action="#">
             <img
               src="img/img-for-form.jpg"
               alt="choise-cost"
@@ -204,19 +210,19 @@
               <fieldset class="faieldset">
                 <legend class="legend">ВЫБЕРИТЕ СТУДИЮ</legend>
                 <label>
-                  <input type="radio" checked />
+                  <input type="radio" name="studio" value="КАСТОМ" checked />
                   КАСТОМ
                 </label>
                 <label>
-                  <input type="radio" />
+                  <input type="radio" name="studio" value="ВЕБИНАР" />
                   ВЕБИНАР
                 </label>
                 <label class="strfirst">
-                  <input type="radio" />
+                  <input type="radio" name="studio" value="ПОДКАСТ" />
                   ПОДКАСТ
                 </label>
                 <label>
-                  <input type="radio" />
+                  <input type="radio" name="studio" value="4 СТУДИЯ" />
                   4 СТУДИЯ
                 </label>
               </fieldset>
@@ -224,19 +230,19 @@
               <fieldset class="faieldset">
                 <legend class="legend">ПРОДОЛЖИТЕЛЬНОСТЬ</legend>
                 <label class="strfirst">
-                  <input type="radio" />
+                  <input type="radio" name="duration" value="1-2 ЧАСА" />
                   1-2 ЧАСА
                 </label>
                 <label>
-                  <input type="radio" />
+                  <input type="radio" name="duration" value="3 ЧАСА" />
                   3 ЧАСА
                 </label>
                 <label class="strfirst">
-                  <input type="radio" checked />
+                  <input type="radio" name="duration" value="4 ЧАСА" checked />
                   4 ЧАСА
                 </label>
                 <label>
-                  <input type="radio" />
+                  <input type="radio" name="duration" value="5 И БОЛЕЕ" />
                   5 И БОЛЕЕ
                 </label>
               </fieldset>
@@ -249,19 +255,36 @@
               <fieldset class="faieldset">
                 <legend class="legend">КОЛ-ВО КАМЕР</legend>
                 <label class="strfirst">
-                  <input type="radio" checked />
+                  <input
+                    type="radio"
+                    name="number of cameras"
+                    value="1 КАМЕРА"
+                    checked
+                  />
                   1 КАМЕРА
                 </label>
                 <label>
-                  <input type="radio" />
+                  <input
+                    type="radio"
+                    name="number of cameras"
+                    value="2 КАМЕРЫ"
+                  />
                   2 КАМЕРЫ
                 </label>
                 <label class="strfirst">
-                  <input type="radio" />
+                  <input
+                    type="radio"
+                    name="number of cameras"
+                    value="3 КАМЕРЫ"
+                  />
                   3 КАМЕРЫ
                 </label>
                 <label>
-                  <input type="radio" />
+                  <input
+                    type="radio"
+                    name="number of cameras"
+                    value="4 КАМЕРЫ"
+                  />
                   4 КАМЕРЫ
                 </label>
               </fieldset>
@@ -269,19 +292,36 @@
               <fieldset class="faieldset">
                 <legend class="legend">КОЛ-ВО ГЕРОЕВ В КАДРЕ</legend>
                 <label class="strfirst">
-                  <input type="radio" checked />
+                  <input
+                    type="radio"
+                    name="number of heroes"
+                    value="1 ЧЕЛОВЕК"
+                    checked
+                  />
                   1 ЧЕЛОВЕК
                 </label>
                 <label>
-                  <input type="radio" />
+                  <input
+                    type="radio"
+                    name="number of heroes"
+                    value="2 ЧЕЛОВЕКА"
+                  />
                   2 ЧЕЛОВЕКА
                 </label>
                 <label class="strfirst">
-                  <input type="radio" />
+                  <input
+                    type="radio"
+                    name="number of heroes"
+                    value="3 ЧЕЛОВЕКА"
+                  />
                   3 ЧЕЛОВЕКА
                 </label>
                 <label>
-                  <input type="radio" />
+                  <input
+                    type="radio"
+                    name="number of heroes"
+                    value="4 И БОЛЕЕ"
+                  />
                   4 И БОЛЕЕ
                 </label>
               </fieldset>
@@ -292,11 +332,20 @@
                     <legend class="legend">ТИП УСЛУГИ</legend>
                     <div class="lastform">
                       <label>
-                        <input type="radio" checked />
+                        <input
+                          type="radio"
+                          name="type of service"
+                          value="ЗАПИСЬ"
+                          checked
+                        />
                         ЗАПИСЬ
                       </label>
                       <label>
-                        <input type="radio" />
+                        <input
+                          type="radio"
+                          name="type of service"
+                          value="СТРИМ"
+                        />
                         СТРИМ
                       </label>
                     </div>
@@ -607,7 +656,10 @@
           <p class="autorparagraf">РАЗРАБОТКА САЙТА -</p>
           <a href="" class="autorname">KATE LAZAREVA</a>
         </div>
-        <a href="/grid.html" class="phone">Grid.html</a>
+        <div class="fails">
+          <a href="/grid.html" class="fail">Grid.html</a>
+          <a href="/form.html" class="fail">Форма</a>
+        </div>
       </div>
     </footer>
   </body>

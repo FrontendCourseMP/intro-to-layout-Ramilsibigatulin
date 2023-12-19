@@ -1,0 +1,32 @@
+.forma-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.forma-futer {
+  margin-top: auto;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.sect-form-one {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+.forma-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    margin: 1rem;
+  }
+  .forma-grid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}

@@ -393,6 +393,9 @@ h2 {
   border-radius: 1rem;
   border: 0.3rem solid var(--color-backpinch3);
 }
+.header-1216 {
+  display: none;
+}
 .list_button {
   display: flex;
   flex-direction: column;
@@ -569,10 +572,18 @@ h2 {
   align-items: center;
   margin-bottom: 1.8rem;
 }
-
 .socialnetwork {
   display: flex;
   align-items: center;
   margin-bottom: 1.8rem;
   gap: 1.5rem;
+}
+.fails {
+  display: flex;
+  gap: 3rem;
+}
+.fail {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: var(--color-backwhite2);
 }

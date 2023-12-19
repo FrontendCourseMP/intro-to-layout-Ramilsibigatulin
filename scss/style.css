@@ -713,6 +713,10 @@ h2 {
   border: 0.3rem solid var(--color-backpinch3);
 }
 
+.header-1216 {
+  display: none;
+}
+
 .list_button {
   display: flex;
   flex-direction: column;
@@ -912,6 +916,17 @@ h2 {
   align-items: center;
   margin-bottom: 1.8rem;
   gap: 1.5rem;
+}
+
+.fails {
+  display: flex;
+  gap: 3rem;
+}
+
+.fail {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: var(--color-backwhite2);
 }
 
 .futer {
@@ -1647,6 +1662,18 @@ h2 {
   .buttondevice {
     align-items: center;
   }
+  .header-1216 {
+    display: flex;
+    gap: 2.7rem;
+    align-items: center;
+  }
+  .burger {
+    display: none;
+  }
+  .header-wrapper {
+    max-width: 121.6rem;
+    margin: 0 auto;
+  }
   .gottestdraiv {
     margin-left: 0;
   }
@@ -1780,4 +1807,40 @@ h2 {
     width: 18.6rem;
     height: 10.8rem;
   }
+}
+.forma-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.forma-futer {
+  margin-top: auto;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.sect-form-one {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+
+.forma-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.forma-main h1 {
+  margin: 1rem;
+}
+.forma-main .forma-grid {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
 }/*# sourceMappingURL=style.css.map */
