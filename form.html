@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сибигатулин Рамиль - ФОРМА</title>
+    <link rel="stylesheet" href="/scss/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/scss/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body class="forma-body">
+    <header>
+      <div class="header-wrapper">
+        <div class="header-str">
+          <img src="/img/point.svg" alt="dot" />
+          <a href=""> TOCHKA</a>
+        </div>
+        <div class="headet-str-768">
+          <img src="/img/icon 04.svg" alt="" />
+          <a href="">8 МИНУТ ОТ М. МАЯКОВСКАЯ</a>
+        </div>
+        <div class="header-1216">
+          <a href="">СТУДИИ</a>
+          <a href="">ТЕСТ-ДРАЙВ</a>
+          <a href="">КЕЙСЫ</a>
+          <a href="">КОНТАКТЫ</a>
+        </div>
+        <div class="header-str">
+          <img src="/img/icon 01 (1).svg" alt="phone" />
+          <a href="tel:+79091510870"> +7 909 151-08-70</a>
+        </div>
+        <button style="background-color: inherit" class="burger">
+          <img src="img/burger.svg" alt="menu" />
+        </button>
+      </div>
+    </header>
+    <main class="forma-main">
+      <section class="sect-form-one">
+        <form action="//httpbin.org/post" method="post" class="forms">
+          <h1>Регистрация</h1>
+          <label for="username">Имя:</label>
+          <input type="text" id="username" name="username" placeholder="Иван" />
+          <label for="birthdate">Дата рождения:</label>
+          <input
+            type="date"
+            id="birthdate"
+            name="birthdate"
+            placeholder="гггг-мм-дд"
+          />
+          <fieldset class="">
+            <legend>Пол:</legend>
+            <label>
+              <input type="radio" name="gender" value="Mуж." />
+              Муж. </label
+            ><br /><br />
+            <label>
+              <input type="radio" name="gender" value="Жен." />
+              Жен.
+            </label>
+          </fieldset>
+          <label for="password">Пароль:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="ABCabc123!@#$"
+          />
+          <label for="mail">Электронная почта:</label>
+          <input
+            type="email"
+            id="mail"
+            name="email"
+            placeholder="username@mail.com"
+          />
+          <label for="phone">Телефон</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="+7 (999) 999-99-99"
+          />
+          <fieldset>
+            <legend>Удобное время для связи:</legend>
+            <div class="forma-grid">
+              <label>
+                <input type="radio" name="comfortable-time" value="Утро" />
+                Утро
+              </label>
+              <label>
+                <input type="radio" name="comfortable-time" value="День" />
+                День
+              </label>
+              <label>
+                <input type="radio" name="comfortable-time" value="Вечер" />
+                Вечер
+              </label>
+              <label>
+                <input type="radio" name="comfortable-time" value="Ночь" />
+                Ночь
+              </label>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer class="forma-futer">
+      <div class="footer-wrapper">
+        <ul class="contactslist">
+          <div class="firststrcontact">
+            <li class="stremblema">
+              <img src="img/point.svg" alt="dot" />
+              <a href="" class="emblema">TOCHKA</a>
+            </li>
+            <div class="grid-futer1">
+              <li><a href="" class="contactfirststr">СТУДИИ </a></li>
+              <li><a href="" class="contactfirststr">КЕЙСЫ</a></li>
+              <li><a href="" class="contactsecondstr">ТЕСТ-ДРАЙВ</a></li>
+              <li><a href="" class="contactsecondstr">КОНТАКТЫ</a></li>
+            </div>
+
+            <div class="twos-contact">
+              <li class="twos-contact1">
+                <a href=""><img src="img/socials (2).svg" alt="VK" /></a>
+              </li>
+              <li class="twos-contact2">
+                <a href=""><img src="img/socials (5).svg" alt="Youtube" /></a>
+              </li>
+            </div>
+          </div>
+          <div class="cohial">
+            <div class="ones-contact">
+              <li>
+                <a href=""><img src="img/telegram.svg" alt="telegram" /></a>
+              </li>
+              <li>
+                <a href=""><img src="img/socials.svg" alt="whatsapp" /></a>
+              </li>
+            </div>
+            <div class="company-date">
+              <li>
+                <a href="HELLO@TOCHKAKONTENTA.RU" class="mailp"
+                  >HELLO@TOCHKAKONTENTA.RU</a
+                >
+              </li>
+              <li>
+                <a href="tel:+79091510870" class="phone">+7 909 151-08-70</a>
+              </li>
+            </div>
+          </div>
+          <hr class="hr-quastion" />
+          <li>
+            <a href="" class="nameorg">ООО "СТРИМ ПАРК", ОГРН 1187847305931</a>
+          </li>
+        </ul>
+        <p class="nameorg nameorg1">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</p>
+        <div class="autor">
+          <p class="autorparagraf">РАЗРАБОТКА САЙТА -</p>
+          <a href="" class="autorname">KATE LAZAREVA</a>
+        </div>
+        <div class="fails">
+          <a href="/grid.html" class="fail">Grid.html</a>
+          <a href="/index.html" class="fail">На главную</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
