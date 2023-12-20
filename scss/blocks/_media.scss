@@ -10,6 +10,135 @@
   h2 {
     font-size: 6.3rem;
   }
+  .sectionhero {
+    background-image: url(/img/Vector\ 71.png);
+  }
+  .body-four {
+    background-image: url(/img/Unionc.png);
+  }
+  .body-one {
+    background-image: url(/img/Vector\ 11.png);
+  }
+  .body-three {
+    background-image: url(/img/Vector\ 91.png);
+  }
+  .body-three1 {
+    background-image: url(/img/Vector\ 101.png);
+  }
+  .fonpinch {
+    background-image: url(/img/Vector\ 131.png);
+  }
+  .fonpinchsecond {
+    background-image: url(/img/Vector\ 141.png);
+  }
+  .body-four {
+    background-image: url(/img/Vector\ 211.png);
+  }
+  .fonpinchthird {
+    background-image: url(/img/Vector\ 151.png);
+  }
+  .fonpinchfive {
+    background-image: url(/img/Vector\ 161.png);
+  }
+  .flex {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+  }
+  .whiteheader11 .textleft {
+    margin: 0;
+    padding: 0;
+  }
+  .textleft {
+    padding-left: 0rem;
+  }
+  .flex-container22 {
+    display: grid;
+    grid-template-rows: 20.3rem 40rem;
+    -moz-column-gap: 4rem;
+    column-gap: 4rem;
+  }
+
+  .whiteheader {
+    display: block;
+    text-align: start;
+  }
+  br.brrr {
+    display: none;
+  }
+  .firststr {
+    padding-left: 7rem;
+  }
+  .one-str {
+    padding-left: 0;
+  }
+  .whiteheader3 {
+    display: block;
+    text-align: center;
+    .firststr {
+      padding-left: 0;
+      padding-right: 1rem;
+    }
+  }
+  .footer-wrapper {
+    width: 121.6rem;
+    max-width: 121.6rem;
+    margin: 0 auto;
+  }
+  .firststrcontact {
+    column-gap: 6rem;
+  }
+  .grid-futer1 {
+    column-gap: 4rem;
+  }
+  .cohial {
+    width: 13rem;
+    flex-direction: column-reverse;
+    left: 39rem;
+    bottom: 11rem;
+  }
+  .phone {
+    padding-bottom: 0;
+  }
+  .twos-contact {
+    left: 16rem;
+    bottom: 7rem;
+  }
+  .paragraf1 {
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    position: relative;
+    width: 30rem;
+  }
+  .nameorg1 {
+    position: relative;
+    bottom: 0.3rem;
+    width: 30rem;
+    left: 0;
+  }
+
+  .flex-container {
+    flex-direction: row;
+  }
+  .column-one {
+    width: 49.5rem;
+  }
+  .column-two {
+    width: 33.5rem;
+    padding-top: 3rem;
+    position: relative;
+    left: 5rem;
+    bottom: 0rem;
+  }
+
+  .autor {
+    max-width: 30rem;
+    left: 43rem;
+    bottom: 6.3rem;
+  }
+  .textleft {
+    padding-left: 29rem;
+  }
   .headet-str-768 {
     display: flex;
     align-items: center;
@@ -134,7 +263,8 @@
       display: inline;
       text-align: left;
     }
-    .textleft {
+
+    .textleft11 {
       margin: 0 auto;
     }
   }
@@ -150,402 +280,625 @@
   .headertestdraiv {
     padding-top: 2rem;
   }
-  .flex-container22 {
-    display: grid;
-    grid-template-rows: 28.3rem 40rem;
-    column-gap: 4rem;
+
+  .column-one {
+    padding-top: 2.1rem;
+  }
+  .column-two {
+    padding-top: 5.1rem;
+  }
+  .flex-container {
     .column-one {
       padding-top: 2.1rem;
     }
     .column-two {
       padding-top: 5.1rem;
     }
-    .flex-container {
-      display: grid;
-      grid-template-columns: 28.3rem 40rem;
-      column-gap: 4rem;
-      .column-one {
-        padding-top: 2.1rem;
-      }
-      .column-two {
-        padding-top: 5.1rem;
-      }
-    }
-    .footer-wrapper {
-      max-width: 78rem;
-      width: 100%;
-      padding-left: 3rem;
-      padding-right: 3rem;
-    }
+  }
+  .footer-wrapper {
+    max-width: 78rem;
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 
-    .twos-contact {
-      left: 14rem;
-      bottom: 6.5rem;
-    }
-    .cohial {
-      left: 38rem;
-      flex-direction: column-reverse;
-      row-gap: 0;
-      width: 22.3rem;
-      top: -10.7rem;
-    }
-    .company-date {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-    }
-    .phone {
-      padding-bottom: 1.5rem;
-    }
+  .twos-contact {
+    left: 16rem;
+    bottom: 6.5rem;
+  }
+  .cohial {
+    left: 38rem;
+    flex-direction: column-reverse;
+    row-gap: 0;
+    width: 22.3rem;
+    top: -10.7rem;
+  }
+  .company-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .phone {
+    padding-bottom: 1.5rem;
+  }
 
-    .ones-contact {
-      justify-content: flex-end;
-    }
-    .autor {
-      justify-content: flex-end;
-      bottom: 6.6rem;
-    }
-    .link {
-      margin-left: 3rem;
-      margin-right: 3rem;
-    }
-    .body-card-wrapper {
-      padding-left: 2rem;
-    }
-    .body-wrapper-button {
-      padding-left: 2rem;
-      padding-right: 2rem;
+  .ones-contact {
+    justify-content: flex-end;
+  }
+  .autor {
+    justify-content: flex-end;
+    bottom: 6.6rem;
+  }
+  .link {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .body-card-wrapper {
+    padding-left: 2rem;
+  }
+  .body-wrapper-button {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 6.3rem;
+  }
+  h1 {
+    font-size: 9rem;
+  }
+  h3 {
+    font-size: 4.2rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .sectionhero {
+    background-image: url(/img/Vector\ 711.png);
+  }
+  .body-one {
+    background-image: url(/img/Vector\ 111.png);
+  }
+  .body-one {
+    background-image: url(/img/Union.png);
+  }
+  .body-three {
+    background-image: url(/img/Vector\ 911.png);
+  }
+  .body-three1 {
+    background-image: url(/img/Vector\ 1011.png);
+  }
+  .fonpinch {
+    background-image: url(/img/Vector\ 1311.png);
+  }
+  .fonpinchsecond {
+    background-image: url(/img/Vector\ 1411.png);
+  }
+  .body-four {
+    background-image: url(/img/Vector\ 2111.png);
+  }
+  .fonpinchthird {
+    background-image: url(/img/Vector\ 1511.png);
+  }
+  .fonpinchfive {
+    padding-bottom: 0;
+    background-image: url(/img/Vector\ 1611.png);
+  }
+  .whiteheader3 {
+    text-align: left;
+  }
+  .bron {
+    top: 13rem;
+    left: 67rem;
+  }
+  .brrr {
+    display: none;
+  }
+  .whiteheader11 .textleft11 {
+    color: white;
+    margin-left: 25rem;
+  }
+  .headerquastion {
+    position: relative;
+  }
+  .quastionfirst {
+    position: relative;
+    width: 70rem;
+    left: 48rem;
+    bottom: 5rem;
+  }
+  .hr-top {
+    position: relative;
+    bottom: 5rem;
+  }
+  .headerquastion2 {
+    bottom: 4rem;
+  }
+  .quastionsecond {
+    position: relative;
+    bottom: 9rem;
+    width: 70rem;
+    left: 48rem;
+  }
+  .quastionfirst {
+    width: 55rem;
+    left: 42rem;
+  }
+  .quastionsecond {
+    width: 55rem;
+    left: 42rem;
+  }
+  .text-org1 {
+    margin-left: 30rem;
+  }
+  .map {
+    width: 47.2rem;
+    height: 33.6rem;
+    position: relative;
+    left: 52rem;
+    object-fit: contain;
+    border-radius: 1rem;
+  }
+  .text-org1 {
+    margin-left: 32rem;
+  }
+  .contactsbody {
+    position: relative;
+    bottom: 32rem;
+    .hr-quastion {
+      width: 48rem;
     }
   }
-  @media (min-width: 1024px) {
-    h2 {
-      font-size: 6.3rem;
-    }
-    h1 {
-      font-size: 9rem;
-    }
-    h3 {
-      font-size: 4.2rem;
-    }
-    p {
-      font-size: 1.5rem;
-    }
+  .firststr {
+    display: inline-block;
+    padding-left: 23rem;
+  }
+  .strheroleft {
+    margin-right: 8rem;
+  }
+  .cards1 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    margin: none;
+    max-width: none;
+    align-items: none;
+    justify-content: none;
+  }
+  .card-wrapper {
+    width: 100%;
+  }
+  .body-card-wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: none;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 
-    .strheroleft {
-      margin-right: 8rem;
-    }
-    .cards1 {
-      display: grid;
-      grid-template-columns: repeat(2, auto);
-      grid-template-rows: repeat(2, auto);
-      margin: none;
-      max-width: none;
-      align-items: none;
-      justify-content: none;
-    }
-    .card-wrapper {
-      width: 100%;
-    }
-    .body-card-wrapper {
-      min-height: 100%;
-      display: flex;
-      flex-direction: column;
-      max-width: none;
-      margin: 0 auto;
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
-
-    .body-wrapper-form {
-      max-width: 100%;
-    }
-    .cost {
-      margin: 0 34rem 0 2rem;
-    }
-    .card {
-      width: 100%;
-    }
-    .cardlast {
-      width: 100%;
-      .cardlink {
-        padding-top: 9rem;
-      }
-    }
-
-    .img-for-form {
-      display: none;
-    }
-    .img-for-form-second {
-      display: inline;
-      grid-row: span 3;
-      object-fit: cover;
-      object-position: center;
-      width: 100%;
-      height: 100%;
-      min-height: 28rem;
-      border-radius: 1rem;
-    }
-    .body-wrapper {
-      max-width: 121.6rem;
-    }
-    .textleft {
-      margin: 0;
-      margin-right: 45%;
-    }
-    .body-wrapper-test {
-      max-width: 121.6rem;
-    }
-    .flexx {
-      margin-left: 20vw;
-    }
-    .gottestdraiv {
-      margin-left: 65%;
-    }
-    .costs {
-      font-size: 4.2rem;
-    }
-    .bron {
-      top: 13rem;
-      left: 71rem;
-    }
-    .media {
-      margin: 0 auto;
-      max-width: 102.4rem;
-    }
-    .forma {
-      margin: 0 auto;
-      max-width: 102.4rem;
-    }
-    .textc {
-      width: 60%;
-    }
-    .bodyforms {
-      grid-template-columns: 20rem 30rem 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      img {
-        width: 100%;
-        height: 100%;
-      }
-    }
-    .costform {
-      display: none;
-    }
-    .costform-second {
-      display: block;
-      padding: 0 3rem 3.5rem 3rem;
-    }
-    .firststr_white_head {
-      margin-left: 40rem;
-    }
-    .newstr {
-      display: block;
-    }
-    .laststrform {
-      grid-template-rows: 1rem;
-      grid-template-columns: 1fr 1fr;
-    }
-    .white-header {
-      text-align: left;
-    }
-    .body-three {
-      padding-left: 3rem;
-    }
-    .img-bigcamera {
-      display: none;
-    }
-    .img-bigcamera-second {
-      display: inline;
-      grid-row: span 5;
-      object-fit: cover;
-      width: 100%;
-      height: 100%;
-      border-radius: 1rem;
-    }
-    .flex-container1 {
-      justify-content: space-evenly;
-      margin: 0;
-    }
-    .buttondevicechoice {
-      margin: 0;
-    }
-    .list_button {
-      display: grid;
-      grid-template-columns: 1fr 47.2rem;
-      grid-template-rows: repeat(5, 1fr);
-      column-gap: 1rem;
-      row-gap: 1rem;
-    }
-    .sxema {
-      display: none;
-      width: 100%;
-    }
-
-    .sxema1 {
-      display: inline;
-      width: 100%;
-    }
-    .header-wrapper {
-      max-width: 100%;
-      margin: 0;
-    }
-    .textleft {
-      margin-left: 17vw;
-      margin-right: 0;
-    }
-    .whiteheader11 {
-      .textleft {
-        margin: 0;
-      }
-    }
-    .strheroleft {
-      margin-right: 0;
-    }
-    .buttondevice {
-      align-items: center;
-    }
-    .header-1216 {
-      display: flex;
-      gap: 2.7rem;
-      align-items: center;
-    }
-    .burger {
-      display: none;
-    }
-    .header-wrapper {
-      max-width: 121.6rem;
-      margin: 0 auto;
-    }
-    .gottestdraiv {
-      margin-left: 0;
+  .body-wrapper-form {
+    max-width: 100%;
+  }
+  .cost {
+    margin: 0 34rem 0 2rem;
+  }
+  .card {
+    width: 100%;
+  }
+  .cardlast {
+    width: 100%;
+    .cardlink {
+      padding-top: 9rem;
     }
   }
-  @media (min-width: 1216px) {
-    h1 {
-      font-size: 13rem;
-    }
-    h2 {
-      font-size: 9.2rem;
-    }
-    h3 {
-      font-size: 4.2rem;
-    }
-    p {
-      font-size: 1.5rem;
-    }
-    a {
-      font-size: 1.5rem;
-    }
-    .body-wrapper {
-      max-width: 121.6rem;
-    }
-    .body-wrapper-test {
-      max-width: 121.6rem;
-    }
-    .body-wrapper-button {
-      max-width: 121.6rem;
-      margin: 0 auto;
-    }
-    .body-wrapper-form {
-      max-width: 121.6rem;
-    }
-    .body-card-wrapper {
-      max-width: 121.6rem;
-    }
-    .body-four {
-      height: 100rem;
-    }
-    .header-sxem1 {
-      margin-right: 12vw;
-    }
-    .footer-wrapper {
-      width: 121.6rem;
-      max-width: 121.6rem;
-      margin: 0 auto;
-    }
-    .firststrcontact {
-      column-gap: 19rem;
-    }
-    .grid-futer1 {
-      column-gap: 8rem;
-    }
-    .cohial {
-      width: 10rem;
-      left: 80rem;
-      bottom: 11rem;
-    }
-    .twos-contact {
-      left: 47rem;
-      bottom: 7rem;
-    }
-    .nameorg1 {
-      position: relative;
-      left: 40rem;
-      bottom: 3.3rem;
-      width: 30rem;
-    }
-    .flex-container {
-      flex-direction: row;
-    }
-    .column-one {
-      width: 49.5rem;
-    }
-    .column-two {
-      width: 49.5rem;
-      padding-top: 3rem;
-    }
-    .autor {
-      max-width: 30rem;
-      left: 85rem;
-      bottom: 6.3rem;
-    }
-    .textleft {
-      padding-left: 29rem;
-    }
-    .headerquastion {
-      position: relative;
-    }
-    .quastionfirst {
-      position: relative;
-      width: 70rem;
-      left: 48rem;
-      bottom: 5rem;
-    }
-    .hr-top {
-      position: relative;
-      bottom: 5rem;
-    }
-    .headerquastion2 {
-      bottom: 4rem;
-    }
-    .quastionsecond {
-      position: relative;
-      bottom: 9rem;
-      width: 70rem;
-      left: 48rem;
-    }
-    .map {
-      width: 59.8rem;
-      position: relative;
-      left: 59rem;
-    }
-    .contactsbody {
-      position: relative;
-      bottom: 45rem;
-      .hr-quastion {
-        width: 57rem;
-      }
-    }
 
-    .cost {
-      margin: 0 43.4rem 0 2rem;
+  .img-for-form {
+    display: none;
+  }
+  .img-for-form-second {
+    display: inline;
+    grid-row: span 3;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    min-height: 28rem;
+    border-radius: 1rem;
+  }
+  .body-wrapper {
+    max-width: 121.6rem;
+  }
+  .textleft {
+    margin: 0;
+    margin-right: 45%;
+  }
+  .textleft11 {
+    margin: 0;
+    margin-right: 45%;
+  }
+  .body-wrapper-test {
+    max-width: 121.6rem;
+  }
+  .flexx {
+    margin-left: 20vw;
+  }
+  .gottestdraiv {
+    margin-left: 65%;
+  }
+  .costs {
+    font-size: 4.2rem;
+  }
+  .bron {
+    top: 13rem;
+    left: 71rem;
+  }
+  .media {
+    margin: 0 auto;
+    max-width: 102.4rem;
+  }
+  .forma {
+    margin: 0 auto;
+    max-width: 102.4rem;
+  }
+  .textc {
+    width: 60%;
+  }
+  .bodyforms {
+    grid-template-columns: 20rem 30rem 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    img {
+      width: 100%;
+      height: 100%;
     }
-    .imgheader11 {
-      width: 28.2rem;
-      height: 10.8rem;
+  }
+  .costform {
+    display: none;
+  }
+  .costform-second {
+    display: block;
+    padding: 0 3rem 3.5rem 3rem;
+  }
+  .firststr_white_head {
+    margin-left: 26rem;
+  }
+  .newstr {
+    display: block;
+  }
+  .laststrform {
+    grid-template-rows: 1rem;
+    grid-template-columns: 1fr 1fr;
+  }
+  .white-header {
+    text-align: left;
+  }
+  .body-three {
+    padding-left: 3rem;
+  }
+  .img-bigcamera {
+    display: none;
+  }
+  .img-bigcamera-second {
+    display: inline;
+    grid-row: span 5;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+  }
+  .flex-container1 {
+    justify-content: space-evenly;
+    margin: 0;
+  }
+  .buttondevicechoice {
+    margin: 0;
+  }
+  .list_button {
+    display: grid;
+    grid-template-columns: 1fr 47.2rem;
+    grid-template-rows: repeat(5, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+  .sxema {
+    display: none;
+    width: 100%;
+  }
+  .footer-wrapper {
+    width: 102.4rem;
+    max-width: 121.6rem;
+    margin: 0 auto;
+  }
+  .firststrcontact {
+    column-gap: 19rem;
+  }
+  .grid-futer1 {
+    column-gap: 8rem;
+  }
+  .cohial {
+    width: 14rem;
+    left: 71rem;
+    row-gap: 2rem;
+    bottom: 11rem;
+    flex-direction: column-reverse;
+  }
+  .phone {
+    padding-bottom: 0;
+  }
+  .twos-contact {
+    left: 38rem;
+    bottom: 7rem;
+  }
+  .nameorg1 {
+    position: relative;
+    left: 36rem;
+    bottom: 3.3rem;
+    width: 30rem;
+  }
+  .flex-container {
+    flex-direction: row;
+  }
+  .column-one {
+    width: 49.5rem;
+  }
+  .column-two {
+    width: 49.5rem;
+    padding-top: 3rem;
+  }
+  .whiteheader11 .textleft11 {
+    padding-left: 30rem;
+  }
+  .autor {
+    max-width: 30rem;
+    left: 68rem;
+    bottom: 6.5rem;
+  }
+  .sxema1 {
+    display: inline;
+    width: 100%;
+  }
+  .firststrcontact {
+    column-gap: 15rem;
+  }
+  .header-wrapper {
+    max-width: 100%;
+    margin: 0;
+  }
+  .textleft {
+    margin-left: 17vw;
+    margin-right: 0;
+  }
+  .textleft11 {
+    margin-left: 17vw;
+    margin-right: 0;
+  }
+  .whiteheader11 {
+    .textleft {
+      margin: 0;
     }
-    .imgheader22 {
-      width: 18.6rem;
-      height: 10.8rem;
+    .textleft11 {
+      margin: 0;
     }
+  }
+  .strheroleft {
+    margin-right: 0;
+  }
+  .buttondevice {
+    align-items: center;
+  }
+  .header-1216 {
+    display: flex;
+    gap: 2.7rem;
+    align-items: center;
+  }
+  .burger {
+    display: none;
+  }
+  .header-wrapper {
+    max-width: 121.6rem;
+    margin: 0 auto;
+  }
+  .gottestdraiv {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1216px) {
+  h1 {
+    font-size: 13rem;
+  }
+  h2 {
+    font-size: 9.2rem;
+  }
+  h3 {
+    font-size: 4.2rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  a {
+    font-size: 1.5rem;
+  }
+  .sectionhero {
+    background-image: url(/img/Vector\ 7c.png);
+  }
+  .body-four {
+    background-image: url(/img/Vector\ 2c.png);
+  }
+  .body-one {
+    background-image: url(/img/Vector\ 1c.png);
+  }
+  .body-three {
+    background-image: url(/img/Vector\ 9c.png);
+  }
+  .body-three1 {
+    background-image: url(/img/Vector\ 10c.png);
+  }
+  .fonpinch {
+    background-image: url(/img/Vector\ 13c.png);
+  }
+  .fonpinchsecond {
+    background-image: url(/img/Vector\ 14c.png);
+  }
+  .body-four {
+    background-image: url(/img/Unionc.png);
+  }
+  .fonpinchthird {
+    background-image: url(/img/Vector\ 15c.png);
+  }
+  .fonpinchfive {
+    background-image: url(/img/Vector\ 16c.png);
+  }
+  .body-wrapper {
+    max-width: 121.6rem;
+  }
+  .body-wrapper-test {
+    max-width: 121.6rem;
+  }
+  .body-wrapper-button {
+    max-width: 121.6rem;
+    margin: 0 auto;
+  }
+  .body-wrapper-form {
+    max-width: 121.6rem;
+  }
+  .body-card-wrapper {
+    max-width: 121.6rem;
+  }
+  .body-four {
+    height: 100rem;
+  }
+  .header-sxem1 {
+    margin-right: 12vw;
+  }
+  .footer-wrapper {
+    width: 121.6rem;
+    max-width: 121.6rem;
+    margin: 0 auto;
+  }
+  .firststrcontact {
+    column-gap: 19rem;
+  }
+  .grid-futer1 {
+    column-gap: 8rem;
+  }
+  .cohial {
+    width: 10rem;
+    left: 80rem;
+    bottom: 11rem;
+  }
+  .twos-contact {
+    left: 47rem;
+    bottom: 7rem;
+  }
+  .nameorg1 {
+    position: relative;
+    left: 40rem;
+    bottom: 3.3rem;
+    width: 30rem;
+  }
+  .flex-container {
+    flex-direction: row;
+  }
+  .column-one {
+    width: 49.5rem;
+  }
+  .column-two {
+    width: 49.5rem;
+    padding-top: 3rem;
+  }
+  .autor {
+    max-width: 30rem;
+    left: 85rem;
+    bottom: 6.3rem;
+  }
+  .textleft {
+    padding-left: 29rem;
+  }
+  .textleft11 {
+    padding-left: 29rem;
+  }
+  .headerquastion {
+    position: relative;
+  }
+  .quastionfirst {
+    position: relative;
+    width: 70rem;
+    left: 48rem;
+    bottom: 5rem;
+  }
+  .hr-top {
+    position: relative;
+    bottom: 5rem;
+  }
+  .headerquastion2 {
+    bottom: 4rem;
+  }
+  .quastionsecond {
+    position: relative;
+    bottom: 9rem;
+    width: 70rem;
+    left: 48rem;
+  }
+  .map {
+    width: 59.8rem;
+    position: relative;
+    left: 59rem;
+  }
+  .contactsbody {
+    position: relative;
+    bottom: 45rem;
+    .hr-quastion {
+      width: 57rem;
+    }
+  }
+  .cost {
+    margin: 0 43.4rem 0 2rem;
+  }
+  .imgheader11 {
+    width: 28.2rem;
+    height: 10.8rem;
+  }
+  .forma {
+    margin: 0 auto;
+    max-width: 121.6rem;
+  }
+  .bron {
+    top: 13rem;
+    left: 88rem;
+  }
+  .media {
+    margin: 0 auto;
+    max-width: 121.6rem;
+  }
+  .firststr {
+    padding-left: 29rem;
+  }
+  .whiteheader11 .textleft {
+    margin: 0;
+    padding: 0;
+  }
+  .text-left11 {
+    margin: 0;
+    padding: 0;
+    color: var(--color-backwhite2);
+  }
+
+  .gottestdraiv {
+    margin-left: 0;
+    left: 90rem;
+  }
+  .p1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .brrr {
+    display: none;
+  }
+  .imgheader22 {
+    width: 18.6rem;
+    height: 10.8rem;
   }
 }

@@ -13,8 +13,35 @@
   gap: 1rem;
 }
 .sect-form-one {
-  padding-top: 20rem;
-  padding-bottom: 20rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+input:required {
+  border: 2px solid #f49c89;
+}
+input#username {
+  margin: 1rem;
+}
+input:valid {
+  border: 2px solid green;
+}
+input#birthdate {
+  margin: 1rem;
+}
+input#phone {
+  margin: 1rem;
+}
+fieldset {
+  padding: 2rem 2rem;
+}
+input#mail {
+  margin: 1rem;
+}
+input#password {
+  margin: 1rem;
+}
+input:invalid {
+  border: 2px solid red;
 }
 .forma-main {
   display: flex;
@@ -29,4 +56,30 @@
     flex-direction: column;
     row-gap: 1rem;
   }
+}
+input[type="radio"] {
+  /* Сбрасываем предустановленные параметры */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* Определяем собственные параметры */
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 2.5rem;
+  width: 2.5rem;
+  border: 0.2rem solid #f49c89;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+input[type="radio"]:checked {
+  background-color: #f49c89;
+  background-clip: content-box;
+  padding: 2px;
 }

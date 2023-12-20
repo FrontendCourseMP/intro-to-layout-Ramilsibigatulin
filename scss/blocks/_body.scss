@@ -17,17 +17,28 @@
   align-items: center;
   justify-content: left;
   padding-bottom: 3rem;
-  padding-left: 2rem;
 }
 .body-one {
+  background-image: url(/img/Vector\ 1.png);
   padding-top: 7.25rem;
   padding-bottom: 4.25rem;
+  background-repeat: no-repeat;
+  background-origin: content-box;
 }
 .body-two {
   padding-top: 4.25rem;
   padding-bottom: 4.25rem;
 }
 .body-three {
+  background-image: url(/img/Vector\ 9.png);
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  padding-top: 4.25rem;
+  padding-bottom: 4.25rem;
+}
+.body-three1 {
+  background-image: url(/img/Vector\ 10.png);
+  background-repeat: no-repeat;
   padding-top: 4.25rem;
   padding-bottom: 4.25rem;
 }
@@ -130,23 +141,9 @@
 }
 
 .headercards1 {
-  //   display: inline-block;
-  //   margin-left: 5rem;
-  //   margin-right: 1rem;
   text-align: left;
 }
 
-// .headercards2 {
-//   display: inline-block;
-//   margin-right: 2rem;
-//   text-align: left;
-// }
-// .headercards3 {
-//   display: inline-block;
-//   margin-left: 5rem;
-//   margin-right: 2rem;
-//   text-align: left;
-// }
 .blacklink {
   display: inline-block;
   position: relative;
@@ -171,7 +168,26 @@
   margin-top: 3rem;
   height: 50rem;
 }
-
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 2.5rem;
+  width: 2.5rem;
+  border: 0.2rem solid #f49c89;
+  border-radius: 50%;
+  background-color: transparent;
+}
+label.strfirst {
+  display: flex;
+  column-gap: 0.5rem;
+  align-items: center;
+}
+input[type="radio"]:checked {
+  background-color: #f49c89;
+  background-clip: content-box;
+  padding: 2px;
+}
 .headerform {
   margin-bottom: 3.6rem;
 }
@@ -368,6 +384,16 @@
   color: var(--color-backsecond);
   margin-bottom: 3rem;
 }
+.whiteheader3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-backsecond);
+  margin-bottom: 3rem;
+  .firststr {
+    padding-left: 7rem;
+  }
+}
 h2 {
   margin: 0;
 }
@@ -422,18 +448,27 @@ h2 {
 .whiteheader1 {
   color: var(--color-backsecond);
 }
+.one-str {
+  padding-left: 20%;
+}
 .fonpinch {
+  background-image: url(/img/Vector\ 13.png);
   background-color: var(--color-backpinch3);
   color: var(--color-textcard);
+  background-repeat: no-repeat;
+  background-origin: padding-box;
   margin: 0 auto;
 
   padding-top: 8.5rem;
   padding-bottom: 4.25rem;
 }
 .fonpinchsecond {
+  background-image: url(/img/Vector\ 14.png);
   background-color: var(--color-backpinch3);
   color: var(--color-backsecond);
   margin: 0 auto;
+  background-repeat: no-repeat;
+  background-origin: content-box;
   padding-top: 4.25rem;
   padding-bottom: 4.25rem;
 }
@@ -443,12 +478,15 @@ h2 {
 }
 .body-four {
   margin: 0 auto;
-
+  background-image: url(/img/Vector\ 21.png);
   padding-top: 4.25rem;
   padding-bottom: 9.058rem;
 }
 .fonpinchthird {
+  background-image: url(/img/Vector\ 15.png);
   margin: 0 auto;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
   background-color: var(--color-backpinch3);
   color: var(--color-textcard);
   padding-top: 4.25rem;
@@ -457,14 +495,14 @@ h2 {
 .textleft {
   color: var(--color-backwhite2);
 }
+.textleft11 {
+  color: var(--color-backwhite2);
+}
 .textleft1 {
   color: var(--color-textcard);
   padding-left: 0.5rem;
 }
-// .carddop {
-//   min-width: 30.8rem;
-//   min-height: 47.8rem;
-// }
+
 .whiteheader11 {
   display: flex;
   flex-wrap: wrap;
@@ -482,10 +520,7 @@ h2 {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-// .carddetalis {
-//   min-width: 34.8rem;
-//   min-height: 47.8rem;
-// }
+
 .flex-container1 {
   display: flex;
   flex-direction: column;
@@ -497,8 +532,6 @@ h2 {
 }
 .choose {
   padding-right: 1rem;
-
-  // width: 1rem;
 }
 .point {
   margin-bottom: 1rem;
@@ -543,8 +576,11 @@ h2 {
 }
 
 .fonpinchfive {
+  background-image: url(/img/Vector\ 16.png);
   background-color: var(--color-backpinch3);
   color: var(--color-textcard);
+  background-repeat: no-repeat;
+  background-origin: padding-box;
   padding-top: 5.15rem;
   padding-bottom: 9rem;
   margin: 0 auto;
@@ -577,6 +613,13 @@ h2 {
   align-items: center;
   margin-bottom: 1.8rem;
   gap: 1.5rem;
+}
+.body-card-wrapper {
+  padding-left: 2rem;
+}
+.body-wrapper-button {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .fails {
   display: flex;

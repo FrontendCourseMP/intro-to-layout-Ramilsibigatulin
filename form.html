@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="/scss/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body class="forma-body">
@@ -40,68 +44,96 @@
       <section class="sect-form-one">
         <form action="//httpbin.org/post" method="post" class="forms">
           <h1>Регистрация</h1>
-          <label for="username">Имя:</label>
-          <input type="text" id="username" name="username" placeholder="Иван" />
-          <label for="birthdate">Дата рождения:</label>
-          <input
-            type="date"
-            id="birthdate"
-            name="birthdate"
-            placeholder="гггг-мм-дд"
-          />
-          <fieldset class="">
-            <legend>Пол:</legend>
-            <label>
-              <input type="radio" name="gender" value="Mуж." />
-              Муж. </label
-            ><br /><br />
-            <label>
-              <input type="radio" name="gender" value="Жен." />
-              Жен.
-            </label>
-          </fieldset>
-          <label for="password">Пароль:</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            placeholder="ABCabc123!@#$"
-          />
-          <label for="mail">Электронная почта:</label>
-          <input
-            type="email"
-            id="mail"
-            name="email"
-            placeholder="username@mail.com"
-          />
-          <label for="phone">Телефон</label>
-          <input
-            type="tel"
-            id="phone"
-            name="phone"
-            placeholder="+7 (999) 999-99-99"
-          />
           <fieldset>
-            <legend>Удобное время для связи:</legend>
-            <div class="forma-grid">
-              <label>
-                <input type="radio" name="comfortable-time" value="Утро" />
-                Утро
+            <legend>Личная информация</legend>
+            <label for="username">Имя (Обязательно):</label>
+            <br />
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Иван"
+              required
+            />
+            <br />
+            <label for="birthdate">Дата рождения:</label>
+            <br />
+            <input
+              type="date"
+              id="birthdate"
+              name="birthdate"
+              placeholder="гггг-мм-дд"
+            />
+            <fieldset>
+              <legend>Пол:</legend>
+              <label class="strfirst">
+                <input type="radio" name="gender" value="Mуж." class="floor" />
+                Муж. </label
+              ><br /><br />
+              <label class="strfirst">
+                <input type="radio" name="gender" value="Жен." />
+                Жен.
               </label>
-              <label>
-                <input type="radio" name="comfortable-time" value="День" />
-                День
-              </label>
-              <label>
-                <input type="radio" name="comfortable-time" value="Вечер" />
-                Вечер
-              </label>
-              <label>
-                <input type="radio" name="comfortable-time" value="Ночь" />
-                Ночь
-              </label>
-            </div>
+            </fieldset>
+            <br />
+            <label for="password">Пароль:</label>
+            <br />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="ABCabc123!@#$"
+              required
+            />
           </fieldset>
+          <fieldset>
+            <legend>Контактная информация</legend>
+            <label for="mail">Электронная почта (Обязательно):</label><br />
+            <input
+              type="email"
+              id="mail"
+              name="email"
+              placeholder="username@mail.com"
+              required
+            /><br />
+            <label for="phone">Телефон (Обязательно):</label>
+            <br />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+7 (999) 999-99-99"
+              required
+            />
+            <fieldset>
+              <legend>Удобное время для связи:</legend>
+              <div class="forma-grid">
+                <label class="strfirst">
+                  <input type="radio" name="comfortable-time" value="Утро" />
+                  Утро
+                </label>
+                <label class="strfirst">
+                  <input type="radio" name="comfortable-time" value="День" />
+                  День
+                </label>
+                <label class="strfirst">
+                  <input type="radio" name="comfortable-time" value="Вечер" />
+                  Вечер
+                </label>
+                <label class="strfirst">
+                  <input type="radio" name="comfortable-time" value="Ночь" />
+                  Ночь
+                </label>
+              </div>
+            </fieldset>
+          </fieldset>
+          <button type="submit">
+            <i class="fa fa-paper-plane"></i> Отправить данные
+          </button>
+          <!-- Кнопка для сброса формы с иконкой -->
+          <button type="reset">
+            <i class="fa fa-undo"></i> Очистить введенные данные
+          </button>
         </form>
       </section>
     </main>

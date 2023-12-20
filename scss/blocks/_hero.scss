@@ -1,6 +1,5 @@
 .headerhero {
   margin-bottom: 2rem;
-  text-align: center;
 }
 .newline {
   display: inline-block;
@@ -9,8 +8,11 @@
   float: left;
 }
 .sectionhero {
+  background-image: url(/img/Vector\ 7.png);
   padding-top: 4.9rem;
   padding-bottom: 7.25rem;
+  background-repeat: no-repeat;
+  background-origin: border-box;
 }
 .textrighthero {
   display: inline-block;
