@@ -9,6 +9,7 @@
   font-size: 62.5%;
   box-sizing: border-box;
 }
+
 *,
 *:after,
 *::before {
@@ -36,4 +37,81 @@ h3 {
   font-family: "SteelfishRegular", sans-serif;
   font-size: 3rem;
   font-weight: 400;
+}
+::selection {
+  background-color: var(--color-backthird);
+}
+a:hover {
+  color: #08bb20;
+  border-radius: 10rem;
+}
+
+a:active {
+  color: #27ffff;
+}
+button {
+  transition: all 0.5s;
+}
+a:focus {
+  outline: 2px solid rgb(240, 176, 0);
+}
+button:hover {
+  background-color: #4caf50; /* Зеленый */
+}
+
+button:active {
+  background-color: #f44336; /* Красный */
+}
+
+button:focus {
+  outline: 2px solid #f00;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Псевдоклассы для полей формы */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border: 2px solid #555;
+}
+
+/* Псевдоэлементы для полей формы */
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+  color: #0051ff;
+  font-size: 14px;
+}
+
+/* Стили для кнопки отправки формы */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+button:hover {
+  background-color: #4caf50; /* Зеленый */
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19); /* Добавление тени */
+  transform: scale(1.1) rotate(20deg); /* Масштабирование и поворот */
 }

@@ -54,10 +54,9 @@
   .flex-container22 {
     display: grid;
     grid-template-rows: 20.3rem 40rem;
-    -moz-column-gap: 4rem;
     column-gap: 4rem;
+    row-gap: 9rem;
   }
-
   .whiteheader {
     display: block;
     text-align: start;
@@ -785,12 +784,12 @@
     column-gap: 8rem;
   }
   .cohial {
-    width: 10rem;
-    left: 80rem;
+    width: 14rem;
+    left: 88rem;
     bottom: 11rem;
   }
   .twos-contact {
-    left: 47rem;
+    left: 43rem;
     bottom: 7rem;
   }
   .nameorg1 {
@@ -849,7 +848,7 @@
   }
   .contactsbody {
     position: relative;
-    bottom: 45rem;
+    bottom: 33rem;
     .hr-quastion {
       width: 57rem;
     }
@@ -900,5 +899,12 @@
   .imgheader22 {
     width: 18.6rem;
     height: 10.8rem;
+  }
+  .paragraf1 {
+    width: 49.5rem;
+  }
+  .gottestdraiv {
+    margin-left: 0;
+    left: 0;
   }
 }

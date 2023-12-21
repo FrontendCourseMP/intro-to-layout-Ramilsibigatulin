@@ -58,12 +58,7 @@
             <br />
             <label for="birthdate">Дата рождения:</label>
             <br />
-            <input
-              type="date"
-              id="birthdate"
-              name="birthdate"
-              placeholder="гггг-мм-дд"
-            />
+            <input type="date" id="birthdate" name="birthdate" />
             <fieldset>
               <legend>Пол:</legend>
               <label class="strfirst">
@@ -127,13 +122,46 @@
               </div>
             </fieldset>
           </fieldset>
-          <button type="submit">
+          <button type="submit" class="submit">
             <i class="fa fa-paper-plane"></i> Отправить данные
           </button>
-          <!-- Кнопка для сброса формы с иконкой -->
-          <button type="reset">
+          <button type="reset" class="reset">
             <i class="fa fa-undo"></i> Очистить введенные данные
           </button>
+        </form>
+        <form>
+          <dl>
+            <dt>Псевдоэлемент</dt>
+            <dd>
+              Псевдоэлементы в CSS позволяют стилизовать определенные части
+              документа.
+            </dd>
+            <dt>Псевдокласс</dt>
+            <dd>
+              Псевдоклассы в CSS используются для определения специального
+              состояния элемента.
+            </dd>
+          </dl>
+          <ul>
+            <li>
+              <input type="checkbox" id="pseudo1" checked />
+              <label for="pseudo1">Псевдоэлемент 1</label>
+            </li>
+            <li>
+              <input type="checkbox" id="pseudo2" />
+              <label for="pseudo2">Псевдоэлемент 2</label>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <input type="checkbox" id="pseudo3" checked />
+              <label for="pseudo3">Псевдокласс 1</label>
+            </li>
+            <li>
+              <input type="checkbox" id="pseudo4" />
+              <label for="pseudo4">Псевдокласс 2</label>
+            </li>
+          </ul>
         </form>
       </section>
     </main>
@@ -141,7 +169,7 @@
       <div class="footer-wrapper">
         <ul class="contactslist">
           <div class="firststrcontact">
-            <li class="stremblema">
+            <li class="stremblema logo">
               <img src="img/point.svg" alt="dot" />
               <a href="" class="emblema">TOCHKA</a>
             </li>
@@ -194,6 +222,7 @@
         <div class="fails">
           <a href="/grid.html" class="fail">Grid.html</a>
           <a href="/index.html" class="fail">На главную</a>
+          <a href="/demo.html" class="fail">Demo</a>
         </div>
       </div>
     </footer>

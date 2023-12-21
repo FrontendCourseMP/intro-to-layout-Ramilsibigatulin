@@ -83,3 +83,44 @@ input[type="radio"]:checked {
   background-clip: content-box;
   padding: 2px;
 }
+.submit {
+  height: 5rem;
+  width: 23rem;
+  margin: 0 auto;
+}
+.reset {
+  width: 26rem;
+  height: 5rem;
+  margin: 0 auto;
+}
+.logo {
+  /* Поворот на 30 градусов */
+  transform: rotate(10deg);
+
+  /* Увеличение элемента в 1.5 раза */
+  transform: scale(1.5);
+
+  /* Добавление перекоса элемента по горизонтали и вертикали */
+  transform: skewX(-20deg) skewY(-20deg);
+}
+label:focus-within {
+  /* Ваши стили здесь, например: */
+  background-color: cadetblue;
+  border-radius: 1rem;
+}
+dt::first-letter {
+  font-size: 200%;
+  color: red;
+}
+dd::before {
+  content: "\1F6C8";
+}
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+// ul:nth-child(odd) {
+//   background-color: lightgray;
+// }
+ul:nth-child(even) {
+  background-color: lightblue;
+}
