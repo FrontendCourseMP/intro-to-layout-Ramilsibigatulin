@@ -2478,10 +2478,6 @@ input[type=checkbox]:checked + label {
   text-decoration: line-through;
 }
 
-ul:nth-child(even) {
-  background-color: lightblue;
-}
-
 .flip-card {
   background-color: transparent;
   width: 300px;
