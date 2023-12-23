@@ -5,7 +5,10 @@
   font-family: "Inter Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/inter-v13-cyrillic_cyrillic-ext_latin_latin-ext-regular.woff2") format("woff2"), url("../fonts/inter-v13-cyrillic_cyrillic-ext_latin_latin-ext-regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  src: url("../fonts/inter-v13-cyrillic_cyrillic-ext_latin_latin-ext-regular.woff2")
+      format("woff2"),
+    url("../fonts/inter-v13-cyrillic_cyrillic-ext_latin_latin-ext-regular.ttf")
+      format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 @font-face {
   font-family: "Inter Medium";
@@ -79,11 +82,16 @@ h3 {
   background-color: var(--color-backthird);
 }
 
-a:hover {
-  color: #08bb20;
-  border-radius: 10rem;
+a {
+  background-color: transparent; /* Исходный цвет фона */
+  color: black; /* Исходный цвет текста */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Плавный переход */
 }
 
+a:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* Темный, немного прозрачный фон */
+  color: green; /* Зеленый текст */
+}
 a:active {
   color: #27ffff;
 }
@@ -108,8 +116,8 @@ button:focus {
   outline: 2px solid #f00;
 }
 
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   width: 100%;
   padding: 12px 20px;
@@ -121,26 +129,28 @@ textarea {
 }
 
 /* Псевдоклассы для полей формы */
-input[type=text]:focus,
-input[type=email]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
 textarea:focus {
   border: 2px solid #555;
 }
 
 /* Псевдоэлементы для полей формы */
-input[type=text]::-moz-placeholder, input[type=email]::-moz-placeholder, textarea::-moz-placeholder {
+input[type="text"]::-moz-placeholder,
+input[type="email"]::-moz-placeholder,
+textarea::-moz-placeholder {
   color: #0051ff;
   font-size: 14px;
 }
-input[type=text]::placeholder,
-input[type=email]::placeholder,
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
 textarea::placeholder {
   color: #0051ff;
   font-size: 14px;
 }
 
 /* Стили для кнопки отправки формы */
-input[type=submit] {
+input[type="submit"] {
   background-color: #4caf50;
   color: white;
   padding: 14px 20px;
@@ -151,14 +161,15 @@ input[type=submit] {
   font-size: 16px;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #45a049;
 }
 
 button:hover {
   background-color: #4caf50; /* Зеленый */
   color: black;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); /* Добавление тени */
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19); /* Добавление тени */
   transform: scale(1.1) rotate(20deg); /* Масштабирование и поворот */
 }
 
@@ -171,7 +182,7 @@ button:hover {
   padding: 0;
   white-space: nowrap;
   -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -220,16 +231,16 @@ button:hover {
   width: 100%;
   height: inherit;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
 }
 
 .imagunder {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   width: 100%;
   min-height: 38.8rem;
   position: relative;
@@ -240,9 +251,9 @@ button:hover {
 
 .map {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   border-radius: 1rem;
   width: 100%;
   height: 100%;
@@ -254,7 +265,7 @@ button:hover {
   width: 8.5rem;
   height: 4.1rem;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 20rem;
 }
 
@@ -262,7 +273,7 @@ button:hover {
   width: 6.2rem;
   height: 4.1rem;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 20rem;
   display: inline-block;
 }
@@ -277,9 +288,9 @@ button:hover {
 
 .img_card {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   width: 100%;
   border-radius: 1rem;
   height: 33.6474rem;
@@ -287,7 +298,7 @@ button:hover {
 
 .img-button {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 6rem;
   height: 5rem;
   border-radius: 1rem;
@@ -305,9 +316,9 @@ button:hover {
 
 .img-for-form {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   width: 100%;
   height: 100%;
   min-height: 28rem;
@@ -316,7 +327,7 @@ button:hover {
 
 .img-bigcamera {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   height: 100%;
   border-radius: 1rem;
@@ -387,10 +398,21 @@ button:hover {
   padding-right: 2rem;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .card-header {
   display: flex;
   -moz-column-gap: 0.7rem;
-       column-gap: 0.7rem;
+  column-gap: 0.7rem;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: flex-end;
@@ -566,7 +588,7 @@ button:hover {
   height: 50rem;
 }
 
-input[type=radio] {
+input[type="radio"] {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -580,11 +602,12 @@ input[type=radio] {
 label.strfirst {
   display: flex;
   -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
+  column-gap: 0.5rem;
   align-items: center;
+  width: 15rem;
 }
 
-input[type=radio]:checked {
+input[type="radio"]:checked {
   background-color: #f49c89;
   background-clip: content-box;
   padding: 2px;
@@ -606,7 +629,7 @@ input[type=radio]:checked {
 .bodyforms img {
   flex-grow: 1;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 50%;
   height: 50%;
 }
@@ -1132,7 +1155,7 @@ h2 {
   display: grid;
   grid-template-columns: 8.3rem 23.2rem;
   -moz-column-gap: 3.8rem;
-       column-gap: 3.8rem;
+  column-gap: 3.8rem;
   align-items: start;
 }
 
@@ -1140,14 +1163,14 @@ h2 {
   display: flex;
   flex-direction: row;
   -moz-column-gap: 1.5rem;
-       column-gap: 1.5rem;
+  column-gap: 1.5rem;
 }
 
 .twos-contact {
   display: flex;
   flex-direction: row;
   -moz-column-gap: 1.5rem;
-       column-gap: 1.5rem;
+  column-gap: 1.5rem;
   padding-left: 22rem;
   position: relative;
 }
@@ -1156,7 +1179,7 @@ h2 {
   display: grid;
   grid-template-columns: 10.1rem 10.1rem;
   -moz-column-gap: 2rem;
-       column-gap: 2rem;
+  column-gap: 2rem;
   row-gap: 1.5rem;
   padding-top: 0.4rem;
   margin-bottom: 1.5rem;
@@ -1402,9 +1425,9 @@ h2 {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   justify-self: center;
   align-self: center;
 }
@@ -1431,6 +1454,9 @@ h2 {
 @media (min-width: 768px) {
   h1 {
     font-size: 8rem;
+  }
+  .logo {
+    transform: rotate(10deg) scale(1.4) skewX(-20deg) skewY(-20deg);
   }
   body {
     font-size: 1.5rem;
@@ -1483,7 +1509,7 @@ h2 {
     display: grid;
     grid-template-rows: 20.3rem 40rem;
     -moz-column-gap: 4rem;
-         column-gap: 4rem;
+    column-gap: 4rem;
     row-gap: 9rem;
   }
   .whiteheader {
@@ -1514,11 +1540,11 @@ h2 {
   }
   .firststrcontact {
     -moz-column-gap: 6rem;
-         column-gap: 6rem;
+    column-gap: 6rem;
   }
   .grid-futer1 {
     -moz-column-gap: 4rem;
-         column-gap: 4rem;
+    column-gap: 4rem;
   }
   .cohial {
     width: 13rem;
@@ -1580,7 +1606,7 @@ h2 {
     width: 19.5rem;
     height: 6.7rem;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-radius: 20rem;
     display: inline-block;
   }
@@ -1588,7 +1614,7 @@ h2 {
     width: 10.3rem;
     height: 6.7rem;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-radius: 20rem;
     display: inline-block;
   }
@@ -1705,7 +1731,7 @@ h2 {
     display: grid;
     grid-template-columns: 22.3rem 48rem;
     -moz-column-gap: 4rem;
-         column-gap: 4rem;
+    column-gap: 4rem;
   }
   .headertestdraiv {
     padding-top: 2rem;
@@ -1813,6 +1839,10 @@ h2 {
   .whiteheader3 {
     text-align: left;
   }
+  .logo {
+    transform: rotate(10deg) scale(1.5) skewX(-20deg) skewY(-20deg);
+    padding-left: 3rem;
+  }
   .bron {
     top: 13rem;
     left: 67rem;
@@ -1863,7 +1893,7 @@ h2 {
     position: relative;
     left: 52rem;
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     border-radius: 1rem;
   }
   .text-org1 {
@@ -1926,9 +1956,9 @@ h2 {
     display: inline;
     grid-row: span 3;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     -o-object-position: center;
-       object-position: center;
+    object-position: center;
     width: 100%;
     height: 100%;
     min-height: 28rem;
@@ -2010,7 +2040,7 @@ h2 {
     display: inline;
     grid-row: span 5;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     width: 100%;
     height: 100%;
     border-radius: 1rem;
@@ -2027,7 +2057,7 @@ h2 {
     grid-template-columns: 1fr 47.2rem;
     grid-template-rows: repeat(5, 1fr);
     -moz-column-gap: 1rem;
-         column-gap: 1rem;
+    column-gap: 1rem;
     row-gap: 1rem;
   }
   .sxema {
@@ -2041,11 +2071,11 @@ h2 {
   }
   .firststrcontact {
     -moz-column-gap: 19rem;
-         column-gap: 19rem;
+    column-gap: 19rem;
   }
   .grid-futer1 {
     -moz-column-gap: 8rem;
-         column-gap: 8rem;
+    column-gap: 8rem;
   }
   .cohial {
     width: 14rem;
@@ -2091,7 +2121,7 @@ h2 {
   }
   .firststrcontact {
     -moz-column-gap: 15rem;
-         column-gap: 15rem;
+    column-gap: 15rem;
   }
   .header-wrapper {
     max-width: 100%;
@@ -2198,6 +2228,11 @@ h2 {
   .body-four {
     height: 100rem;
   }
+  .logo {
+    transform: rotate(10deg) scale(1.5) skewX(-20deg) skewY(-20deg);
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
   .header-sxem1 {
     margin-right: 12vw;
   }
@@ -2208,11 +2243,11 @@ h2 {
   }
   .firststrcontact {
     -moz-column-gap: 19rem;
-         column-gap: 19rem;
+    column-gap: 19rem;
   }
   .grid-futer1 {
     -moz-column-gap: 8rem;
-         column-gap: 8rem;
+    column-gap: 8rem;
   }
   .cohial {
     width: 14rem;
@@ -2411,17 +2446,15 @@ input:invalid {
   row-gap: 1rem;
 }
 
-input[type=radio] {
-  /* Сбрасываем предустановленные параметры */
+input[type="radio"] {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  /* Определяем собственные параметры */
   height: 2.5rem;
   width: 2.5rem;
 }
 
-input[type=radio] {
+input[type="radio"] {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -2432,7 +2465,32 @@ input[type=radio] {
   background-color: transparent;
 }
 
-input[type=radio]:checked {
+input[type="radio"]:checked {
+  background-color: #f49c89;
+  background-clip: content-box;
+  padding: 2px;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 2.5rem;
+  width: 2.5rem;
+  border: 0.2rem solid #f49c89;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+input[type="checkbox"]:checked {
   background-color: #f49c89;
   background-clip: content-box;
   padding: 2px;
@@ -2451,16 +2509,12 @@ input[type=radio]:checked {
 }
 
 .logo {
-  /* Поворот на 30 градусов */
-  transform: rotate(10deg);
-  /* Увеличение элемента в 1.5 раза */
-  transform: scale(1.5);
-  /* Добавление перекоса элемента по горизонтали и вертикали */
-  transform: skewX(-20deg) skewY(-20deg);
+  transform: rotate(10deg) scale(1) skewX(-20deg) skewY(-20deg);
+  padding-left: 2rem;
+  padding-top: 1rem;
 }
 
 label:focus-within {
-  /* Ваши стили здесь, например: */
   background-color: cadetblue;
   border-radius: 1rem;
 }
@@ -2474,8 +2528,36 @@ dd::before {
   content: "🛈";
 }
 
-input[type=checkbox]:checked + label {
+input[type="checkbox"]:checked + label {
   text-decoration: line-through;
+}
+
+.psevdo ul:nth-child(odd) {
+  background-color: rgba(32, 173, 255, 0.151);
+  border-radius: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  list-style-type: none;
+}
+
+.list_psevdo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.list_psevdo li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.psevdo ul:nth-child(even) {
+  background-color: rgba(32, 173, 255, 0.151);
+  border-radius: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  list-style-type: none;
 }
 
 .flip-card {
@@ -2484,6 +2566,8 @@ input[type=checkbox]:checked + label {
   height: 200px;
   perspective: 1000px;
   padding-top: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .flip-card-inner {
@@ -2524,21 +2608,70 @@ input[type=checkbox]:checked + label {
   position: relative;
 }
 
-.marquee img {
+.run-img {
   width: 20rem;
   height: 20rem;
   position: absolute;
-  left: 0;
+  left: 15rem;
   top: 0;
   transform: translateX(100%);
   animation: scroll-left 5s linear infinite;
 }
 
+.run-img2 {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  left: 22rem;
+  top: 0;
+  transform: translateX(100%);
+  animation: scroll-left 5s linear infinite;
+  animation-delay: 2.5s;
+}
+
+.run-img3 {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  left: 45rem;
+  top: 0;
+  transform: translateX(100%);
+  animation: scroll-left 5s linear infinite;
+  animation-delay: 2.5s;
+}
+
+.run-img4 {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  left: 91rem;
+  top: 0;
+  transform: translateX(100%);
+  animation: scroll-left 5s linear infinite;
+  animation-delay: 2.5s;
+}
+
+.run-img5 {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  left: 68rem;
+  top: 0;
+  transform: translateX(100%);
+  animation: scroll-left 5s linear infinite;
+  animation-delay: 2.5s;
+}
+
+.psevdo {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+
 @keyframes scroll-left {
   0% {
-    transform: translateX(100%);
+    transform: translateX(500%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-500%);
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

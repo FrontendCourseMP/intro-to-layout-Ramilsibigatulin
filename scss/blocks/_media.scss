@@ -2,7 +2,9 @@
   h1 {
     font-size: 8rem;
   }
-
+  .logo {
+    transform: rotate(10deg) scale(1.4) skewX(-20deg) skewY(-20deg);
+  }
   body {
     font-size: 1.5rem;
   }
@@ -388,6 +390,10 @@
   .whiteheader3 {
     text-align: left;
   }
+  .logo {
+    transform: rotate(10deg) scale(1.5) skewX(-20deg) skewY(-20deg);
+    padding-left: 3rem;
+  }
   .bron {
     top: 13rem;
     left: 67rem;
@@ -768,6 +774,11 @@
   }
   .body-four {
     height: 100rem;
+  }
+  .logo {
+    transform: rotate(10deg) scale(1.5) skewX(-20deg) skewY(-20deg);
+    padding-left: 2rem;
+    padding-top: 1rem;
   }
   .header-sxem1 {
     margin-right: 12vw;
