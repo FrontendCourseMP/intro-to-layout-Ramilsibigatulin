@@ -46,36 +46,39 @@
           <h1>Регистрация</h1>
           <fieldset>
             <legend>Личная информация</legend>
-            <label for="username">Имя (Обязательно):</label>
-            <br />
-            <input
-              type="text"
-              id="username"
-              name="username"
-              placeholder="Иван"
-              required
-            />
-            <br />
-            <label for="birthdate">Дата рождения:</label>
-            <br />
-            <input type="date" id="birthdate" name="birthdate" />
+            <label
+              >Имя (Обязательно):
+              <br />
+              <input type="text" name="username" placeholder="Иван" required />
+              <br
+            /></label>
+            <label
+              >Дата рождения:
+              <br />
+              <input type="date" name="birthdate" required
+            /></label>
             <fieldset>
               <legend>Пол:</legend>
               <label class="strfirst">
-                <input type="radio" name="gender" value="Mуж." class="floor" />
+                <input
+                  type="radio"
+                  name="gender"
+                  value="Mуж."
+                  class="floor"
+                  required
+                />
                 Муж. </label
               ><br /><br />
               <label class="strfirst">
-                <input type="radio" name="gender" value="Жен." />
+                <input type="radio" name="gender" value="Жен." required />
                 Жен.
               </label>
             </fieldset>
             <br />
-            <label for="password">Пароль:</label>
+            <label>Пароль:</label>
             <br />
             <input
               type="password"
-              id="password"
               name="password"
               placeholder="ABCabc123!@#$"
               required
@@ -83,40 +86,60 @@
           </fieldset>
           <fieldset>
             <legend>Контактная информация</legend>
-            <label for="mail">Электронная почта (Обязательно):</label><br />
-            <input
-              type="email"
-              id="mail"
-              name="email"
-              placeholder="username@mail.com"
-              required
-            /><br />
-            <label for="phone">Телефон (Обязательно):</label>
-            <br />
-            <input
-              type="tel"
-              id="phone"
-              name="phone"
-              placeholder="+7 (999) 999-99-99"
-              required
-            />
+            <label
+              >Электронная почта (Обязательно):<br />
+              <input
+                type="email"
+                name="email"
+                placeholder="username@mail.com"
+                required /></label
+            ><br />
+            <label
+              >Телефон (Обязательно):
+              <br />
+              <input
+                type="tel"
+                name="phone"
+                placeholder="+7 (999) 999-99-99"
+                required
+            /></label>
             <fieldset>
               <legend>Удобное время для связи:</legend>
               <div class="forma-grid">
                 <label class="strfirst">
-                  <input type="radio" name="comfortable-time" value="Утро" />
+                  <input
+                    type="radio"
+                    name="comfortable-time"
+                    value="Утро"
+                    required
+                  />
                   Утро
                 </label>
                 <label class="strfirst">
-                  <input type="radio" name="comfortable-time" value="День" />
+                  <input
+                    type="radio"
+                    name="comfortable-time"
+                    value="День"
+                    required
+                  />
                   День
                 </label>
                 <label class="strfirst">
-                  <input type="radio" name="comfortable-time" value="Вечер" />
+                  <input
+                    type="radio"
+                    name="comfortable-time"
+                    value="Вечер"
+                    required
+                  />
                   Вечер
                 </label>
                 <label class="strfirst">
-                  <input type="radio" name="comfortable-time" value="Ночь" />
+                  <input
+                    type="radio"
+                    name="comfortable-time"
+                    value="Ночь"
+                    required
+                  />
                   Ночь
                 </label>
               </div>

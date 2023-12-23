@@ -130,6 +130,9 @@ dt::first-letter {
   font-size: 200%;
   color: red;
 }
+legend {
+  padding-top: 2rem;
+}
 dd::before {
   content: "\1F6C8";
 }
