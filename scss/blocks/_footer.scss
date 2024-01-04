@@ -27,9 +27,11 @@
   grid-template-columns: 8.3rem 23.2rem;
   column-gap: 3.8rem;
   align-items: start;
+  list-style-type: none;
 }
 .ones-contact {
   display: flex;
+  list-style-type: none;
   flex-direction: row;
   column-gap: 1.5rem;
 }
@@ -39,6 +41,7 @@
   column-gap: 1.5rem;
   padding-left: 22rem;
   position: relative;
+  list-style-type: none;
 }
 .grid-futer1 {
   display: grid;
@@ -48,6 +51,7 @@
   padding-top: 0.4rem;
   margin-bottom: 1.5rem;
   width: 20rem;
+  list-style-type: none;
 }
 .secondstrcontact {
   color: var(--color-backsecond);
@@ -58,7 +62,7 @@
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
-.contactfirststr {
+.grid-futer1 .contactfirststr {
   color: var(--color-backsecond);
   text-decoration: none;
 }
@@ -121,6 +125,7 @@
 .cohial {
   display: flex;
   gap: 1.5rem;
+  padding-left: 0;
   padding-bottom: 0;
   flex-direction: column;
   margin-left: 12rem;

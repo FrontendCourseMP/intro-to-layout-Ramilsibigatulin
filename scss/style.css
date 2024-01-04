@@ -1184,10 +1184,12 @@ h2 {
   -moz-column-gap: 3.8rem;
        column-gap: 3.8rem;
   align-items: start;
+  list-style-type: none;
 }
 
 .ones-contact {
   display: flex;
+  list-style-type: none;
   flex-direction: row;
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
@@ -1200,6 +1202,7 @@ h2 {
        column-gap: 1.5rem;
   padding-left: 22rem;
   position: relative;
+  list-style-type: none;
 }
 
 .grid-futer1 {
@@ -1211,6 +1214,7 @@ h2 {
   padding-top: 0.4rem;
   margin-bottom: 1.5rem;
   width: 20rem;
+  list-style-type: none;
 }
 
 .secondstrcontact {
@@ -1223,7 +1227,7 @@ h2 {
   padding-bottom: 1.5rem;
 }
 
-.contactfirststr {
+.grid-futer1 .contactfirststr {
   color: var(--color-backsecond);
   text-decoration: none;
 }
@@ -1291,6 +1295,7 @@ h2 {
 .cohial {
   display: flex;
   gap: 1.5rem;
+  padding-left: 0;
   padding-bottom: 0;
   flex-direction: column;
   margin-left: 12rem;
@@ -1794,6 +1799,8 @@ h2 {
   }
   .company-date {
     display: flex;
+    padding-left: 0;
+    list-style-type: none;
     flex-direction: column;
     align-items: flex-end;
   }
