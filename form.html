@@ -16,6 +16,7 @@
   </head>
   <body class="forma-body">
     <header>
+      <a href="#main" class="skip skip1">Перейти к основному содержимому</a>
       <div class="header-wrapper">
         <div class="header-str">
           <img src="/img/point.svg" alt="" />
@@ -35,12 +36,16 @@
           <img src="/img/icon 01 (1).svg" alt="" />
           <a href="tel:+79091510870"> +7 909 151-08-70</a>
         </div>
-        <button style="background-color: inherit" class="burger">
+        <button
+          style="background-color: inherit"
+          class="burger"
+          aria-label="выезжающее меню, которое скрывает кнопки: СТУДИИ, ТЕСТ-ДРАЙВ,КЕЙСЫ,КОНТАКТЫ"
+        >
           <img src="img/burger.svg" alt="" />
         </button>
       </div>
     </header>
-    <main class="forma-main">
+    <main class="forma-main" id="main">
       <section class="sect-form-one">
         <form action="//httpbin.org/post" method="post" class="forms">
           <h1>Регистрация</h1>
@@ -75,14 +80,15 @@
               </label>
             </fieldset>
             <br />
-            <label>Пароль:</label>
-            <br />
-            <input
-              type="password"
-              name="password"
-              placeholder="ABCabc123!@#$"
-              required
-            />
+            <label
+              >Пароль:
+              <br />
+              <input
+                type="password"
+                name="password"
+                placeholder="ABCabc123!@#$"
+                required
+            /></label>
           </fieldset>
           <fieldset>
             <legend>Контактная информация</legend>
@@ -271,20 +277,36 @@
 
             <div class="twos-contact">
               <li class="twos-contact1">
-                <a href=""><img src="img/socials (2).svg" alt="" /></a>
+                <a href=""
+                  ><img src="img/socials (2).svg" alt="" /><span class="sr-only"
+                    >Переход на страницу группы Студии в VK</span
+                  ></a
+                >
               </li>
               <li class="twos-contact2">
-                <a href=""><img src="img/socials (5).svg" alt="" /></a>
+                <a href=""
+                  ><img src="img/socials (5).svg" alt="" /><span class="sr-only"
+                    >Переход на канал студии в Youtube</span
+                  ></a
+                >
               </li>
             </div>
           </div>
           <div class="cohial">
             <div class="ones-contact">
               <li>
-                <a href=""><img src="img/telegram.svg" alt="" /></a>
+                <a href=""
+                  ><img src="img/telegram.svg" alt="" /><span class="sr-only"
+                    >Переход на канал Студии в Telegram</span
+                  ></a
+                >
               </li>
               <li>
-                <a href=""><img src="img/socials.svg" alt="" /></a>
+                <a href=""
+                  ><img src="img/socials.svg" alt="" /><span class="sr-only"
+                    >Переход в мессенджер WhatsApp</span
+                  ></a
+                >
               </li>
             </div>
             <div class="company-date">
@@ -300,12 +322,14 @@
           </div>
           <hr class="hr-quastion" />
           <li>
-            <a href="" class="nameorg">ООО "СТРИМ ПАРК", ОГРН 1187847305931</a>
+            <a href="" class="nameorg lightDostup"
+              >ООО "СТРИМ ПАРК", ОГРН 1187847305931</a
+            >
           </li>
         </ul>
-        <p class="nameorg nameorg1">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</p>
+        <p class="nameorg nameorg1 lightDostup">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</p>
         <div class="autor">
-          <p class="autorparagraf">РАЗРАБОТКА САЙТА -</p>
+          <p class="autorparagraf lightDostup">РАЗРАБОТКА САЙТА -</p>
           <a href="" class="autorname">KATE LAZAREVA</a>
         </div>
         <div class="fails">

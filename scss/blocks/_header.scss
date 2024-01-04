@@ -1,5 +1,9 @@
 @use "../utils/mixins";
 
+header {
+  max-width: 85rem;
+  margin: 0 auto;
+}
 .header-wrapper {
   font-family: "Inter Medium", sans-serif;
   display: flex;
@@ -27,4 +31,22 @@
 }
 .headet-str-768 {
   display: none;
+}
+.skip {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 10px 15px;
+  color: #18191c;
+  background: #10f3af;
+  transform: translateY(-100%);
+}
+.skip:focus {
+  transform: translateY(20%);
+}
+.skip1 {
+  margin-left: 10rem;
+  color: var(--color-backwhite2);
+  font-size: 3rem;
 }

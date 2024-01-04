@@ -341,6 +341,15 @@
     padding-left: 2rem;
     padding-right: 2rem;
   }
+  .dostup {
+    color: var(--color-textcard);
+  }
+  .darkDostup {
+    color: var(--color-darkDostupText);
+  }
+  .lightDostup {
+    color: var(--color-footer-light);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -402,7 +411,7 @@
     display: none;
   }
   .whiteheader11 .textleft11 {
-    color: white;
+    color: var(--color-textcard);
     margin-left: 25rem;
   }
   .headerquastion {
@@ -702,12 +711,22 @@
   .burger {
     display: none;
   }
+
   .header-wrapper {
     max-width: 121.6rem;
     margin: 0 auto;
   }
   .gottestdraiv {
     margin-left: 0;
+  }
+  .dostup {
+    color: var(--color-textcard);
+  }
+  .darkDostup {
+    color: var(--color-darkDostupText);
+  }
+  .lightDostup {
+    color: var(--color-footer-light);
   }
 }
 @media (min-width: 1216px) {
@@ -907,6 +926,10 @@
   .brrr {
     display: none;
   }
+  header {
+    max-width: 121.6rem;
+    margin: 0 auto;
+  }
   .imgheader22 {
     width: 18.6rem;
     height: 10.8rem;
@@ -917,5 +940,14 @@
   .gottestdraiv {
     margin-left: 0;
     left: 0;
+  }
+  .dostup {
+    color: var(--color-textcard);
+  }
+  .darkDostup {
+    color: var(--color-darkDostupText);
+  }
+  .lightDostup {
+    color: var(--color-footer-light);
   }
 }

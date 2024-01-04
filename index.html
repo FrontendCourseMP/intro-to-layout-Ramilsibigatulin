@@ -12,6 +12,7 @@
   </head>
   <body>
     <header>
+      <a href="#main" class="skip skip1">Перейти к основному содержимому</a>
       <div class="header-wrapper">
         <div class="header-str">
           <img src="/img/point.svg" alt="" />
@@ -21,6 +22,7 @@
           <img src="/img/icon 04.svg" alt="" />
           <a href="">8 МИНУТ ОТ М. МАЯКОВСКАЯ</a>
         </div>
+
         <div class="header-1216">
           <a href="">СТУДИИ</a>
           <a href="">ТЕСТ-ДРАЙВ</a>
@@ -31,12 +33,16 @@
           <img src="/img/icon 01 (1).svg" alt="" />
           <a href="tel:+79091510870"> +7 909 151-08-70</a>
         </div>
-        <button style="background-color: inherit" class="burger">
+        <button
+          style="background-color: inherit"
+          class="burger"
+          aria-label="выезжающее меню, которое скрывает кнопки: СТУДИИ, ТЕСТ-ДРАЙВ,КЕЙСЫ,КОНТАКТЫ"
+        >
           <img src="img/burger.svg" alt="" />
         </button>
       </div>
     </header>
-    <main class="main">
+    <main class="main" id="main">
       <section class="sectionhero">
         <div class="body-wrapper">
           <h1 class="headerhero">
@@ -69,7 +75,9 @@
             <p class="paragr">
               СЪЕМОЧНОЕ ПРОСТРАНСТВО, ОБОРУДОВАНИЕ И ОБСЛУЖИВАНИЕ ОТ 3 900₽/ЧАС
             </p>
-            <a class="testdraiv" href="">ПОЛУЧИТЬ БЕСПЛАТНЫЙ ТЕСТ-ДРАЙВ</a>
+            <a class="testdraiv dostup" href=""
+              >ПОЛУЧИТЬ БЕСПЛАТНЫЙ ТЕСТ-ДРАЙВ</a
+            >
           </div>
         </div>
       </section>
@@ -92,10 +100,10 @@
                   ИДЕАЛЬНО ПОДОЙДЕТ ДЛЯ ЗАПИСИ ИНТЕРВЬЮ, ПРЯМОЙ ТРАНСЛЯЦИИ И
                   ПОДКАСТА
                 </p>
-                <p class="cost">СТОИМОСТЬ</p>
+                <p class="cost dostup">СТОИМОСТЬ</p>
                 <footer class="footer-card">
                   <p class="costvalue">ОТ 4 000 ₽/ЧАС</p>
-                  <a class="cardlink" href="">ПОДРОБНЕЕ О СТУДИИ</a>
+                  <a class="cardlink darkDostup" href="">ПОДРОБНЕЕ О СТУДИИ</a>
                 </footer>
               </li>
               <li class="card">
@@ -109,10 +117,12 @@
                   СТУДИЯ С УЮТНЫМ ЛОФТ-ДИЗАЙНОМ, В КОТОРОЙ ЕСТЬ ВСЕ НЕОБХОДИМОЕ
                   ДЛЯ ЗАПИСИ ПОДКАСТА И ЕГО ВИДЕОВЕРСИИ
                 </p>
-                <p class="cost">СТОИМОСТЬ</p>
+                <p class="cost dostup">СТОИМОСТЬ</p>
                 <footer class="footer-card">
                   <p class="costvalue">ОТ 4 000 ₽/ЧАС</p>
-                  <a class="cardlink cardlink2" href="">ПОДРОБНЕЕ О СТУДИИ</a>
+                  <a class="cardlink cardlink2 darkDostup" href=""
+                    >ПОДРОБНЕЕ О СТУДИИ</a
+                  >
                 </footer>
               </li>
               <li class="card">
@@ -123,20 +133,22 @@
                   ВИДЕОУРОКОВ, С СИСТЕМОЙ РАЗНОЦВЕТНЫХ ФОНОВ, ПРОЗРАЧНОЙ ДОСКОЙ
                   И ТЕЛЕ-СУФЛЕРОМ
                 </p>
-                <p class="cost">СТОИМОСТЬ</p>
+                <p class="cost dostup">СТОИМОСТЬ</p>
                 <footer class="footer-card">
                   <p class="costvalue">ОТ 4 000 ₽/ЧАС</p>
-                  <a class="cardlink" href="">ПОДРОБНЕЕ О СТУДИИ</a>
+                  <a class="cardlink darkDostup" href="">ПОДРОБНЕЕ О СТУДИИ</a>
                 </footer>
               </li>
               <li class="cardlast">
                 <img src="/img/card4.jpg" alt="Dop-zone" class="img_card" />
                 <h3 class="cardheader">ТУТ БУДЕТ ЕЩЁ ЧЕТВЕРТАЯ ЗОНА</h3>
                 <p class="textcard">ТУТ БУДЕТ ТЕКСТ</p>
-                <p class="cost">СТОИМОСТЬ</p>
+                <p class="cost dostup">СТОИМОСТЬ</p>
                 <footer class="footer-card">
                   <p class="costvalue">ОТ 4 000 ₽/ЧАС</p>
-                  <a class="cardlink cardlink1" href="">ПОДРОБНЕЕ О СТУДИИ</a>
+                  <a class="cardlink cardlink1 darkDostup" href=""
+                    >ПОДРОБНЕЕ О СТУДИИ</a
+                  >
                 </footer>
               </li>
             </ul>
@@ -207,7 +219,7 @@
                 <p>— СВЕДЕНИЕ ПОДКАСТОВ</p>
                 <p>— СОЗДАНИЕ ЭФИРНОЙ ГРАФИКИ</p>
                 <p>— ПРОДЮСИРОВАНИЕ СТРИМОВ</p>
-                <a href="" class="blacklink">ЗАБРОНИРОВАТЬ СТУДИЮ</a>
+                <a href="" class="blacklink dostup">ЗАБРОНИРОВАТЬ СТУДИЮ</a>
               </div>
             </li>
           </ul>
@@ -495,7 +507,7 @@
       <section class="fonpinch">
         <div class="body-wrapper-test">
           <h2 class="whiteheader11">
-            <span class="textleft">ПОЛУЧИТЕ БЕСПЛАТНЫЙ</span> <br /><span
+            <span class="textleft dostup">ПОЛУЧИТЕ БЕСПЛАТНЫЙ</span> <br /><span
               class="text-org1"
               >ТЕСТ-ДРАЙВ СТУДИИ</span
             >
@@ -529,7 +541,7 @@
       </section>
       <section class="fonpinchsecond">
         <div class="body-wrapper">
-          <h2 class="whiteheader1">СНЯТО В НАШЕЙ СТУДИИ</h2>
+          <h2 class="whiteheader1 dostup">СНЯТО В НАШЕЙ СТУДИИ</h2>
           <ul class="videolist">
             <li>
               <a href=""></a>
@@ -546,7 +558,7 @@
       <section class="fonpinchthird">
         <div class="body-wrapper">
           <h2 class="whiteheader11">
-            <span class="textleft11">ВОЗЬМЕМ ВСЮ ОРГАНИЗАЦИЮ</span>
+            <span class="textleft11 dostup">ВОЗЬМЕМ ВСЮ ОРГАНИЗАЦИЮ</span>
             <span class="text-org">И ТЕХНИЧЕСКИЕ ЗАБОТЫ </span
             ><span class="textleft1"> НА СЕБЯ</span>
           </h2>
@@ -569,7 +581,7 @@
       </section>
       <section class="fonpinchfour">
         <div class="body-wrapper">
-          <h2 class="headerquastions">ЗАКРОЕМ САМЫЕ ЧАСТЫЕ ВОПРОСЫ</h2>
+          <h2 class="headerquastions dostup">ЗАКРОЕМ САМЫЕ ЧАСТЫЕ ВОПРОСЫ</h2>
           <ul class="listquastions">
             <li>
               <hr class="hr-quastion" />
@@ -596,7 +608,7 @@
       <section class="fonpinchfive">
         <div class="body-wrapper">
           <h2 class="whiteheader11">
-            <span class="textleft"> СВЯЖИТЕСЬ С НАМИ </span><br /><span
+            <span class="textleft dostup"> СВЯЖИТЕСЬ С НАМИ </span><br /><span
               class="text-org1"
               >ПО ЛЮБОМУ ВОПРОСУ</span
             >
@@ -705,12 +717,14 @@
           </div>
           <hr class="hr-quastion" />
           <li>
-            <a href="" class="nameorg">ООО "СТРИМ ПАРК", ОГРН 1187847305931</a>
+            <a href="" class="nameorg lightDostup"
+              >ООО "СТРИМ ПАРК", ОГРН 1187847305931</a
+            >
           </li>
         </ul>
-        <p class="nameorg nameorg1">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</p>
+        <p class="nameorg nameorg1 lightDostup">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</p>
         <div class="autor">
-          <p class="autorparagraf">РАЗРАБОТКА САЙТА -</p>
+          <p class="autorparagraf lightDostup">РАЗРАБОТКА САЙТА -</p>
           <a href="" class="autorname">KATE LAZAREVA</a>
         </div>
         <div class="fails">

@@ -31,6 +31,8 @@
   --color-backthird: #f49c89;
   --color-textcard: #34344e;
   --color-link: gray;
+  --color-darkDostupText: #da3a16;
+  --color-footer-light: #bababa;
   --color-backpinch3: var(--color-backthird);
   --color-backwhite2: var(--color-backsecond);
   font-size: 62.5%;
@@ -85,7 +87,7 @@ a:hover {
 }
 
 a:active {
-  color: #27ffff;
+  color: #00ffff;
 }
 
 button {
@@ -93,62 +95,59 @@ button {
 }
 
 a:focus {
-  outline: 2px solid rgb(240, 176, 0);
+  outline: 0.5rem solid rgb(24, 124, 255);
 }
 
 button:hover {
-  background-color: #4caf50; /* Зеленый */
+  background-color: #4caf50;
 }
 
 button:active {
-  background-color: #f44336; /* Красный */
+  background-color: #f44336;
 }
 
 button:focus {
-  outline: 2px solid #f00;
+  outline: 0.5rem solid rgb(6, 106, 255);
 }
 
 input[type=text],
 input[type=email],
 textarea {
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
+  padding: 1.2rem 2rem;
+  margin: 0.8rem 0;
+  border: 0.3rem solid #253bff;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
 }
 
-/* Псевдоклассы для полей формы */
 input[type=text]:focus,
 input[type=email]:focus,
 textarea:focus {
-  border: 2px solid #555;
+  border: 0.5rem solid #ff0000;
 }
 
-/* Псевдоэлементы для полей формы */
 input[type=text]::-moz-placeholder, input[type=email]::-moz-placeholder, textarea::-moz-placeholder {
   color: #0051ff;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
+
 input[type=text]::placeholder,
 input[type=email]::placeholder,
 textarea::placeholder {
   color: #0051ff;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
-/* Стили для кнопки отправки формы */
 input[type=submit] {
   background-color: #4caf50;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
+  padding: 1.4rem 2rem;
+  margin: 0.8rem 0;
   border: none;
   cursor: pointer;
   width: 100%;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 input[type=submit]:hover {
@@ -156,10 +155,10 @@ input[type=submit]:hover {
 }
 
 button:hover {
-  background-color: #4caf50; /* Зеленый */
+  background-color: #4caf50;
   color: black;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); /* Добавление тени */
-  transform: scale(1.1) rotate(20deg); /* Масштабирование и поворот */
+  box-shadow: 0 1.2rem 1.6rem 0 rgba(0, 0, 0, 0.24), 0 1.7rem 5rem 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.1) rotate(20deg);
 }
 
 .visually-hidden {
@@ -179,6 +178,11 @@ button:hover {
 .desktop-wrapper {
   width: 320;
   padding-top: 1.5rem;
+}
+
+header {
+  max-width: 85rem;
+  margin: 0 auto;
 }
 
 .header-wrapper {
@@ -210,6 +214,27 @@ button:hover {
 
 .headet-str-768 {
   display: none;
+}
+
+.skip {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 10px 15px;
+  color: #18191c;
+  background: #10f3af;
+  transform: translateY(-100%);
+}
+
+.skip:focus {
+  transform: translateY(20%);
+}
+
+.skip1 {
+  margin-left: 10rem;
+  color: var(--color-backwhite2);
+  font-size: 3rem;
 }
 
 .borderr {
@@ -598,7 +623,7 @@ label.strfirst {
 input[type=radio]:checked {
   background-color: #f49c89;
   background-clip: content-box;
-  padding: 2px;
+  padding: 0.2rem;
 }
 
 .headerform {
@@ -656,7 +681,7 @@ input[type=radio]:checked {
 }
 
 .hr-forms {
-  width: 280px;
+  width: 28rem;
   border: 0.1rem solid rgba(52, 52, 78, 0.2);
 }
 
@@ -1111,6 +1136,18 @@ h2 {
   color: var(--color-backwhite2);
 }
 
+.dostup {
+  color: var(--color-textcard);
+}
+
+.darkDostup {
+  color: var(--color-darkDostupText);
+}
+
+.lightDostup {
+  color: var(--color-footer-light);
+}
+
 .futer {
   color: var(--color-backsecond);
   padding-top: 8.7rem;
@@ -1392,8 +1429,8 @@ h2 {
 
 .grid-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 1rem;
 }
 
 .grid-img_item {
@@ -1779,6 +1816,15 @@ h2 {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+  .dostup {
+    color: var(--color-textcard);
+  }
+  .darkDostup {
+    color: var(--color-darkDostupText);
+  }
+  .lightDostup {
+    color: var(--color-footer-light);
+  }
 }
 @media (min-width: 1024px) {
   h2 {
@@ -1839,7 +1885,7 @@ h2 {
     display: none;
   }
   .whiteheader11 .textleft11 {
-    color: white;
+    color: var(--color-textcard);
     margin-left: 25rem;
   }
   .headerquastion {
@@ -2150,6 +2196,15 @@ h2 {
   .gottestdraiv {
     margin-left: 0;
   }
+  .dostup {
+    color: var(--color-textcard);
+  }
+  .darkDostup {
+    color: var(--color-darkDostupText);
+  }
+  .lightDostup {
+    color: var(--color-footer-light);
+  }
 }
 @media (min-width: 1216px) {
   h1 {
@@ -2349,6 +2404,10 @@ h2 {
   .brrr {
     display: none;
   }
+  header {
+    max-width: 121.6rem;
+    margin: 0 auto;
+  }
   .imgheader22 {
     width: 18.6rem;
     height: 10.8rem;
@@ -2359,6 +2418,15 @@ h2 {
   .gottestdraiv {
     margin-left: 0;
     left: 0;
+  }
+  .dostup {
+    color: var(--color-textcard);
+  }
+  .darkDostup {
+    color: var(--color-darkDostupText);
+  }
+  .lightDostup {
+    color: var(--color-footer-light);
   }
 }
 .forma-body {
@@ -2384,7 +2452,7 @@ h2 {
 }
 
 input:required {
-  border: 2px solid #f49c89;
+  border: 0.2rem solid #f49c89;
 }
 
 input#username {
@@ -2392,7 +2460,7 @@ input#username {
 }
 
 input:valid {
-  border: 2px solid green;
+  border: 0.2rem solid green;
 }
 
 input#birthdate {
@@ -2416,7 +2484,7 @@ input#password {
 }
 
 input:invalid {
-  border: 2px solid red;
+  border: 0.2rem solid red;
 }
 
 .forma-main {
@@ -2456,7 +2524,7 @@ input[type=radio] {
 input[type=radio]:checked {
   background-color: #f49c89;
   background-clip: content-box;
-  padding: 2px;
+  padding: 0.2rem;
 }
 
 input[type=checkbox] {
@@ -2481,7 +2549,7 @@ input[type=checkbox] {
 input[type=checkbox]:checked {
   background-color: #f49c89;
   background-clip: content-box;
-  padding: 2px;
+  padding: 0.2rem;
 }
 
 .submit {
@@ -2503,13 +2571,17 @@ input[type=checkbox]:checked {
 }
 
 label:focus-within {
-  background-color: cadetblue;
+  background-color: rgb(82, 137, 255);
   border-radius: 1rem;
 }
 
 dt::first-letter {
   font-size: 200%;
   color: red;
+}
+
+legend {
+  padding-top: 2rem;
 }
 
 dd::before {
@@ -2550,9 +2622,9 @@ input[type=checkbox]:checked + label {
 
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
-  perspective: 1000px;
+  width: 30rem;
+  height: 20rem;
+  perspective: 100rem;
   padding-top: 2rem;
   margin-top: 5rem;
   margin-bottom: 5rem;

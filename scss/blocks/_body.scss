@@ -7,6 +7,7 @@
   padding-left: 2rem;
   padding-right: 2rem;
 }
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -196,7 +197,7 @@ label.strfirst {
 input[type="radio"]:checked {
   background-color: #f49c89;
   background-clip: content-box;
-  padding: 2px;
+  padding: 0.2rem;
 }
 .headerform {
   margin-bottom: 3.6rem;
@@ -244,7 +245,7 @@ input[type="radio"]:checked {
   padding: 1.5rem 2rem 2rem 2rem;
 }
 .hr-forms {
-  width: 280px;
+  width: 28rem;
   border: 0.1rem solid #34344e33;
 }
 
@@ -639,4 +640,13 @@ h2 {
   text-decoration: none;
   font-size: 1.8rem;
   color: var(--color-backwhite2);
+}
+.dostup {
+  color: var(--color-textcard);
+}
+.darkDostup {
+  color: var(--color-darkDostupText);
+}
+.lightDostup {
+  color: var(--color-footer-light);
 }
