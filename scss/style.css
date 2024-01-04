@@ -422,7 +422,7 @@ header {
   clip: rect(0, 0, 0, 0);
   border: 0;
   color: rgb(6, 106, 255);
-  background-color: var(--color-backpinch3);
+  background-color: rgb(255, 255, 255);
 }
 
 .card-header {
