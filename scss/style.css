@@ -1197,6 +1197,7 @@ h2 {
 
 .twos-contact {
   display: flex;
+  width: 1rem;
   flex-direction: row;
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
